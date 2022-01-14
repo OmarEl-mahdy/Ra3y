@@ -1,5 +1,5 @@
 # Ra3y
-***I.Motivation and Description of the application
+**I.Motivation and Description of the application**
 
   A. Motivation
     A lot of people these days face the problem of having to deal with the
@@ -24,7 +24,7 @@
 
     
 
-***II. List of application Features
+***II. List of application Features***
 
     1 - Request someone to take care of his/her pet
     
