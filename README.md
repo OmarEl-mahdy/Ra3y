@@ -1,5 +1,5 @@
 # Ra3y
-I.Motivation and Description of the application
+***I.Motivation and Description of the application
 
   A. Motivation
     A lot of people these days face the problem of having to deal with the
@@ -24,13 +24,23 @@ I.Motivation and Description of the application
 
     
 
-II. List of application Features
+***II. List of application Features
+
     1 - Request someone to take care of his/her pet
+    
     2 - set duration for the keeper
+    
     3 - set Availability by keeper
+    
     4 - review keepers based on their hospitality
-    5 - access user location and orders possible users based on their
-    proximity6 - user can state information about the pet
+    
+    5 - access user location and orders possible users based on their proximity
+    
+    6 - user can state information about the pet
+    
     7 - user can negotiate price with the keeper
+    
     8 - keeper can send updates about the pet daily
+    
     9- set emergency contacts
+
