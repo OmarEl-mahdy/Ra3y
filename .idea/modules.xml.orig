@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Ra3y.iml" filepath="$PROJECT_DIR$/.idea/modules/Ra3y.iml" />
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Ra3y.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Ra3y.app.iml" />
+=======
+>>>>>>> Ashraf
+    </modules>
+  </component>
+</project>

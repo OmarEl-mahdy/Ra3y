@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_login.xml",
+        "source": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_second.xml",
+        "source": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/res/layout/fragment_second.xml"
+    },
+    {
+        "merged": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_first.xml",
+        "source": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/res/layout/fragment_first.xml"
+    },
+    {
+        "merged": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/content_login.xml",
+        "source": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/res/layout/content_login.xml"
+    }
+]

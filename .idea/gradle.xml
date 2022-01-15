@@ -11,13 +11,17 @@
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         <option name="gradleJvm" value="11" />
+>>>>>>> Ashraf
+||||||| 43c1cc7
+        <option name="gradleJvm" value="11" />
+=======
 >>>>>>> Ashraf
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
