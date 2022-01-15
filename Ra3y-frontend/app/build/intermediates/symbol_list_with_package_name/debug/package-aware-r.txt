@@ -1878,6 +1878,9 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable blue_bg
+drawable blue_border_rounded_cornwe
+drawable blue_fill__rounded_color
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1905,11 +1908,15 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable cursor_color
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable dogs
+drawable email
+drawable fb
 drawable fui_ic_anonymous_white_24dp
 drawable fui_ic_apple_white_24dp
 drawable fui_ic_check_circle_black_128dp
@@ -1941,6 +1948,9 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable instagram
+drawable linkedin
+drawable logo
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1974,12 +1984,21 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable password
+drawable ra3y3
+drawable ra3y4
+drawable ra3y5
+drawable ra3y6
+drawable ra3y_logo
+drawable ra3yy
+drawable ra3yyy
 drawable splash
 drawable splashc2
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable twitter
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2259,6 +2278,7 @@ id line3
 id linear
 id listMode
 id list_item
+id loginButton
 id logo
 id main_tos_and_pp
 id masked
@@ -2332,6 +2352,7 @@ id navigation_header_container
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
+id newAccountButton
 id noScroll
 id noState
 id none
@@ -2352,6 +2373,7 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id pass
 id password
 id password_layout
 id password_toggle
@@ -2508,6 +2530,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id username_icon
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -2791,6 +2814,7 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string default_web_client_id
+string email
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior

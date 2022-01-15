@@ -4,25 +4,56 @@ package com.example.ra3y.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.ra3y.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class ActivityLoginBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final RelativeLayout rootView;
 
-  private ActivityLoginBinding(@NonNull ConstraintLayout rootView) {
+  @NonNull
+  public final EditText email;
+
+  @NonNull
+  public final ImageView icon;
+
+  @NonNull
+  public final Button loginButton;
+
+  @NonNull
+  public final Button newAccountButton;
+
+  @NonNull
+  public final EditText pass;
+
+  @NonNull
+  public final ImageView usernameIcon;
+
+  private ActivityLoginBinding(@NonNull RelativeLayout rootView, @NonNull EditText email,
+      @NonNull ImageView icon, @NonNull Button loginButton, @NonNull Button newAccountButton,
+      @NonNull EditText pass, @NonNull ImageView usernameIcon) {
     this.rootView = rootView;
+    this.email = email;
+    this.icon = icon;
+    this.loginButton = loginButton;
+    this.newAccountButton = newAccountButton;
+    this.pass = pass;
+    this.usernameIcon = usernameIcon;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -43,10 +74,50 @@ public final class ActivityLoginBinding implements ViewBinding {
 
   @NonNull
   public static ActivityLoginBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.email;
+      EditText email = ViewBindings.findChildViewById(rootView, id);
+      if (email == null) {
+        break missingId;
+      }
 
-    return new ActivityLoginBinding((ConstraintLayout) rootView);
+      id = R.id.icon;
+      ImageView icon = ViewBindings.findChildViewById(rootView, id);
+      if (icon == null) {
+        break missingId;
+      }
+
+      id = R.id.loginButton;
+      Button loginButton = ViewBindings.findChildViewById(rootView, id);
+      if (loginButton == null) {
+        break missingId;
+      }
+
+      id = R.id.newAccountButton;
+      Button newAccountButton = ViewBindings.findChildViewById(rootView, id);
+      if (newAccountButton == null) {
+        break missingId;
+      }
+
+      id = R.id.pass;
+      EditText pass = ViewBindings.findChildViewById(rootView, id);
+      if (pass == null) {
+        break missingId;
+      }
+
+      id = R.id.username_icon;
+      ImageView usernameIcon = ViewBindings.findChildViewById(rootView, id);
+      if (usernameIcon == null) {
+        break missingId;
+      }
+
+      return new ActivityLoginBinding((RelativeLayout) rootView, email, icon, loginButton,
+          newAccountButton, pass, usernameIcon);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }
