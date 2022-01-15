@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-#Sat Jan 15 16:25:35 EET 2022
-||||||| e18a589
-#Sat Jan 15 13:24:40 EET 2022
-=======
-#Sat Jan 15 16:21:23 EET 2022
->>>>>>> Ashraf
+#Sat Jan 15 16:30:59 EET 2022
 base.0=/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
