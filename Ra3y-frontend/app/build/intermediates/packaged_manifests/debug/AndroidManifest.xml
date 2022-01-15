@@ -9,10 +9,8 @@
         android:targetSdkVersion="32" />
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
-    </uses-permission>
-    <uses-permission android:name="android.permission.SEND_SMS" >
-    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
 
     <uses-feature android:name="android.hardware.telephony" />
 
@@ -31,6 +29,11 @@
         android:theme="@style/Theme.Ra3y"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.example.ra3y.register"
+            android:exported="false"
+            android:label="@string/title_activity_register"
+            android:theme="@style/Theme.Ra3y.NoActionBar" />
+        <activity
             android:name="com.example.ra3y.MainActivity"
             android:exported="true" >
             <intent-filter>
@@ -41,8 +44,7 @@
         </activity>
         <activity
             android:name="com.example.ra3y.login"
-            android:exported="true" >
-        </activity>
+            android:exported="true" />
 
         <meta-data
             android:name="com.google.android.gms.version"

@@ -7,8 +7,15 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+<<<<<<< HEAD
 import android.widget.ProgressBar;
 import android.widget.TextView;
+||||||| 9ff5421
+import android.widget.RelativeLayout;
+=======
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+>>>>>>> 180dc3c2fa4cc4d9e22e171fb5d81ad26a92ee25
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -27,6 +34,7 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final EditText email;
 
   @NonNull
+<<<<<<< HEAD
   public final TextView forget;
 
   @NonNull
@@ -34,9 +42,20 @@ public final class ActivityLoginBinding implements ViewBinding {
 
   @NonNull
   public final ImageView imageView4;
+||||||| 9ff5421
+  public final ImageView icon;
+=======
+  public final TextView forget;
+
+  @NonNull
+  public final ImageView icon;
+>>>>>>> 180dc3c2fa4cc4d9e22e171fb5d81ad26a92ee25
 
   @NonNull
   public final Button loginButton;
+
+  @NonNull
+  public final TextView or;
 
   @NonNull
   public final TextView or;
@@ -47,6 +66,7 @@ public final class ActivityLoginBinding implements ViewBinding {
   @NonNull
   public final ProgressBar progressBar;
 
+<<<<<<< HEAD
   @NonNull
   public final Button registerButton;
 
@@ -54,13 +74,37 @@ public final class ActivityLoginBinding implements ViewBinding {
       @NonNull TextView forget, @NonNull ImageView imageView3, @NonNull ImageView imageView4,
       @NonNull Button loginButton, @NonNull TextView or, @NonNull EditText pass,
       @NonNull ProgressBar progressBar, @NonNull Button registerButton) {
+||||||| 9ff5421
+  private ActivityLoginBinding(@NonNull RelativeLayout rootView, @NonNull EditText email,
+      @NonNull ImageView icon, @NonNull Button loginButton, @NonNull Button newAccountButton,
+      @NonNull EditText pass, @NonNull ImageView usernameIcon) {
+=======
+  private ActivityLoginBinding(@NonNull RelativeLayout rootView, @NonNull EditText email,
+      @NonNull TextView forget, @NonNull ImageView icon, @NonNull Button loginButton,
+      @NonNull Button newAccountButton, @NonNull TextView or, @NonNull EditText pass,
+      @NonNull ImageView usernameIcon) {
+>>>>>>> 180dc3c2fa4cc4d9e22e171fb5d81ad26a92ee25
     this.rootView = rootView;
     this.email = email;
+<<<<<<< HEAD
     this.forget = forget;
     this.imageView3 = imageView3;
     this.imageView4 = imageView4;
+||||||| 9ff5421
+    this.icon = icon;
+=======
+    this.forget = forget;
+    this.icon = icon;
+>>>>>>> 180dc3c2fa4cc4d9e22e171fb5d81ad26a92ee25
     this.loginButton = loginButton;
+<<<<<<< HEAD
     this.or = or;
+||||||| 9ff5421
+    this.newAccountButton = newAccountButton;
+=======
+    this.newAccountButton = newAccountButton;
+    this.or = or;
+>>>>>>> 180dc3c2fa4cc4d9e22e171fb5d81ad26a92ee25
     this.pass = pass;
     this.progressBar = progressBar;
     this.registerButton = registerButton;
@@ -99,6 +143,7 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
+<<<<<<< HEAD
       id = R.id.forget;
       TextView forget = ViewBindings.findChildViewById(rootView, id);
       if (forget == null) {
@@ -114,12 +159,33 @@ public final class ActivityLoginBinding implements ViewBinding {
       id = R.id.imageView4;
       ImageView imageView4 = ViewBindings.findChildViewById(rootView, id);
       if (imageView4 == null) {
+||||||| 9ff5421
+      id = R.id.icon;
+      ImageView icon = ViewBindings.findChildViewById(rootView, id);
+      if (icon == null) {
+=======
+      id = R.id.forget;
+      TextView forget = ViewBindings.findChildViewById(rootView, id);
+      if (forget == null) {
+        break missingId;
+      }
+
+      id = R.id.icon;
+      ImageView icon = ViewBindings.findChildViewById(rootView, id);
+      if (icon == null) {
+>>>>>>> 180dc3c2fa4cc4d9e22e171fb5d81ad26a92ee25
         break missingId;
       }
 
       id = R.id.loginButton;
       Button loginButton = ViewBindings.findChildViewById(rootView, id);
       if (loginButton == null) {
+        break missingId;
+      }
+
+      id = R.id.or;
+      TextView or = ViewBindings.findChildViewById(rootView, id);
+      if (or == null) {
         break missingId;
       }
 
@@ -147,8 +213,16 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
+<<<<<<< HEAD
       return new ActivityLoginBinding((ConstraintLayout) rootView, email, forget, imageView3,
           imageView4, loginButton, or, pass, progressBar, registerButton);
+||||||| 9ff5421
+      return new ActivityLoginBinding((RelativeLayout) rootView, email, icon, loginButton,
+          newAccountButton, pass, usernameIcon);
+=======
+      return new ActivityLoginBinding((RelativeLayout) rootView, email, forget, icon, loginButton,
+          newAccountButton, or, pass, usernameIcon);
+>>>>>>> 180dc3c2fa4cc4d9e22e171fb5d81ad26a92ee25
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

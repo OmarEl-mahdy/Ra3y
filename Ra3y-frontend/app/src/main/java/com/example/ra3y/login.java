@@ -55,6 +55,7 @@ public class login extends AppCompatActivity {
         pass.setTextColor(Color.rgb(60,91,155));
         email.setTextColor(Color.rgb(60,91,155));
 
+<<<<<<< HEAD
 
         pg = (ProgressBar) findViewById(R.id.progressBar);
         fAuth = FirebaseAuth.getInstance();
@@ -101,4 +102,14 @@ public class login extends AppCompatActivity {
 
         });
 
+||||||| 9ff5421
+=======
+        newAccountButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent nextpage=new Intent(login.this,register.class);
+                startActivity(nextpage);
+                finish();            }
+        });
+
+>>>>>>> 180dc3c2fa4cc4d9e22e171fb5d81ad26a92ee25
     }}
