@@ -5,6 +5,8 @@ com/example/ra3y/databinding/ActivityMainBinding.java
  com.example.ra3y.databinding.ActivityMainBinding
 com/example/ra3y/login.java
  com.example.ra3y.login
+ com.example.ra3y.login$1
+ com.example.ra3y.login$1$1
 com/example/ra3y/databinding/FragmentSecondBinding.java
  com.example.ra3y.databinding.FragmentSecondBinding
 com/example/ra3y/databinding/ContentLoginBinding.java

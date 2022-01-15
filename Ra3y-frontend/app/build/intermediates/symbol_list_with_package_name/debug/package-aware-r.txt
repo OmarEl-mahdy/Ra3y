@@ -1952,6 +1952,8 @@ drawable ic_mtrl_chip_close_circle
 drawable instagram
 drawable linkedin
 drawable logo
+drawable logo1
+drawable logo2
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1991,6 +1993,7 @@ drawable ra3y4
 drawable ra3y5
 drawable ra3y6
 drawable ra3y_logo
+drawable ra3y_logo_modified
 drawable ra3yy
 drawable ra3yyy
 drawable splash
@@ -2225,6 +2228,7 @@ id fixed
 id flip
 id floating
 id forever
+id forget
 id fragment_container_view_tag
 id fragment_phone
 id fragment_register_email
@@ -2255,6 +2259,8 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView3
+id imageView4
 id immediateStop
 id included
 id info
@@ -2354,7 +2360,6 @@ id navigation_header_container
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
-id newAccountButton
 id noScroll
 id noState
 id none
@@ -2366,6 +2371,7 @@ id notification_main_column_container
 id off
 id on
 id onInterceptTouchReturnSwipe
+id or
 id outline
 id outward
 id overshoot
@@ -2389,11 +2395,13 @@ id phone_number
 id pin
 id position
 id postLayout
+id progressBar
 id progress_circular
 id progress_horizontal
 id radio
 id ratio
 id rectangles
+id registerButton
 id resend_barrier
 id resend_code
 id reverseSawtooth
@@ -2532,7 +2540,6 @@ id uniform
 id unlabeled
 id up
 id useLogo
-id username_icon
 id vertical_only
 id view_offset_helper
 id view_transition
