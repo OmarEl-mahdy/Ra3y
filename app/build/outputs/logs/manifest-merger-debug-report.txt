@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml:2:1-23:12
+ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml:2:1-29:12
 MERGED from [androidx.databinding:viewbinding:7.0.4] /home/mohamedashraf/.gradle/caches/transforms-3/813345eb504f680a3545dd04c623c665/transformed/jetified-viewbinding-7.0.4/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-ui:2.3.5] /home/mohamedashraf/.gradle/caches/transforms-3/843e6b6a95f93bb24dcc2e86911f100a/transformed/navigation-ui-2.3.5/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.4.0] /home/mohamedashraf/.gradle/caches/transforms-3/1508bc0f4d67cb1fb46dec23183d0585/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
@@ -49,25 +49,25 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /home/mohamedashraf/.grad
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/mohamedashraf/.gradle/caches/transforms-3/30559646bdc9f3290097ba378eb99203/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /home/mohamedashraf/.gradle/caches/transforms-3/b618f929228947d1fd03b4a852d85b00/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/mohamedashraf/.gradle/caches/transforms-3/b521f32a8ca2115704fce9eaa65230c1/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml:3:5-31
 		INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml
 		INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml:2:1-23:12
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml:2:1-29:12
 		INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml:2:1-23:12
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml:2:1-29:12
 		INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml:5:5-21:19
+ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml:5:5-27:19
 MERGED from [com.google.android.material:material:1.4.0] /home/mohamedashraf/.gradle/caches/transforms-3/1508bc0f4d67cb1fb46dec23183d0585/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] /home/mohamedashraf/.gradle/caches/transforms-3/1508bc0f4d67cb1fb46dec23183d0585/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /home/mohamedashraf/.gradle/caches/transforms-3/66bbb9fe8c9e1863a78a4ee4625746ef/transformed/constraintlayout-2.1.2/AndroidManifest.xml:9:5-20
@@ -112,6 +112,12 @@ category#android.intent.category.LAUNCHER
 ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml:18:27-74
+activity#com.example.ra3y.login
+ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml:21:9-26:20
+	android:exported
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml:22:13-34
 uses-sdk
 INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/app/src/main/AndroidManifest.xml
