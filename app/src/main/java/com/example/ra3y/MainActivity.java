@@ -10,7 +10,6 @@ public class MainActivity extends AppCompatActivity {
 private static int Splash_time=4000;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        //"HERE"
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         new Handler().postDelayed(new Runnable() {
