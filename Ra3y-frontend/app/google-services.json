@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "487977092782",
+    "project_id": "ra3y-e220c",
+    "storage_bucket": "ra3y-e220c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487977092782:android:72ac1b903ec34ca8760f3f",
+        "android_client_info": {
+          "package_name": "com.example.ra3y"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487977092782-bd4v6hc4goev93kdon6qthj13e9lf62d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmGe-byCPbC5LnW-h4JqiVhrXE0Gjl05Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487977092782-bd4v6hc4goev93kdon6qthj13e9lf62d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
