@@ -1324,6 +1324,7 @@ int color mtrl_textinput_hovered_box_stroke_color 0x7f0500cf
 int color notification_action_color_filter 0x7f0500d0
 int color notification_icon_bg_color 0x7f0500d1
 int color notification_material_background_media_default_color 0x7f0500d2
+int color ourback 0x7f0500f2
 int color primary_dark_material_dark 0x7f0500d3
 int color primary_dark_material_light 0x7f0500d4
 int color primary_material_dark 0x7f0500d5
@@ -1975,6 +1976,7 @@ int drawable notification_tile_bg 0x7f0700b6
 int drawable notify_panel_notification_icon_bg 0x7f0700b7
 int drawable splash 0x7f0700b8
 int drawable splashc2 0x7f0700b9
+int drawable splsh 0x7f0700be
 int drawable test_custom_background 0x7f0700ba
 int drawable test_level_drawable 0x7f0700bb
 int drawable tooltip_frame_dark 0x7f0700bc
