@@ -55,7 +55,7 @@ public class login extends AppCompatActivity {
         pass.setTextColor(Color.rgb(60,91,155));
         email.setTextColor(Color.rgb(60,91,155));
 
-<<<<<<< HEAD
+
 
         pg = (ProgressBar) findViewById(R.id.progressBar);
         fAuth = FirebaseAuth.getInstance();
@@ -66,7 +66,7 @@ public class login extends AppCompatActivity {
                 String Email = email.getText().toString().trim();
                 String password = pass.getText().toString().trim();
 
-                // check if no email or password are required
+                // check if no email or password are provided
                 if(TextUtils.isEmpty(Email)){
                     email.setError("Email is Required");
                     return;
@@ -102,8 +102,7 @@ public class login extends AppCompatActivity {
 
         });
 
-||||||| 9ff5421
-=======
+
         newAccountButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent nextpage=new Intent(login.this,register.class);
@@ -111,5 +110,5 @@ public class login extends AppCompatActivity {
                 finish();            }
         });
 
->>>>>>> 180dc3c2fa4cc4d9e22e171fb5d81ad26a92ee25
+
     }}
