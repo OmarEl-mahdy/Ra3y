@@ -1,5 +1,5 @@
 git:
 	git add .
-	git commit -m "Here"
+	git commit -m "$m"
 	git checkout Ashraf
 	git push
