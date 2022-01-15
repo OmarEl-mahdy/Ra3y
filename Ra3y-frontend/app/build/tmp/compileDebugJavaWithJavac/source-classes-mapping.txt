@@ -1,3 +1,5 @@
+com/example/ra3y/BuildConfig.java
+ com.example.ra3y.BuildConfig
 com/example/ra3y/MainActivity.java
  com.example.ra3y.MainActivity
  com.example.ra3y.MainActivity$1
@@ -5,12 +7,26 @@ com/example/ra3y/databinding/ActivityMainBinding.java
  com.example.ra3y.databinding.ActivityMainBinding
 com/example/ra3y/databinding/ActivityRegisterBinding.java
  com.example.ra3y.databinding.ActivityRegisterBinding
-com/example/ra3y/databinding/ActivityLoginBinding.java
- com.example.ra3y.databinding.ActivityLoginBinding
-com/example/ra3y/BuildConfig.java
- com.example.ra3y.BuildConfig
+com/example/ra3y/databinding/VerificodeBinding.java
+ com.example.ra3y.databinding.VerificodeBinding
+com/example/ra3y/databinding/ActivityForgetpassBinding.java
+ com.example.ra3y.databinding.ActivityForgetpassBinding
 com/example/ra3y/login.java
  com.example.ra3y.login
  com.example.ra3y.login$1
+ com.example.ra3y.login$2
+com/example/ra3y/databinding/ResetpassBinding.java
+ com.example.ra3y.databinding.ResetpassBinding
 com/example/ra3y/register.java
  com.example.ra3y.register
+com/example/ra3y/databinding/ActivityLoginBinding.java
+ com.example.ra3y.databinding.ActivityLoginBinding
+com/example/ra3y/forget.java
+ com.example.ra3y.forget
+ com.example.ra3y.forget$1
+com/example/ra3y/verificode.java
+ com.example.ra3y.verificode
+ com.example.ra3y.verificode$1
+com/example/ra3y/restpass.java
+ com.example.ra3y.restpass
+ com.example.ra3y.restpass$1

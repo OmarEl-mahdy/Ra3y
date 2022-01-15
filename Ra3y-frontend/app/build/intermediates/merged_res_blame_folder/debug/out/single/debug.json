@@ -28,6 +28,10 @@
         "source": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\drawable\\ra3y6.png"
     },
     {
+        "merged": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\layout_resetpass.xml.flat",
+        "source": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\resetpass.xml"
+    },
+    {
         "merged": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
         "source": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
     },
@@ -80,16 +84,20 @@
         "source": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_adaptive_fore.png"
     },
     {
-        "merged": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_adaptive_fore.png.flat",
-        "source": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_adaptive_fore.png"
-    },
-    {
         "merged": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
+        "merged": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_adaptive_fore.png"
+    },
+    {
         "merged": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\drawable_dogs.png.flat",
         "source": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\drawable\\dogs.png"
+    },
+    {
+        "merged": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_forgetpass.xml.flat",
+        "source": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\activity_forgetpass.xml"
     },
     {
         "merged": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\drawable_cursor_color.xml.flat",
@@ -134,6 +142,10 @@
     {
         "merged": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\layout_verificode.xml.flat",
+        "source": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\verificode.xml"
     },
     {
         "merged": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",

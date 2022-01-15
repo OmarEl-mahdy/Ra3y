@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.navigation.NavController;
@@ -26,6 +27,7 @@ public class login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+        TextView forget=(TextView)findViewById(R.id.forget);
         Button loginButton = (Button) findViewById(R.id.loginButton);
         loginButton.setTextColor(Color.WHITE);
         loginButton.setBackgroundColor(Color.rgb(59,89,153));
@@ -48,6 +50,14 @@ public class login extends AppCompatActivity {
         newAccountButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent nextpage=new Intent(login.this,register.class);
+                startActivity(nextpage);
+                finish();            }
+        });
+
+
+        forget.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent nextpage=new Intent(login.this,forget.class);
                 startActivity(nextpage);
                 finish();            }
         });

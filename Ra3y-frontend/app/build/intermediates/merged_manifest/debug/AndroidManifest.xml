@@ -45,6 +45,15 @@
         <activity
             android:name="com.example.ra3y.login"
             android:exported="true" />
+        <activity
+            android:name="com.example.ra3y.forget"
+            android:exported="true" />
+        <activity
+            android:name="com.example.ra3y.verificode"
+            android:exported="true" />
+        <activity
+            android:name="com.example.ra3y.restpass"
+            android:exported="true" />
 
         <meta-data
             android:name="com.google.android.gms.version"
