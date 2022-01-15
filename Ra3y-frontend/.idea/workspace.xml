@@ -10,7 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbae762b-ddf5-48fb-96a5-990dabfbb2aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ra3y-backend/db.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ra3y-backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Ra3y-backend/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
