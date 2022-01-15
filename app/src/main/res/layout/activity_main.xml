@@ -10,7 +10,7 @@
     <pl.droidsonroids.gif.GifTextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/splashc2"
+        android:background="@drawable/splash"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
