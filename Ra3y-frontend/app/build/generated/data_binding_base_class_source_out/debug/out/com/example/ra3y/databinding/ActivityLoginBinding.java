@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -25,6 +26,9 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final EditText email;
 
   @NonNull
+  public final TextView forget;
+
+  @NonNull
   public final ImageView icon;
 
   @NonNull
@@ -34,19 +38,25 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final Button newAccountButton;
 
   @NonNull
+  public final TextView or;
+
+  @NonNull
   public final EditText pass;
 
   @NonNull
   public final ImageView usernameIcon;
 
   private ActivityLoginBinding(@NonNull RelativeLayout rootView, @NonNull EditText email,
-      @NonNull ImageView icon, @NonNull Button loginButton, @NonNull Button newAccountButton,
-      @NonNull EditText pass, @NonNull ImageView usernameIcon) {
+      @NonNull TextView forget, @NonNull ImageView icon, @NonNull Button loginButton,
+      @NonNull Button newAccountButton, @NonNull TextView or, @NonNull EditText pass,
+      @NonNull ImageView usernameIcon) {
     this.rootView = rootView;
     this.email = email;
+    this.forget = forget;
     this.icon = icon;
     this.loginButton = loginButton;
     this.newAccountButton = newAccountButton;
+    this.or = or;
     this.pass = pass;
     this.usernameIcon = usernameIcon;
   }
@@ -84,6 +94,12 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.forget;
+      TextView forget = ViewBindings.findChildViewById(rootView, id);
+      if (forget == null) {
+        break missingId;
+      }
+
       id = R.id.icon;
       ImageView icon = ViewBindings.findChildViewById(rootView, id);
       if (icon == null) {
@@ -102,6 +118,12 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.or;
+      TextView or = ViewBindings.findChildViewById(rootView, id);
+      if (or == null) {
+        break missingId;
+      }
+
       id = R.id.pass;
       EditText pass = ViewBindings.findChildViewById(rootView, id);
       if (pass == null) {
@@ -114,8 +136,8 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLoginBinding((RelativeLayout) rootView, email, icon, loginButton,
-          newAccountButton, pass, usernameIcon);
+      return new ActivityLoginBinding((RelativeLayout) rootView, email, forget, icon, loginButton,
+          newAccountButton, or, pass, usernameIcon);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

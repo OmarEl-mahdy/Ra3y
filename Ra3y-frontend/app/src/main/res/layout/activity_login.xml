@@ -14,16 +14,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
-
         <ImageView
-            android:layout_width="237dp"
-            android:layout_height="278dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="93dp"
             android:src="@drawable/ra3yyy" />
-
-
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -31,7 +27,6 @@
             android:layout_marginTop="36.7dp"
             android:layout_marginRight="62dp"
             android:background="@drawable/blue_border_rounded_cornwe">
-
             <!-- INPUT -->
             <EditText
                 android:id="@+id/email"
@@ -122,6 +117,7 @@
             android:textSize="12sp" />
 
         <TextView
+            android:id="@+id/forget"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -130,56 +126,40 @@
             android:textColor="#3C5B96"
             android:textSize="10.5sp" />
 
+        <TextView
+            android:id="@+id/or"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:text="or"
+
+            android:textColor="#3C5B96"
+            android:textSize="15.5sp" />
+
+        <Button
+            android:id="@+id/newAccountButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="18.7dp"
+            android:layout_marginRight="62dp"
+
+            android:gravity="center"
+            android:paddingTop="14dp"
+            android:paddingBottom="14dp"
+
+            android:text="Register"
+            android:textColor="#ffffff"
+
+            android:textColorHint="#F5F5F5"
+            android:textSize="12sp" />
+
         <ImageView
             android:layout_width="97dp"
             android:layout_height="120dp"
-            android:src="@drawable/dogs"></ImageView>
-
-
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:orientation="vertical">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="13.7dp"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center_horizontal"
-                android:text="or"
-                android:textColor="#aeaeae"
-                android:textSize="13.3sp" />
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="35dp"
-            android:gravity="center"
-            android:orientation="horizontal">
-            <Button
-                android:layout_width="300dp"
-                android:layout_height="match_parent"
-                android:text="Register"
-                android:textColorHint="#F5F5F5"
-                android:id="@+id/newAccountButton"
-                ></Button>
-
-
-        </LinearLayout>
+            android:src="@drawable/dogs" />
 
 
     </LinearLayout>

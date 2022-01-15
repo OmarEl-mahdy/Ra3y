@@ -1,5 +1,6 @@
 package com.example.ra3y;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 
@@ -43,5 +44,12 @@ public class login extends AppCompatActivity {
 //
         pass.setTextColor(Color.rgb(60,91,155));
         email.setTextColor(Color.rgb(60,91,155));
+
+        newAccountButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent nextpage=new Intent(login.this,register.class);
+                startActivity(nextpage);
+                finish();            }
+        });
 
     }}
