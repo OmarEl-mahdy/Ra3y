@@ -3,12 +3,17 @@
   <component name="AndroidLayouts">
     <shared>
       <config>
-        <device id="pixel_4_xl" />
-        <device id="Nexus 5X" />
+        <device id="pixel_2" />
+        <device id="pixel_4a" />
+        <device id="pixel_3" />
+        <device id="pixel_xl" />
         <device id="pixel_3a" />
         <device id="Nexus 6P" />
-        <device id="Nexus 7" />
-        <target>android-25</target>
+        <device id="Nexus 6" />
+        <device id="pixel_5" />
+        <device id="pixel_4_xl" />
+        <device id="Nexus 5X" />
+        <target>android-24</target>
       </config>
     </shared>
   </component>
@@ -22,7 +27,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/home/mohamedashraf/.android/avd/Pixel_4_API_25_2.avd]" />
+||||||| 9ff5421
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[RF8NA2P6BBR]" />
+=======
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\OmarMahdy\.android\avd\Pixel_4_API_30.avd]" />
+>>>>>>> 180dc3c2fa4cc4d9e22e171fb5d81ad26a92ee25
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />

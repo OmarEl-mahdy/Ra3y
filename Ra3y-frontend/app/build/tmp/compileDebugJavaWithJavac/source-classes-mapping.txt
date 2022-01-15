@@ -5,12 +5,45 @@ com/example/ra3y/MainActivity.java
  com.example.ra3y.MainActivity$1
 com/example/ra3y/databinding/ActivityMainBinding.java
  com.example.ra3y.databinding.ActivityMainBinding
+<<<<<<< HEAD
+com/example/ra3y/login.java
+ com.example.ra3y.login
+ com.example.ra3y.login$1
+ com.example.ra3y.login$1$1
+com/example/ra3y/databinding/FragmentSecondBinding.java
+ com.example.ra3y.databinding.FragmentSecondBinding
+com/example/ra3y/databinding/ContentLoginBinding.java
+ com.example.ra3y.databinding.ContentLoginBinding
+com/example/ra3y/databinding/FragmentFirstBinding.java
+ com.example.ra3y.databinding.FragmentFirstBinding
+com/example/ra3y/BuildConfig.java
+ com.example.ra3y.BuildConfig
+||||||| 9ff5421
+com/example/ra3y/login.java
+ com.example.ra3y.login
+com/example/ra3y/databinding/FragmentSecondBinding.java
+ com.example.ra3y.databinding.FragmentSecondBinding
+com/example/ra3y/databinding/ContentLoginBinding.java
+ com.example.ra3y.databinding.ContentLoginBinding
+com/example/ra3y/databinding/FragmentFirstBinding.java
+ com.example.ra3y.databinding.FragmentFirstBinding
+com/example/ra3y/BuildConfig.java
+ com.example.ra3y.BuildConfig
+=======
 com/example/ra3y/databinding/ActivityRegisterBinding.java
  com.example.ra3y.databinding.ActivityRegisterBinding
+<<<<<<< HEAD
 com/example/ra3y/databinding/VerificodeBinding.java
  com.example.ra3y.databinding.VerificodeBinding
 com/example/ra3y/databinding/ActivityForgetpassBinding.java
  com.example.ra3y.databinding.ActivityForgetpassBinding
+=======
+>>>>>>> 180dc3c2fa4cc4d9e22e171fb5d81ad26a92ee25
+com/example/ra3y/databinding/ActivityLoginBinding.java
+ com.example.ra3y.databinding.ActivityLoginBinding
+com/example/ra3y/BuildConfig.java
+ com.example.ra3y.BuildConfig
+>>>>>>> 2fb3da20f1559b1cfb6bfcbeea04f262fbd30b23
 com/example/ra3y/login.java
  com.example.ra3y.login
  com.example.ra3y.login$1
