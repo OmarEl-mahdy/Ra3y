@@ -70,14 +70,12 @@ public class login extends AppCompatActivity {
                 String pass = passView.getText().toString().trim();
 
                 if (TextUtils.isEmpty(Email)) {
-                    Toast.makeText(getApplicationContext(), "Enter email address!", Toast.LENGTH_SHORT).show();
                     emailView.setError("Email is Required");
                     return;
                 }
 
                 if (TextUtils.isEmpty(pass)) {
                     passView.setError("Password is required");
-                    Toast.makeText(getApplicationContext(), "Enter password!", Toast.LENGTH_SHORT).show();
                     return;
                 }
                 pg.setVisibility(View.VISIBLE);
