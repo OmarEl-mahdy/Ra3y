@@ -4,7 +4,6 @@ package com.example.ra3y.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -22,9 +21,6 @@ public final class VaccineBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final Button btnSubmit;
-
-  @NonNull
   public final CheckBox cbVaccine1;
 
   @NonNull
@@ -39,11 +35,10 @@ public final class VaccineBinding implements ViewBinding {
   @NonNull
   public final TextView textView;
 
-  private VaccineBinding(@NonNull LinearLayout rootView, @NonNull Button btnSubmit,
-      @NonNull CheckBox cbVaccine1, @NonNull CheckBox cbVaccine2, @NonNull CheckBox cbVaccine3,
-      @NonNull CheckBox cbVaccine4, @NonNull TextView textView) {
+  private VaccineBinding(@NonNull LinearLayout rootView, @NonNull CheckBox cbVaccine1,
+      @NonNull CheckBox cbVaccine2, @NonNull CheckBox cbVaccine3, @NonNull CheckBox cbVaccine4,
+      @NonNull TextView textView) {
     this.rootView = rootView;
-    this.btnSubmit = btnSubmit;
     this.cbVaccine1 = cbVaccine1;
     this.cbVaccine2 = cbVaccine2;
     this.cbVaccine3 = cbVaccine3;
@@ -78,12 +73,6 @@ public final class VaccineBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btn_submit;
-      Button btnSubmit = ViewBindings.findChildViewById(rootView, id);
-      if (btnSubmit == null) {
-        break missingId;
-      }
-
       id = R.id.cb_vaccine_1;
       CheckBox cbVaccine1 = ViewBindings.findChildViewById(rootView, id);
       if (cbVaccine1 == null) {
@@ -114,8 +103,8 @@ public final class VaccineBinding implements ViewBinding {
         break missingId;
       }
 
-      return new VaccineBinding((LinearLayout) rootView, btnSubmit, cbVaccine1, cbVaccine2,
-          cbVaccine3, cbVaccine4, textView);
+      return new VaccineBinding((LinearLayout) rootView, cbVaccine1, cbVaccine2, cbVaccine3,
+          cbVaccine4, textView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w1240dp-v13\\values-w1240dp-v13.xml",
+            "outputFile": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w1240dp-v13/values-w1240dp-v13.xml",
             "map": [
                 {
-                    "source": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
+                    "source": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/res/values-w1240dp/dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",

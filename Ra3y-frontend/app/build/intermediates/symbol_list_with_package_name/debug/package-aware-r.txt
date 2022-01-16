@@ -2017,6 +2017,8 @@ id BOTTOM_START
 id CTRL
 id FUNCTION
 id First2Fragment
+id FirstName
+id LastName
 id META
 id NO_DEBUG
 id SHIFT
@@ -2125,7 +2127,6 @@ id browser_actions_menu_items
 id browser_actions_menu_view
 id btn_from
 id btn_holder
-id btn_submit
 id btn_to
 id button
 id button2
@@ -2173,6 +2174,7 @@ id collapseActionView
 id confirm_button
 id confirmation_code
 id confirmation_code_layout
+id confirmpass
 id constraint
 id container
 id content
@@ -2224,15 +2226,9 @@ id easeInOut
 id easeOut
 id east
 id editTextNumber2
-id editTextNumberPassword
-id editTextNumberPassword2
 id editTextNumberPassword3
 id editTextNumberPassword4
-id editTextPhone
-id editTextTextEmailAddress
 id editTextTextEmailAddress2
-id editTextTextPersonName
-id editTextTextPersonName4
 id edit_phone_number
 id edit_query
 id elastic
@@ -2427,6 +2423,7 @@ id percent
 id phone_button
 id phone_layout
 id phone_number
+id phonenumber
 id pin
 id position
 id postLayout
