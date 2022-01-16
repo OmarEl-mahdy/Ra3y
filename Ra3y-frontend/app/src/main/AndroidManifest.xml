@@ -44,6 +44,19 @@
         <activity
             android:name=".restpass"
             android:exported="true"></activity>
+        <activity
+            android:name=".petsitterorowner"
+            android:exported="true"></activity>
+        <activity
+            android:name=".services"
+            android:exported="true"></activity>
+            <activity
+            android:name=".request"
+            android:exported="true"></activity>
+            <activity
+            android:name=".vaccine"
+            android:exported="true"></activity>
+
     </application>
 
 </manifest>

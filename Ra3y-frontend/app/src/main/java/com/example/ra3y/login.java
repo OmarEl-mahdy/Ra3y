@@ -17,12 +17,9 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-<<<<<<< HEAD
 import android.widget.TextView;
-=======
 import android.widget.ProgressBar;
 import android.widget.Toast;
->>>>>>> 2fb3da20f1559b1cfb6bfcbeea04f262fbd30b23
 
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.navigation.NavController;
@@ -92,7 +89,7 @@ public class login extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
                             Toast.makeText(getApplicationContext(),"User Created", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                            startActivity(new Intent(getApplicationContext(),services.class));
 
                         }
                         else
@@ -116,7 +113,6 @@ public class login extends AppCompatActivity {
         });
 
 
-<<<<<<< HEAD
         forget.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent nextpage=new Intent(login.this,forget.class);
@@ -124,6 +120,5 @@ public class login extends AppCompatActivity {
                 finish();            }
         });
 
-=======
->>>>>>> 2fb3da20f1559b1cfb6bfcbeea04f262fbd30b23
+
     }}

@@ -54,6 +54,18 @@
         <activity
             android:name="com.example.ra3y.restpass"
             android:exported="true" />
+        <activity
+            android:name="com.example.ra3y.petsitterorowner"
+            android:exported="true" />
+        <activity
+            android:name="com.example.ra3y.services"
+            android:exported="true" />
+        <activity
+            android:name="com.example.ra3y.request"
+            android:exported="true" />
+        <activity
+            android:name="com.example.ra3y.vaccine"
+            android:exported="true" />
 
         <meta-data
             android:name="com.google.android.gms.version"

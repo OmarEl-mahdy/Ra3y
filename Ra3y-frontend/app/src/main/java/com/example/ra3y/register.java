@@ -24,19 +24,19 @@ public class register extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
-        Button submitbutton = (Button) findViewById(R.id.button6);
-        submitbutton.setTextColor(Color.WHITE);
-        submitbutton.setBackgroundColor(Color.rgb(59,89,153));
+//        Button submitbutton = (Button) findViewById(R.id.button6);
+//        submitbutton.setTextColor(Color.WHITE);
+//        submitbutton.setBackgroundColor(Color.rgb(59,89,153));
 
-//        Button newAccountButton = (Button) findViewById(R.id.button6);
-//        newAccountButton.setTextColor(Color.WHITE);
-//        newAccountButton.setBackgroundColor(Color.rgb(59,89,153));
-//        newAccountButton.setOnClickListener(new View.OnClickListener() {
-//            public void onClick(View v) {
-//                Intent nextpage=new Intent(register.this,login.class);
-//                startActivity(nextpage);
-//                finish();            }
-//        });
+        Button newAccountButton = (Button) findViewById(R.id.submitReg);
+        newAccountButton.setTextColor(Color.WHITE);
+        newAccountButton.setBackgroundColor(Color.rgb(59,89,153));
+        newAccountButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent nextpage=new Intent(register.this,login.class);
+                startActivity(nextpage);
+                finish();            }
+        });
 //
 //        newAccountButton.setTextColor(Color.WHITE);
 //

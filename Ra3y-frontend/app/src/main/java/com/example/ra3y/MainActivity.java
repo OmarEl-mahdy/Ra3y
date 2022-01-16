@@ -16,7 +16,7 @@ private static int Splash_time=4000;
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent nextpage=new Intent(MainActivity.this,login.class);
+                Intent nextpage=new Intent(MainActivity.this,petsitterorowner.class);
                 startActivity(nextpage);
                 finish();
             }
