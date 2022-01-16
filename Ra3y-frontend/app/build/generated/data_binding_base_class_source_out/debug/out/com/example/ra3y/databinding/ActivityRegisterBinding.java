@@ -7,7 +7,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.ProgressBar;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -21,6 +20,9 @@ import java.lang.String;
 public final class ActivityRegisterBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
+
+  @NonNull
+  public final Button button6;
 
   @NonNull
   public final EditText editTextNumberPassword;
@@ -43,22 +45,13 @@ public final class ActivityRegisterBinding implements ViewBinding {
   @NonNull
   public final ImageView imageView;
 
-  @NonNull
-  public final ImageView imageView4;
-
-  @NonNull
-  public final ProgressBar progressBar2;
-
-  @NonNull
-  public final Button submitReg;
-
-  private ActivityRegisterBinding(@NonNull ConstraintLayout rootView,
+  private ActivityRegisterBinding(@NonNull ConstraintLayout rootView, @NonNull Button button6,
       @NonNull EditText editTextNumberPassword, @NonNull EditText editTextNumberPassword2,
       @NonNull EditText editTextPhone, @NonNull EditText editTextTextEmailAddress,
       @NonNull EditText editTextTextPersonName, @NonNull EditText editTextTextPersonName4,
-      @NonNull ImageView imageView, @NonNull ImageView imageView4,
-      @NonNull ProgressBar progressBar2, @NonNull Button submitReg) {
+      @NonNull ImageView imageView) {
     this.rootView = rootView;
+    this.button6 = button6;
     this.editTextNumberPassword = editTextNumberPassword;
     this.editTextNumberPassword2 = editTextNumberPassword2;
     this.editTextPhone = editTextPhone;
@@ -66,9 +59,6 @@ public final class ActivityRegisterBinding implements ViewBinding {
     this.editTextTextPersonName = editTextTextPersonName;
     this.editTextTextPersonName4 = editTextTextPersonName4;
     this.imageView = imageView;
-    this.imageView4 = imageView4;
-    this.progressBar2 = progressBar2;
-    this.submitReg = submitReg;
   }
 
   @Override
@@ -98,6 +88,12 @@ public final class ActivityRegisterBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.button6;
+      Button button6 = ViewBindings.findChildViewById(rootView, id);
+      if (button6 == null) {
+        break missingId;
+      }
+
       id = R.id.editTextNumberPassword;
       EditText editTextNumberPassword = ViewBindings.findChildViewById(rootView, id);
       if (editTextNumberPassword == null) {
@@ -140,27 +136,9 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView4;
-      ImageView imageView4 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView4 == null) {
-        break missingId;
-      }
-
-      id = R.id.progressBar2;
-      ProgressBar progressBar2 = ViewBindings.findChildViewById(rootView, id);
-      if (progressBar2 == null) {
-        break missingId;
-      }
-
-      id = R.id.submitReg;
-      Button submitReg = ViewBindings.findChildViewById(rootView, id);
-      if (submitReg == null) {
-        break missingId;
-      }
-
-      return new ActivityRegisterBinding((ConstraintLayout) rootView, editTextNumberPassword,
-          editTextNumberPassword2, editTextPhone, editTextTextEmailAddress, editTextTextPersonName,
-          editTextTextPersonName4, imageView, imageView4, progressBar2, submitReg);
+      return new ActivityRegisterBinding((ConstraintLayout) rootView, button6,
+          editTextNumberPassword, editTextNumberPassword2, editTextPhone, editTextTextEmailAddress,
+          editTextTextPersonName, editTextTextPersonName4, imageView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -6,52 +6,85 @@
     android:layout_height="match_parent"
     android:layout_margin="10dp"
 
+    android:gravity="center"
     android:orientation="vertical"
-    tools:context=".vaccine">
-
+    tools:context=".vaccinations">
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="match_parent"
+        style="@style/prompt"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center|center_horizontal"
-        android:text="Vaccinations"
-        android:textColor="@color/blue"
+        android:gravity="start"
+        android:text="@string/vaccinations"
         android:textSize="20sp" />
 
-    <CheckBox
-        android:id="@+id/cb_vaccine_1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Canine Distemper Virus" />
-
-    <CheckBox
-        android:id="@+id/cb_vaccine_2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Canine Parvovirus" />
-
-    <CheckBox
-        android:id="@+id/cb_vaccine_3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Canine Adenovirus-2 (Hepatitis)" />
-
-    <CheckBox
-        android:id="@+id/cb_vaccine_4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Rabies Virus" />
-
     <LinearLayout
-        android:layout_width="match_parent"
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/semi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Essential Vaccinations"
+            tools:layout_conversion_absoluteHeight="19dp"
+            tools:layout_conversion_absoluteWidth="230dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="47dp" />
+
+        <CheckBox
+            android:id="@+id/cb_vaccine_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/canine_distemper_virus"
+            tools:layout_conversion_absoluteHeight="48dp"
+            tools:layout_conversion_absoluteWidth="230dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="66dp" />
+
+        <CheckBox
+            android:id="@+id/cb_vaccine_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/canine_parvovirus"
+            tools:layout_conversion_absoluteHeight="48dp"
+            tools:layout_conversion_absoluteWidth="230dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="114dp" />
+
+        <CheckBox
+            android:id="@+id/cb_vaccine_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/canine_adenovirus_2_hepatitis"
+            tools:layout_conversion_absoluteHeight="48dp"
+            tools:layout_conversion_absoluteWidth="230dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="162dp" />
+
+        <CheckBox
+            android:id="@+id/cb_vaccine_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rabies_virus"
+            tools:layout_conversion_absoluteHeight="48dp"
+            tools:layout_conversion_absoluteWidth="230dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="210dp" />
 
         <LinearLayout
+            android:id="@+id/linearLayout4"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"/>
+            android:gravity="center">
+
+        </LinearLayout>
+
     </LinearLayout>
 
 </LinearLayout>

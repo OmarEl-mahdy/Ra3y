@@ -28,7 +28,7 @@ public class register extends AppCompatActivity {
 //        submitbutton.setTextColor(Color.WHITE);
 //        submitbutton.setBackgroundColor(Color.rgb(59,89,153));
 
-        Button newAccountButton = (Button) findViewById(R.id.submitReg);
+        Button newAccountButton = (Button) findViewById(R.id.button6);
         newAccountButton.setTextColor(Color.WHITE);
         newAccountButton.setBackgroundColor(Color.rgb(59,89,153));
         newAccountButton.setOnClickListener(new View.OnClickListener() {

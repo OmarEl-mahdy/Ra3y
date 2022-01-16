@@ -23,7 +23,7 @@ public class forget extends AppCompatActivity {
         forgotbutton.setBackgroundColor(Color.rgb(59,89,153));
         forgotbutton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent nextpage=new Intent(forget.this,verificode.class);
+                Intent nextpage=new Intent(forget.this,login.class);
                 startActivity(nextpage);
                 finish();            }
         });

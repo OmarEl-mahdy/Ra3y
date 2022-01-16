@@ -1,42 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".request"
-    >
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".request">
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="122dp"
-        android:orientation="vertical"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp">
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/request_prompt"
+            style="@style/prompt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/please_input_the_following_prompts"
-            android:textColor="@color/blue"
             android:textSize="20sp" />
 
         <TextView
             android:id="@+id/tv_location"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="@string/location"
-            android:textColor="#1976D2" />
+            style="@style/semi"
+            android:text="@string/location" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal">
+
 
             <Spinner
                 android:id="@+id/cities_spinner"
@@ -45,8 +39,8 @@
                 android:layout_marginStart="5dp"
                 android:layout_marginEnd="5dp"
                 android:layout_weight="1"
-                android:entries="@array/cities_array"
-                android:minHeight="48dp" />
+                android:minHeight="48dp"
+                tools:ignore="SpeakableTextPresentCheck" />
 
             <Spinner
                 android:id="@+id/zones_spinner"
@@ -56,9 +50,16 @@
                 android:layout_marginEnd="5dp"
                 android:layout_weight="1"
                 android:minHeight="48dp"
-                android:outlineProvider="paddedBounds"
                 android:spinnerMode="dialog" />
+
         </LinearLayout>
+
+        <Button
+            android:id="@+id/launch"
+            style="@style/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Launch Maps" />
 
         <TextView
             android:id="@+id/tv_duration"
@@ -86,9 +87,9 @@
 
                 <Button
                     android:id="@+id/btn_from"
+                    style="@style/btn"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-
                     android:text="@string/from" />
 
                 <TextView
@@ -111,6 +112,7 @@
 
                 <Button
                     android:id="@+id/btn_to"
+                    style="@style/btn"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/to" />
@@ -138,6 +140,7 @@
 
         <Button
             android:id="@+id/button"
+            style="@style/btn"
             android:layout_width="113dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -146,4 +149,4 @@
     </LinearLayout>
 
 
-</RelativeLayout>
+</LinearLayout>

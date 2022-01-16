@@ -6,10 +6,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.ra3y.R;
@@ -19,7 +19,10 @@ import java.lang.String;
 
 public final class ActivityForgetpassBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final LinearLayout rootView;
+
+  @NonNull
+  public final Button btnDebug;
 
   @NonNull
   public final Button button2;
@@ -33,23 +36,20 @@ public final class ActivityForgetpassBinding implements ViewBinding {
   @NonNull
   public final TextView textView2;
 
-  @NonNull
-  public final TextView textView3;
-
-  private ActivityForgetpassBinding(@NonNull ConstraintLayout rootView, @NonNull Button button2,
-      @NonNull EditText editTextTextEmailAddress2, @NonNull TextView textView,
-      @NonNull TextView textView2, @NonNull TextView textView3) {
+  private ActivityForgetpassBinding(@NonNull LinearLayout rootView, @NonNull Button btnDebug,
+      @NonNull Button button2, @NonNull EditText editTextTextEmailAddress2,
+      @NonNull TextView textView, @NonNull TextView textView2) {
     this.rootView = rootView;
+    this.btnDebug = btnDebug;
     this.button2 = button2;
     this.editTextTextEmailAddress2 = editTextTextEmailAddress2;
     this.textView = textView;
     this.textView2 = textView2;
-    this.textView3 = textView3;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -74,6 +74,12 @@ public final class ActivityForgetpassBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btn_debug;
+      Button btnDebug = ViewBindings.findChildViewById(rootView, id);
+      if (btnDebug == null) {
+        break missingId;
+      }
+
       id = R.id.button2;
       Button button2 = ViewBindings.findChildViewById(rootView, id);
       if (button2 == null) {
@@ -98,14 +104,8 @@ public final class ActivityForgetpassBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView3;
-      TextView textView3 = ViewBindings.findChildViewById(rootView, id);
-      if (textView3 == null) {
-        break missingId;
-      }
-
-      return new ActivityForgetpassBinding((ConstraintLayout) rootView, button2,
-          editTextTextEmailAddress2, textView, textView2, textView3);
+      return new ActivityForgetpassBinding((LinearLayout) rootView, btnDebug, button2,
+          editTextTextEmailAddress2, textView, textView2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

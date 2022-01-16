@@ -49,12 +49,6 @@
             android:name="com.example.ra3y.forget"
             android:exported="true" />
         <activity
-            android:name="com.example.ra3y.verificode"
-            android:exported="true" />
-        <activity
-            android:name="com.example.ra3y.restpass"
-            android:exported="true" />
-        <activity
             android:name="com.example.ra3y.petsitterorowner"
             android:exported="true" />
         <activity

@@ -5,7 +5,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.RelativeLayout;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -17,7 +18,7 @@ import java.lang.String;
 
 public final class ServicesBinding implements ViewBinding {
   @NonNull
-  private final RelativeLayout rootView;
+  private final LinearLayout rootView;
 
   @NonNull
   public final Button request;
@@ -26,19 +27,23 @@ public final class ServicesBinding implements ViewBinding {
   public final Button services;
 
   @NonNull
+  public final TextView textView6;
+
+  @NonNull
   public final Button vaccination;
 
-  private ServicesBinding(@NonNull RelativeLayout rootView, @NonNull Button request,
-      @NonNull Button services, @NonNull Button vaccination) {
+  private ServicesBinding(@NonNull LinearLayout rootView, @NonNull Button request,
+      @NonNull Button services, @NonNull TextView textView6, @NonNull Button vaccination) {
     this.rootView = rootView;
     this.request = request;
     this.services = services;
+    this.textView6 = textView6;
     this.vaccination = vaccination;
   }
 
   @Override
   @NonNull
-  public RelativeLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -75,13 +80,20 @@ public final class ServicesBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView6;
+      TextView textView6 = ViewBindings.findChildViewById(rootView, id);
+      if (textView6 == null) {
+        break missingId;
+      }
+
       id = R.id.vaccination;
       Button vaccination = ViewBindings.findChildViewById(rootView, id);
       if (vaccination == null) {
         break missingId;
       }
 
-      return new ServicesBinding((RelativeLayout) rootView, request, services, vaccination);
+      return new ServicesBinding((LinearLayout) rootView, request, services, textView6,
+          vaccination);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

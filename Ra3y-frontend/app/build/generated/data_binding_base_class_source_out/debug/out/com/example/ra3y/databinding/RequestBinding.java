@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.RelativeLayout;
+import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -20,7 +20,7 @@ import java.lang.String;
 
 public final class RequestBinding implements ViewBinding {
   @NonNull
-  private final RelativeLayout rootView;
+  private final LinearLayout rootView;
 
   @NonNull
   public final Button btnFrom;
@@ -36,6 +36,9 @@ public final class RequestBinding implements ViewBinding {
 
   @NonNull
   public final EditText info;
+
+  @NonNull
+  public final Button launch;
 
   @NonNull
   public final TextView requestPrompt;
@@ -55,17 +58,18 @@ public final class RequestBinding implements ViewBinding {
   @NonNull
   public final Spinner zonesSpinner;
 
-  private RequestBinding(@NonNull RelativeLayout rootView, @NonNull Button btnFrom,
+  private RequestBinding(@NonNull LinearLayout rootView, @NonNull Button btnFrom,
       @NonNull Button btnTo, @NonNull Button button, @NonNull Spinner citiesSpinner,
-      @NonNull EditText info, @NonNull TextView requestPrompt, @NonNull TextView tvDuration,
-      @NonNull TextView tvFrom, @NonNull TextView tvLocation, @NonNull TextView tvTo,
-      @NonNull Spinner zonesSpinner) {
+      @NonNull EditText info, @NonNull Button launch, @NonNull TextView requestPrompt,
+      @NonNull TextView tvDuration, @NonNull TextView tvFrom, @NonNull TextView tvLocation,
+      @NonNull TextView tvTo, @NonNull Spinner zonesSpinner) {
     this.rootView = rootView;
     this.btnFrom = btnFrom;
     this.btnTo = btnTo;
     this.button = button;
     this.citiesSpinner = citiesSpinner;
     this.info = info;
+    this.launch = launch;
     this.requestPrompt = requestPrompt;
     this.tvDuration = tvDuration;
     this.tvFrom = tvFrom;
@@ -76,7 +80,7 @@ public final class RequestBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public RelativeLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -131,6 +135,12 @@ public final class RequestBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.launch;
+      Button launch = ViewBindings.findChildViewById(rootView, id);
+      if (launch == null) {
+        break missingId;
+      }
+
       id = R.id.request_prompt;
       TextView requestPrompt = ViewBindings.findChildViewById(rootView, id);
       if (requestPrompt == null) {
@@ -167,8 +177,8 @@ public final class RequestBinding implements ViewBinding {
         break missingId;
       }
 
-      return new RequestBinding((RelativeLayout) rootView, btnFrom, btnTo, button, citiesSpinner,
-          info, requestPrompt, tvDuration, tvFrom, tvLocation, tvTo, zonesSpinner);
+      return new RequestBinding((LinearLayout) rootView, btnFrom, btnTo, button, citiesSpinner,
+          info, launch, requestPrompt, tvDuration, tvFrom, tvLocation, tvTo, zonesSpinner);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

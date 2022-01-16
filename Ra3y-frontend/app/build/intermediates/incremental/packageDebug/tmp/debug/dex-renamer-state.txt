@@ -1,4 +1,4 @@
-#Sun Jan 16 06:11:45 GMT+02:00 2022
+#Sun Jan 16 10:14:06 GMT+02:00 2022
 base.0=O\:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
