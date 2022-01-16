@@ -27,23 +27,23 @@ public final class ChoosepetterBinding implements ViewBinding {
   public final ImageButton imageButton4;
 
   @NonNull
+  public final TextView powner;
+
+  @NonNull
+  public final TextView psitter;
+
+  @NonNull
   public final TextView textView6;
 
-  @NonNull
-  public final TextView textView7;
-
-  @NonNull
-  public final TextView textView8;
-
   private ChoosepetterBinding(@NonNull ConstraintLayout rootView, @NonNull ImageButton imageButton2,
-      @NonNull ImageButton imageButton4, @NonNull TextView textView6, @NonNull TextView textView7,
-      @NonNull TextView textView8) {
+      @NonNull ImageButton imageButton4, @NonNull TextView powner, @NonNull TextView psitter,
+      @NonNull TextView textView6) {
     this.rootView = rootView;
     this.imageButton2 = imageButton2;
     this.imageButton4 = imageButton4;
+    this.powner = powner;
+    this.psitter = psitter;
     this.textView6 = textView6;
-    this.textView7 = textView7;
-    this.textView8 = textView8;
   }
 
   @Override
@@ -85,26 +85,26 @@ public final class ChoosepetterBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.powner;
+      TextView powner = ViewBindings.findChildViewById(rootView, id);
+      if (powner == null) {
+        break missingId;
+      }
+
+      id = R.id.psitter;
+      TextView psitter = ViewBindings.findChildViewById(rootView, id);
+      if (psitter == null) {
+        break missingId;
+      }
+
       id = R.id.textView6;
       TextView textView6 = ViewBindings.findChildViewById(rootView, id);
       if (textView6 == null) {
         break missingId;
       }
 
-      id = R.id.textView7;
-      TextView textView7 = ViewBindings.findChildViewById(rootView, id);
-      if (textView7 == null) {
-        break missingId;
-      }
-
-      id = R.id.textView8;
-      TextView textView8 = ViewBindings.findChildViewById(rootView, id);
-      if (textView8 == null) {
-        break missingId;
-      }
-
       return new ChoosepetterBinding((ConstraintLayout) rootView, imageButton2, imageButton4,
-          textView6, textView7, textView8);
+          powner, psitter, textView6);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
