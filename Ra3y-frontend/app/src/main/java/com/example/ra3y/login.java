@@ -1,7 +1,5 @@
 package com.example.ra3y;
 
-import static com.android.volley.Request.Method.HEAD;
-
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -20,12 +18,9 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-//<<<<<<< HEAD
 import android.widget.TextView;
-//=======
 import android.widget.ProgressBar;
 import android.widget.Toast;
-//>>>>>>> 2fb3da20f1559b1cfb6bfcbeea04f262fbd30b23
 
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.navigation.NavController;
@@ -44,29 +39,19 @@ public class login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-<<<<<<< HEAD
-        TextView forget= findViewById(R.id.forget);
-        Button loginButton = findViewById(R.id.loginButton);
-=======
         TextView forget = (TextView) findViewById(R.id.forget);
         Button loginButton = (Button) findViewById(R.id.loginButton);
->>>>>>> ad924db1dcbb072bf8689c32df664fe4e8f190f5
         loginButton.setTextColor(Color.WHITE);
         loginButton.setBackgroundColor(Color.rgb(59, 89, 153));
 
-        Button newAccountButton = findViewById(R.id.registerButton);
+        Button newAccountButton = (Button) findViewById(R.id.registerButton);
         newAccountButton.setTextColor(Color.WHITE);
         newAccountButton.setBackgroundColor(Color.rgb(59, 89, 153));
 
         newAccountButton.setTextColor(Color.WHITE);
 
-<<<<<<< HEAD
-        EditText pass = findViewById(R.id.pass);
-        EditText email = findViewById(R.id.email);
-=======
         EditText passView = (EditText) findViewById(R.id.pass);
         EditText emailView = (EditText) findViewById(R.id.email);
->>>>>>> ad924db1dcbb072bf8689c32df664fe4e8f190f5
 
         passView.setHintTextColor(Color.rgb(150, 150, 150));
         emailView.setHintTextColor(Color.rgb(150, 150, 150));
@@ -75,7 +60,7 @@ public class login extends AppCompatActivity {
         emailView.setTextColor(Color.rgb(60, 91, 155));
 
 
-        pg = findViewById(R.id.progressBar);
+        pg = (ProgressBar) findViewById(R.id.progressBar);
         fAuth = FirebaseAuth.getInstance();
 
         loginButton.setOnClickListener(new View.OnClickListener() {
@@ -95,12 +80,7 @@ public class login extends AppCompatActivity {
                 }
                 pg.setVisibility(View.VISIBLE);
 
-<<<<<<< HEAD
-                pg.setVisibility(View.VISIBLE);
-                fAuth.createUserWithEmailAndPassword(Email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-=======
                 fAuth.signInWithEmailAndPassword(Email,pass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
->>>>>>> ad924db1dcbb072bf8689c32df664fe4e8f190f5
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
@@ -119,7 +99,7 @@ public class login extends AppCompatActivity {
             }
         });
 
-                newAccountButton.setOnClickListener(new View.OnClickListener() {
+        newAccountButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent nextpage=new Intent(login.this,register.class);
                 startActivity(nextpage);
@@ -127,12 +107,8 @@ public class login extends AppCompatActivity {
         });
 
 
-<<<<<<< HEAD
-//<<<<<<< HEAD
-=======
 
 
->>>>>>> ad924db1dcbb072bf8689c32df664fe4e8f190f5
         forget.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent nextpage=new Intent(login.this,forget.class);
@@ -140,11 +116,6 @@ public class login extends AppCompatActivity {
                 finish();            }
         });
 
-<<<<<<< HEAD
-//=======
-//>>>>>>> 2fb3da20f1559b1cfb6bfcbeea04f262fbd30b23
-    }}
-=======
     };
     @Override
     protected void onResume() {
@@ -152,9 +123,3 @@ public class login extends AppCompatActivity {
         pg.setVisibility(View.GONE);
     }
 }
-
-
-
-
-
->>>>>>> ad924db1dcbb072bf8689c32df664fe4e8f190f5

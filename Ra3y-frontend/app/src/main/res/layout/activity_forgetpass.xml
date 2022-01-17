@@ -4,11 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
     android:gravity="center">
-=======
-    android:background="@color/white">
->>>>>>> ad924db1dcbb072bf8689c32df664fe4e8f190f5
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -36,7 +32,6 @@
             android:text="Reseting your password is just a breathe!\nJust enter the email address you registered\nyour account with."
             android:textSize="12sp" />
 
-<<<<<<< HEAD
         <EditText
             android:id="@+id/editTextTextEmailAddress2"
             android:layout_width="match_parent"
@@ -56,57 +51,7 @@
             android:layout_height="wrap_content"
             android:text="Reset Password" />
 
-        <Button
-            android:id="@+id/btn_debug"
-            style="@style/btn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Debug" />
+
     </LinearLayout>
 
 </LinearLayout>
-=======
-        android:layout_marginBottom="21dp"
-
-        android:textColor="#797f92"
-        android:textSize="25dp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
-    <EditText
-        android:id="@+id/editTextTextEmailAddress2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="87dp"
-        android:layout_marginLeft="87dp"
-        android:layout_marginTop="64dp"
-        android:layout_marginEnd="115dp"
-        android:layout_marginRight="115dp"
-        android:background="#F5F5F5"
-        android:ems="10"
-        android:hint="Email Address"
-        android:inputType="textEmailAddress"
-        android:textColorHint="@color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="210dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="88dp"
-        android:layout_marginLeft="88dp"
-        android:layout_marginEnd="114dp"
-        android:layout_marginRight="114dp"
-        android:layout_marginBottom="340dp"
-        android:text="Rest password"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
->>>>>>> ad924db1dcbb072bf8689c32df664fe4e8f190f5

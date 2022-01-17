@@ -7,4 +7,39 @@
         <item>North Coast</item>
         <item>Red Sea</item>
     </string-array>
+    <string-array name="cairo_districts">
+        <item>6th of October</item>
+        <item>10th of Ramadan</item>
+        <item>15th of May</item>
+        <item>Abbassia</item>
+        <item>Al-Darb al-Ahmar</item>
+        <item>Badr</item>
+        <item>Boulaq</item>
+        <item>Dokki</item>
+        <item>El Marg</item>
+        <item>El Matareya</item>
+        <item>El Shorouk</item>
+        <item>Fifth Settlement</item>
+        <item>Heliopolis</item>
+        <item>Helwan</item>
+        <item>Historic Cairo Restoration Project</item>
+        <item>Imbaba</item>
+        <item>Islamic Cairo</item>
+        <item>Kerdasa</item>
+        <item>Madinaty</item>
+        <item>Manshiyat Naser</item>
+        <item>Mit Okba</item>
+        <item>Mohandiseen</item>
+        <item>Mokattam</item>
+        <item>Nasr City</item>
+        <item>New Cairo</item>
+        <item>New Heliopolis</item>
+        <item>Obour</item>
+        <item>Old Cairo</item>
+        <item>Qalyub</item>
+        <item>Rod El Farag</item>
+        <item>Sheikh Zayed City</item>
+        <item>Shubra El Kheima</item>
+        <item>Zamalek</item>
+    </string-array>
 </resources>

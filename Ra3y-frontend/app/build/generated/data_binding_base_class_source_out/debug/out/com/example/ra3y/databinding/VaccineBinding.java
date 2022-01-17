@@ -41,7 +41,6 @@ public final class VaccineBinding implements ViewBinding {
   @NonNull
   public final TextView textView;
 
-<<<<<<< HEAD
   @NonNull
   public final TextView textView3;
 
@@ -49,11 +48,6 @@ public final class VaccineBinding implements ViewBinding {
       @NonNull CheckBox cbVaccine2, @NonNull CheckBox cbVaccine3, @NonNull CheckBox cbVaccine4,
       @NonNull LinearLayout linearLayout2, @NonNull LinearLayout linearLayout4,
       @NonNull TextView textView, @NonNull TextView textView3) {
-=======
-  private VaccineBinding(@NonNull LinearLayout rootView, @NonNull CheckBox cbVaccine1,
-      @NonNull CheckBox cbVaccine2, @NonNull CheckBox cbVaccine3, @NonNull CheckBox cbVaccine4,
-      @NonNull TextView textView) {
->>>>>>> ad924db1dcbb072bf8689c32df664fe4e8f190f5
     this.rootView = rootView;
     this.cbVaccine1 = cbVaccine1;
     this.cbVaccine2 = cbVaccine2;
@@ -134,7 +128,6 @@ public final class VaccineBinding implements ViewBinding {
         break missingId;
       }
 
-<<<<<<< HEAD
       id = R.id.textView3;
       TextView textView3 = ViewBindings.findChildViewById(rootView, id);
       if (textView3 == null) {
@@ -143,10 +136,6 @@ public final class VaccineBinding implements ViewBinding {
 
       return new VaccineBinding((LinearLayout) rootView, cbVaccine1, cbVaccine2, cbVaccine3,
           cbVaccine4, linearLayout2, linearLayout4, textView, textView3);
-=======
-      return new VaccineBinding((LinearLayout) rootView, cbVaccine1, cbVaccine2, cbVaccine3,
-          cbVaccine4, textView);
->>>>>>> ad924db1dcbb072bf8689c32df664fe4e8f190f5
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

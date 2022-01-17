@@ -53,8 +53,8 @@ public class register extends AppCompatActivity {
 //        submitbutton.setTextColor(Color.WHITE);
 //        submitbutton.setBackgroundColor(Color.rgb(59,89,153));
 
-<<<<<<< HEAD
-        Button newAccountButton = (Button) findViewById(R.id.button6);
+//<<<<<<< HEAD
+        Button newAccountButton = (Button) findViewById(R.id.submitReg);
         newAccountButton.setTextColor(Color.WHITE);
         newAccountButton.setBackgroundColor(Color.rgb(59,89,153));
         newAccountButton.setOnClickListener(new View.OnClickListener() {
@@ -74,14 +74,14 @@ public class register extends AppCompatActivity {
 ////
 //        pass.setTextColor(Color.rgb(60,91,155));
 //        email.setTextColor(Color.rgb(60,91,155));
-=======
+//=======
         EditText FirstName = (EditText) findViewById(R.id.FirstName);
         EditText LastName = (EditText) findViewById(R.id.LastName);
         EditText Email = (EditText) findViewById(R.id.email);
         EditText phoneNumber = (EditText) findViewById(R.id.phonenumber);
         EditText password = (EditText) findViewById(R.id.pass);
         EditText Confirmpassword = (EditText) findViewById(R.id.confirmpass);
->>>>>>> ad924db1dcbb072bf8689c32df664fe4e8f190f5
+//>>>>>>> ad924db1dcbb072bf8689c32df664fe4e8f190f5
 
 
         pg = (ProgressBar) findViewById(R.id.progressBar2);

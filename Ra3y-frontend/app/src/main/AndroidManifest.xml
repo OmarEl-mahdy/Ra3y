@@ -50,7 +50,9 @@
             <activity
             android:name=".vaccine"
             android:exported="true"></activity>
-
+        <activity
+            android:name=".sittersList"
+            android:exported="false" />
     </application>
 
 </manifest>

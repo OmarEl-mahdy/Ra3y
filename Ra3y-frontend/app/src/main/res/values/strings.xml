@@ -39,4 +39,24 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="first_name">First Name</string>
     <string name="todo">TODO</string>
+    <string-array name="sittersNames">
+        <item>Mohamed Ashraf</item>
+        <item>Salma Elsayed</item>
+        <item>Omar El-Mahdy</item>
+        <item>Omar Elewa</item>
+    </string-array>
+
+    <string-array name="sittersLocations">
+        <item>Cairo, Fifth Settlement </item>
+        <item>Cairo, Maadi</item>
+        <item>Cairo, Downtown</item>
+        <item>Cairo, Masr El-gedida</item>
+    </string-array>
+
+    <string-array name="pricePerHour">
+        <item> 150L.E/hr</item>
+        <item> 200L.E/hr</item>
+        <item> Free</item>
+        <item> 120L.E/hr</item>
+    </string-array>
 </resources>

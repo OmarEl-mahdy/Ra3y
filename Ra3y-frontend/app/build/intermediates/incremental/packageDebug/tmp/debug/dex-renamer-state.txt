@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-#Sun Jan 16 10:14:06 GMT+02:00 2022
+#Sun Jan 16 11:29:27 GMT+02:00 2022
 base.0=O\:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
-=======
-#Sun Jan 16 09:08:31 EET 2022
-base.0=/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
->>>>>>> ad924db1dcbb072bf8689c32df664fe4e8f190f5
 renamed.0=classes.dex
 path.0=classes.dex

@@ -22,9 +22,6 @@ public final class ActivityForgetpassBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final Button btnDebug;
-
-  @NonNull
   public final Button button2;
 
   @NonNull
@@ -36,11 +33,10 @@ public final class ActivityForgetpassBinding implements ViewBinding {
   @NonNull
   public final TextView textView2;
 
-  private ActivityForgetpassBinding(@NonNull LinearLayout rootView, @NonNull Button btnDebug,
-      @NonNull Button button2, @NonNull EditText editTextTextEmailAddress2,
-      @NonNull TextView textView, @NonNull TextView textView2) {
+  private ActivityForgetpassBinding(@NonNull LinearLayout rootView, @NonNull Button button2,
+      @NonNull EditText editTextTextEmailAddress2, @NonNull TextView textView,
+      @NonNull TextView textView2) {
     this.rootView = rootView;
-    this.btnDebug = btnDebug;
     this.button2 = button2;
     this.editTextTextEmailAddress2 = editTextTextEmailAddress2;
     this.textView = textView;
@@ -74,12 +70,6 @@ public final class ActivityForgetpassBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btn_debug;
-      Button btnDebug = ViewBindings.findChildViewById(rootView, id);
-      if (btnDebug == null) {
-        break missingId;
-      }
-
       id = R.id.button2;
       Button button2 = ViewBindings.findChildViewById(rootView, id);
       if (button2 == null) {
@@ -104,7 +94,7 @@ public final class ActivityForgetpassBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityForgetpassBinding((LinearLayout) rootView, btnDebug, button2,
+      return new ActivityForgetpassBinding((LinearLayout) rootView, button2,
           editTextTextEmailAddress2, textView, textView2);
     }
     String missingId = rootView.getResources().getResourceName(id);

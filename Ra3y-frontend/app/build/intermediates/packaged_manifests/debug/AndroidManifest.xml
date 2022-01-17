@@ -60,6 +60,9 @@
         <activity
             android:name="com.example.ra3y.vaccine"
             android:exported="true" />
+        <activity
+            android:name="com.example.ra3y.sittersList"
+            android:exported="false" />
 
         <meta-data
             android:name="com.google.android.gms.version"

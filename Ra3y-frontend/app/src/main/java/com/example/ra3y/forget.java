@@ -37,11 +37,6 @@ public class forget extends AppCompatActivity {
         forgotbutton.setBackgroundColor(Color.rgb(59, 89, 153));
         forgotbutton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-<<<<<<< HEAD
-                Intent nextpage=new Intent(forget.this,login.class);
-                startActivity(nextpage);
-                finish();            }
-=======
 
                 String email = emailInput.getText().toString().trim();
                 Log.d("Debug", email);
@@ -65,7 +60,6 @@ public class forget extends AppCompatActivity {
 
 
             }
->>>>>>> ad924db1dcbb072bf8689c32df664fe4e8f190f5
         });
 //
 //
