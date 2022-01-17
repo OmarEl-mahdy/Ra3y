@@ -22,29 +22,28 @@ public final class ActivityRegisterBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+<<<<<<< HEAD
   public final Button button6;
 
   @NonNull
   public final EditText editTextNumberPassword;
+=======
+  public final EditText FirstName;
+>>>>>>> ad924db1dcbb072bf8689c32df664fe4e8f190f5
 
   @NonNull
-  public final EditText editTextNumberPassword2;
+  public final EditText LastName;
 
   @NonNull
-  public final EditText editTextPhone;
+  public final EditText confirmpass;
 
   @NonNull
-  public final EditText editTextTextEmailAddress;
-
-  @NonNull
-  public final EditText editTextTextPersonName;
-
-  @NonNull
-  public final EditText editTextTextPersonName4;
+  public final EditText email;
 
   @NonNull
   public final ImageView imageView;
 
+<<<<<<< HEAD
   private ActivityRegisterBinding(@NonNull ConstraintLayout rootView, @NonNull Button button6,
       @NonNull EditText editTextNumberPassword, @NonNull EditText editTextNumberPassword2,
       @NonNull EditText editTextPhone, @NonNull EditText editTextTextEmailAddress,
@@ -59,6 +58,38 @@ public final class ActivityRegisterBinding implements ViewBinding {
     this.editTextTextPersonName = editTextTextPersonName;
     this.editTextTextPersonName4 = editTextTextPersonName4;
     this.imageView = imageView;
+=======
+  @NonNull
+  public final ImageView imageView4;
+
+  @NonNull
+  public final EditText pass;
+
+  @NonNull
+  public final EditText phonenumber;
+
+  @NonNull
+  public final ProgressBar progressBar2;
+
+  @NonNull
+  public final Button submitReg;
+
+  private ActivityRegisterBinding(@NonNull ConstraintLayout rootView, @NonNull EditText FirstName,
+      @NonNull EditText LastName, @NonNull EditText confirmpass, @NonNull EditText email,
+      @NonNull ImageView imageView, @NonNull ImageView imageView4, @NonNull EditText pass,
+      @NonNull EditText phonenumber, @NonNull ProgressBar progressBar2, @NonNull Button submitReg) {
+    this.rootView = rootView;
+    this.FirstName = FirstName;
+    this.LastName = LastName;
+    this.confirmpass = confirmpass;
+    this.email = email;
+    this.imageView = imageView;
+    this.imageView4 = imageView4;
+    this.pass = pass;
+    this.phonenumber = phonenumber;
+    this.progressBar2 = progressBar2;
+    this.submitReg = submitReg;
+>>>>>>> ad924db1dcbb072bf8689c32df664fe4e8f190f5
   }
 
   @Override
@@ -88,6 +119,7 @@ public final class ActivityRegisterBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+<<<<<<< HEAD
       id = R.id.button6;
       Button button6 = ViewBindings.findChildViewById(rootView, id);
       if (button6 == null) {
@@ -97,36 +129,29 @@ public final class ActivityRegisterBinding implements ViewBinding {
       id = R.id.editTextNumberPassword;
       EditText editTextNumberPassword = ViewBindings.findChildViewById(rootView, id);
       if (editTextNumberPassword == null) {
+=======
+      id = R.id.FirstName;
+      EditText FirstName = ViewBindings.findChildViewById(rootView, id);
+      if (FirstName == null) {
+>>>>>>> ad924db1dcbb072bf8689c32df664fe4e8f190f5
         break missingId;
       }
 
-      id = R.id.editTextNumberPassword2;
-      EditText editTextNumberPassword2 = ViewBindings.findChildViewById(rootView, id);
-      if (editTextNumberPassword2 == null) {
+      id = R.id.LastName;
+      EditText LastName = ViewBindings.findChildViewById(rootView, id);
+      if (LastName == null) {
         break missingId;
       }
 
-      id = R.id.editTextPhone;
-      EditText editTextPhone = ViewBindings.findChildViewById(rootView, id);
-      if (editTextPhone == null) {
+      id = R.id.confirmpass;
+      EditText confirmpass = ViewBindings.findChildViewById(rootView, id);
+      if (confirmpass == null) {
         break missingId;
       }
 
-      id = R.id.editTextTextEmailAddress;
-      EditText editTextTextEmailAddress = ViewBindings.findChildViewById(rootView, id);
-      if (editTextTextEmailAddress == null) {
-        break missingId;
-      }
-
-      id = R.id.editTextTextPersonName;
-      EditText editTextTextPersonName = ViewBindings.findChildViewById(rootView, id);
-      if (editTextTextPersonName == null) {
-        break missingId;
-      }
-
-      id = R.id.editTextTextPersonName4;
-      EditText editTextTextPersonName4 = ViewBindings.findChildViewById(rootView, id);
-      if (editTextTextPersonName4 == null) {
+      id = R.id.email;
+      EditText email = ViewBindings.findChildViewById(rootView, id);
+      if (email == null) {
         break missingId;
       }
 
@@ -136,9 +161,44 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
+<<<<<<< HEAD
       return new ActivityRegisterBinding((ConstraintLayout) rootView, button6,
           editTextNumberPassword, editTextNumberPassword2, editTextPhone, editTextTextEmailAddress,
           editTextTextPersonName, editTextTextPersonName4, imageView);
+=======
+      id = R.id.imageView4;
+      ImageView imageView4 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView4 == null) {
+        break missingId;
+      }
+
+      id = R.id.pass;
+      EditText pass = ViewBindings.findChildViewById(rootView, id);
+      if (pass == null) {
+        break missingId;
+      }
+
+      id = R.id.phonenumber;
+      EditText phonenumber = ViewBindings.findChildViewById(rootView, id);
+      if (phonenumber == null) {
+        break missingId;
+      }
+
+      id = R.id.progressBar2;
+      ProgressBar progressBar2 = ViewBindings.findChildViewById(rootView, id);
+      if (progressBar2 == null) {
+        break missingId;
+      }
+
+      id = R.id.submitReg;
+      Button submitReg = ViewBindings.findChildViewById(rootView, id);
+      if (submitReg == null) {
+        break missingId;
+      }
+
+      return new ActivityRegisterBinding((ConstraintLayout) rootView, FirstName, LastName,
+          confirmpass, email, imageView, imageView4, pass, phonenumber, progressBar2, submitReg);
+>>>>>>> ad924db1dcbb072bf8689c32df664fe4e8f190f5
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

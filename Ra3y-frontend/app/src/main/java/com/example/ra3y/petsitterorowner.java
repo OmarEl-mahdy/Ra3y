@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -19,6 +20,11 @@ public class petsitterorowner extends AppCompatActivity {
 
         ImageButton petsitter = (ImageButton) findViewById(R.id.imageButton4);
 
+        TextView psitter = (TextView) findViewById(R.id.psitter);
+        TextView powner = (TextView) findViewById(R.id.powner);
+
+        psitter.setTextColor(Color.rgb(59, 89, 153));
+        powner.setTextColor(Color.rgb(59, 89, 153));
         petsitter.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent nextpage=new Intent(petsitterorowner.this,login.class);

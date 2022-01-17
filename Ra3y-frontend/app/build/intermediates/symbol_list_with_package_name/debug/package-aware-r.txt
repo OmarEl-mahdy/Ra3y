@@ -1992,6 +1992,12 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
+<<<<<<< HEAD
+=======
+id First2Fragment
+id FirstName
+id LastName
+>>>>>>> ad924db1dcbb072bf8689c32df664fe4e8f190f5
 id META
 id NO_DEBUG
 id SHIFT
@@ -2143,6 +2149,7 @@ id collapseActionView
 id confirm_button
 id confirmation_code
 id confirmation_code_layout
+id confirmpass
 id constraint
 id container
 id content
@@ -2193,13 +2200,17 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+<<<<<<< HEAD
 id editTextNumberPassword
 id editTextNumberPassword2
 id editTextPhone
 id editTextTextEmailAddress
+=======
+id editTextNumber2
+id editTextNumberPassword3
+id editTextNumberPassword4
+>>>>>>> ad924db1dcbb072bf8689c32df664fe4e8f190f5
 id editTextTextEmailAddress2
-id editTextTextPersonName
-id editTextTextPersonName4
 id edit_phone_number
 id edit_query
 id elastic
@@ -2396,12 +2407,15 @@ id percent
 id phone_button
 id phone_layout
 id phone_number
+id phonenumber
 id pin
 id position
 id postLayout
+id powner
 id progressBar
 id progress_circular
 id progress_horizontal
+id psitter
 id radio
 id ratio
 id rectangles
@@ -2514,8 +2528,6 @@ id textView
 id textView2
 id textView3
 id textView6
-id textView7
-id textView8
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
