@@ -13,6 +13,28 @@
     );
 
 
+
+    CREATE TABLE IF NOT EXISTS location(
+        ID  INT AUTO_INCREMENT PRIMARY KEY,
+        latitudes DECIMAL(8,6),
+        longitudes DECIMAL(9,6)
+    );
+
+
+
+    CREATE TABLE IF NOT EXISTS vaccinations(
+        vaccineName VARCHAR(255) PRIMARY KEY,
+        animaltype VARCHAR(255)
+    );
+
+
+    CREATE TABLE IF NOT EXISTS services(
+        name VARCHAR(255) PRIMARY KEY,
+        phonenumber VARCHAR(255),
+        address VARCHAR(255)
+    );
+
+
     CREATE TABLE sitter(
        UID VARCHAR(255) PRIMARY KEY,
        fname VARCHAR(255),
@@ -20,6 +42,7 @@
        email VARCHAR(255),
        pass VARCHAR(255),
        phonenumber VARCHAR(255),
+       yearsOfExperience FLOAT,
        priceperhour FLOAT,
        LocationID INT,
        FOREIGN KEY(LocationID) REFERENCES location(ID)
@@ -47,6 +70,7 @@
         sitteruid VARCHAR(255),
         owneruid VARCHAR(255),
         timestamp TIMESTAMP, 
+        info VARCHAR(255),
         FOREIGN KEY(sitteruid) REFERENCES sitter(UID)
         ON  UPDATE CASCADE ON DELETE CASCADE,
         FOREIGN KEY(owneruid) REFERENCES owner(UID)
@@ -55,23 +79,3 @@
     
     );
 
-
-    CREATE TABLE IF NOT EXISTS location(
-        ID  INT AUTO_INCREMENT PRIMARY KEY,
-        latitudes DECIMAL(8,6),
-        longitudes DECIMAL(9,6)
-    );
-
-
-
-    CREATE TABLE IF NOT EXISTS vaccinations(
-        vaccineName VARCHAR(255) PRIMARY KEY,
-        animaltype VARCHAR(255)
-    );
-
-
-    CREATE TABLE IF NOT EXISTS services(
-        name VARCHAR(255) PRIMARY KEY,
-        phonenumber VARCHAR(255),
-        address VARCHAR(255)
-    );

@@ -5,11 +5,17 @@
 // I recommend you `const` all your imports.
 const mysql = require("mysql");
 
+// let connection = mysql.createConnection({
+//     host: "localhost",
+//     user: "root",
+//     password: "password",
+//     database: "Ra3yDB"
+// });
 let connection = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "password",
-    database: "Ra3yDB"
+    host: "www.db4free.net",
+    user: "mashraf",
+    password: "ashraf1234",
+    database: "ra3ydb"
 });
 
 connection.connect(function (err) {
