@@ -1,6 +1,8 @@
 // We now import the connection object we exported in db.js.
 
 const fb = require("./firebase");
+const db = require("./db");
+const connection = require("./db");
 
 const FirebaseApp = fb.FirebaseApp;
 const FirebaseAuthentication = fb.FirebaseAuthentication;
