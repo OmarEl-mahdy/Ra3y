@@ -2835,6 +2835,7 @@ layout vaccine
 menu example_menu
 menu example_menu2
 menu main_menu
+menu starters_menu
 mipmap ic_launcher
 mipmap ic_launcher_adaptive_back
 mipmap ic_launcher_adaptive_fore

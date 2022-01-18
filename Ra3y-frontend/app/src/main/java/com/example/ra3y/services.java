@@ -4,8 +4,11 @@ import android.app.ActionBar;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -42,4 +45,34 @@ public class services extends AppCompatActivity {
             }
         });
 
-    }}
+    }
+
+
+
+    @Override
+    public boolean onCreateOptionsMenu(android.view.Menu menu){
+        MenuInflater inflater=getMenuInflater();
+        inflater.inflate(R.menu.main_menu,menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item){
+        switch (item.getItemId()){
+            case R.id.logout:
+                logout();
+                return true;
+            case R.id.aboutus:
+                startActivity(new Intent(getApplicationContext(),aboutus.class));
+            case R.id.backButton:
+                Toast.makeText(this, "Back Button Pressed",Toast.LENGTH_SHORT).show();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
+    private void logout() {
+        Toast.makeText(this, "You have logged out",Toast.LENGTH_SHORT).show();
+    }
+
+}

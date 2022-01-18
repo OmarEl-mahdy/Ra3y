@@ -1,4 +1,4 @@
-#Tue Jan 18 05:05:52 EET 2022
+#Tue Jan 18 09:31:22 EET 2022
 base.0=/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

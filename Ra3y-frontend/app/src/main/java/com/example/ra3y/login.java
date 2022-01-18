@@ -15,6 +15,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.text.TextUtils;
 import android.util.Log;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -33,7 +35,8 @@ public class login extends AppCompatActivity {
 
     FirebaseAuth fAuth;
     ProgressBar pg;
-
+    Bundle bundle;
+    String data;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -63,6 +66,9 @@ public class login extends AppCompatActivity {
         pg = (ProgressBar) findViewById(R.id.progressBar);
         fAuth = FirebaseAuth.getInstance();
 
+        bundle = getIntent().getExtras();
+        data = bundle.getString("User Type");
+
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -85,8 +91,16 @@ public class login extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
                             Toast.makeText(getApplicationContext(),"Welcome Back!", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(getApplicationContext(),services.class));
-                            finish();
+                            Log.d("Back from register", data);
+
+                            if (data.equals("petowner")) {
+                                startActivity(new Intent(getApplicationContext(), services.class));
+                                finish();
+                            }
+                            else{
+                                startActivity(new Intent(getApplicationContext(), sitterProfile.class));
+                                finish();
+                            }
 
                         }
                         else
@@ -101,7 +115,11 @@ public class login extends AppCompatActivity {
 
         newAccountButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+
+
                 Intent nextpage=new Intent(login.this,register.class);
+                Log.d("Sending to register",data);
+                nextpage.putExtra("User Type", data);
                 startActivity(nextpage);
                 finish();            }
         });
@@ -117,6 +135,30 @@ public class login extends AppCompatActivity {
         });
 
     };
+
+    @Override
+    public boolean onCreateOptionsMenu(android.view.Menu menu){
+        MenuInflater inflater=getMenuInflater();
+        inflater.inflate(R.menu.starters_menu,menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item){
+        switch (item.getItemId()){
+            case R.id.aboutus:
+                startActivity(new Intent(getApplicationContext(),aboutus.class));
+            case R.id.backButton:
+                Toast.makeText(this, "Back Button Pressed",Toast.LENGTH_SHORT).show();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
+    private void logout() {
+        Toast.makeText(this, "You have logged out",Toast.LENGTH_SHORT).show();
+    }
+
     @Override
     protected void onResume() {
         super.onResume();

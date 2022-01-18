@@ -9,6 +9,9 @@ import com.google.android.material.snackbar.Snackbar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.text.TextUtils;
+import android.util.Log;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -130,7 +133,12 @@ public class register extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
                             Toast.makeText(getApplicationContext(),"User Created", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(getApplicationContext(),login.class));
+                            Bundle bundle = getIntent().getExtras();
+                            String data = bundle.getString("User Type");
+                            Intent backToLogin = new Intent(getApplicationContext(),login.class);
+                            Log.d("Sending to login",data);
+                            backToLogin.putExtra("User Type",data);
+                            startActivity(backToLogin);
                             finish();
 
                         }
@@ -152,6 +160,24 @@ public class register extends AppCompatActivity {
 
 
 
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(android.view.Menu menu){
+        MenuInflater inflater=getMenuInflater();
+        inflater.inflate(R.menu.starters_menu,menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item){
+        switch (item.getItemId()){
+            case R.id.aboutus:
+                startActivity(new Intent(getApplicationContext(),aboutus.class));
+            case R.id.backButton:
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
     @Override
     protected void onResume() {

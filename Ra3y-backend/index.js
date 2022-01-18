@@ -235,17 +235,53 @@ router.post("/makeRequest", function (req, res) {
 
 /* ********************** */
 // API 7
-// get info the owner 
+// get info of the owner 
 /* ********************** */
 
-router.get("/getOwnerInfo",function(req,res){
+router.post("/getOwnerInfo",function(req,res){
 
     // """ A """
+
+    let uid = req.body.uid;
+
+    let sqlQuery = "SELECT * FROM owner WHERE UID = ?;"
+    db.query(sqlQuery,[uid], function(err,result){
+        if(err){
+            res.send(err)
+        }
+        else{
+            res.json(result);
+        }
+
+    });
+
+});
+/* ********************** */
+// API 8
+// get info of the sitter 
+/* ********************** */
+
+router.post("/getSitterInfo",function(req,res){
+
+    // """ A """
+
+    let uid = req.body.uid;
+
+    let sqlQuery = "SELECT * FROM sitter WHERE UID = ?;"
+    db.query(sqlQuery,[uid], function(err,result){
+        if(err){
+            res.send(err)
+        }
+        else{
+            res.json(result);
+        }
+
+    });
 
 });
 
 /* ******** */
-// API 8
+// API 9
 // post location of sitter
 /* ******** */
 router.post("/postLocation", function (req, res) {
@@ -264,7 +300,7 @@ router.post("/postLocation", function (req, res) {
     }); 
     });
 /* ******** */
-// API 9
+// API 10
 // get location of sitters
 /* ******** */
 router.get("/getLocation", function (req, res) {
@@ -283,6 +319,7 @@ router.get("/getLocation", function (req, res) {
         }
     });
 });
+
 
 
 
