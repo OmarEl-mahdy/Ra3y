@@ -29,6 +29,18 @@
         android:theme="@style/Theme.Ra3y"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.example.ra3y.aboutus"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ra3y.FloatingActionButton"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ra3y.sitterRequest"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ra3y.sitterProfile"
+            android:exported="false" />
+        <activity
             android:name="com.example.ra3y.register"
             android:exported="false"
             android:label="@string/title_activity_register"

@@ -1,42 +1,58 @@
 [
     {
-        "merged": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_register.xml",
-        "source": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\activity_register.xml"
+        "merged": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_sitter_profile.xml",
+        "source": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/res/layout/activity_sitter_profile.xml"
     },
     {
-        "merged": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/choosepetter.xml",
+        "source": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/res/layout/choosepetter.xml"
     },
     {
-        "merged": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_forgetpass.xml",
-        "source": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\activity_forgetpass.xml"
+        "merged": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_sitter_request.xml",
+        "source": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/res/layout/activity_sitter_request.xml"
     },
     {
-        "merged": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\sitters_row_item.xml",
-        "source": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\sitters_row_item.xml"
+        "merged": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_floating_action_button.xml",
+        "source": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/res/layout/activity_floating_action_button.xml"
     },
     {
-        "merged": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
-        "source": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_forgetpass.xml",
+        "source": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/res/layout/activity_forgetpass.xml"
     },
     {
-        "merged": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\vaccine.xml",
-        "source": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\vaccine.xml"
+        "merged": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_sitters_list.xml",
+        "source": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/res/layout/activity_sitters_list.xml"
     },
     {
-        "merged": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sitters_list.xml",
-        "source": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\activity_sitters_list.xml"
+        "merged": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/request.xml",
+        "source": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/res/layout/request.xml"
     },
     {
-        "merged": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\choosepetter.xml",
-        "source": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\choosepetter.xml"
+        "merged": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_aboutus.xml",
+        "source": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/res/layout/activity_aboutus.xml"
     },
     {
-        "merged": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\services.xml",
-        "source": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\services.xml"
+        "merged": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_register.xml",
+        "source": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/res/layout/activity_register.xml"
     },
     {
-        "merged": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\request.xml",
-        "source": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\request.xml"
+        "merged": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/sitters_row_item.xml",
+        "source": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/res/layout/sitters_row_item.xml"
+    },
+    {
+        "merged": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vaccine.xml",
+        "source": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/res/layout/vaccine.xml"
+    },
+    {
+        "merged": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_login.xml",
+        "source": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/services.xml",
+        "source": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/res/layout/services.xml"
     }
 ]

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "O:\\ra3y_final_final\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
+            "outputFile": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\OmarMahdy\\.gradle\\caches\\transforms-3\\2d33d1c9de40b62bddea953837e1882c\\transformed\\jetified-play-services-auth-17.0.0\\res\\values-watch-v20\\values.xml",
+                    "source": "/home/mohamedashraf/.gradle/caches/transforms-3/2d33d1c9de40b62bddea953837e1882c/transformed/jetified-play-services-auth-17.0.0/res/values-watch-v20/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\OmarMahdy\\.gradle\\caches\\transforms-3\\daec56630d897aa40e0fc6356687505b\\transformed\\appcompat-1.4.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "/home/mohamedashraf/.gradle/caches/transforms-3/daec56630d897aa40e0fc6356687505b/transformed/appcompat-1.4.1/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

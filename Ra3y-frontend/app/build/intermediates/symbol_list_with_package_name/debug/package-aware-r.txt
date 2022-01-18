@@ -262,6 +262,10 @@ attr circularflow_defaultAngle
 attr circularflow_defaultRadius
 attr circularflow_radiusInDP
 attr circularflow_viewCenter
+attr civ_border_color
+attr civ_border_overlay
+attr civ_border_width
+attr civ_circle_background_color
 attr clearsTag
 attr clickAction
 attr clockFaceBackgroundColor
@@ -1331,6 +1335,7 @@ color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
 color notification_material_background_media_default_color
+color ourcolor
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -1918,6 +1923,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable dogs
+drawable exp
 drawable fui_ic_anonymous_white_24dp
 drawable fui_ic_apple_white_24dp
 drawable fui_ic_check_circle_black_128dp
@@ -1941,6 +1947,8 @@ drawable fui_idp_button_background_twitter
 drawable fui_idp_button_background_yahoo
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable gradient
+drawable ic_baseline_business_center_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -1949,7 +1957,10 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable img_1
+drawable location
 drawable logo2
+drawable mail
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1985,16 +1996,21 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable petowner
 drawable petsitter
+drawable phone
 drawable ra3yyy
 drawable splsh
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font montserrat_bold
 id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
+id FAB1
+id FAB2
+id FAB3
 id FUNCTION
 id FirstName
 id LastName
@@ -2010,6 +2026,7 @@ id SitterName
 id SitterPricePerHour
 id TOP_END
 id TOP_START
+id aboutus
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -2088,6 +2105,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id backButton
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -2108,7 +2126,12 @@ id btn_from
 id btn_holder
 id btn_to
 id button
+id button1
 id button2
+id button3
+id button4
+id button5
+id button6
 id buttonPanel
 id button_continue
 id button_create
@@ -2138,6 +2161,7 @@ id chip2
 id chip3
 id chip_group
 id chronometer
+id circleImageView
 id circle_center
 id circular
 id cities_spinner
@@ -2179,6 +2203,10 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id dev1
+id dev2
+id dev3
+id dev4
 id dialog_button
 id dimensions
 id direct
@@ -2206,6 +2234,10 @@ id edit_phone_number
 id edit_query
 id elastic
 id email
+id email1
+id email2
+id email3
+id email4
 id email_button
 id email_footer_tos_and_pp_text
 id email_layout
@@ -2295,6 +2327,7 @@ id listMode
 id list_item
 id loginButton
 id logo
+id logout
 id main_tos_and_pp
 id masked
 id match_constraint
@@ -2371,6 +2404,7 @@ id noState
 id none
 id normal
 id north
+id notification
 id notification_background
 id notification_main_column
 id notification_main_column_container
@@ -2520,9 +2554,15 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView1
 id textView2
 id textView3
+id textView4
+id textView5
 id textView6
+id textView7
+id textView8
+id textView9
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2657,10 +2697,14 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_aboutus
+layout activity_floating_action_button
 layout activity_forgetpass
 layout activity_login
 layout activity_main
 layout activity_register
+layout activity_sitter_profile
+layout activity_sitter_request
 layout activity_sitters_list
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
@@ -2790,6 +2834,7 @@ layout text_view_without_line_height
 layout vaccine
 menu example_menu
 menu example_menu2
+menu main_menu
 mipmap ic_launcher
 mipmap ic_launcher_adaptive_back
 mipmap ic_launcher_adaptive_fore
@@ -3844,6 +3889,7 @@ style Widget_Support_CoordinatorLayout
 style btn
 style prompt
 style semi
+style style_tv
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth
@@ -3876,6 +3922,7 @@ styleable Carousel carousel_backwardTransition carousel_emptyViewsBehavior carou
 styleable CheckedTextView android_checkMark checkMarkCompat checkMarkTint checkMarkTintMode
 styleable Chip android_textAppearance android_textSize android_textColor android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconTint checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipMinTouchTargetSize chipStartPadding chipStrokeColor chipStrokeWidth chipSurfaceColor closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible ensureMinTouchTargetSize hideMotionSpec iconEndPadding iconStartPadding rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical selectionRequired singleLine singleSelection
+styleable CircleImageView civ_border_color civ_border_overlay civ_border_width civ_circle_background_color
 styleable CircularProgressIndicator indicatorDirectionCircular indicatorInset indicatorSize
 styleable ClockFaceView clockFaceBackgroundColor clockNumberTextColor
 styleable ClockHandView clockHandColor materialCircleRadius selectorSize
