@@ -1,3 +1,4 @@
+
 package com.example.ra3y;
 
 import static com.google.android.gms.location.LocationRequest.PRIORITY_HIGH_ACCURACY;
@@ -27,6 +28,7 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.tasks.CancellationTokenSource;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.karumi.dexter.Dexter;
@@ -41,6 +43,7 @@ public class Mapss extends AppCompatActivity implements OnMapReadyCallback, Goog
     GoogleMap map;
     FloatingActionButton fab;
     private FusedLocationProviderClient mlocation;
+    String longitude, latitude;
     private final CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,7 +56,9 @@ public class Mapss extends AppCompatActivity implements OnMapReadyCallback, Goog
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 getloc();
+
             }
         });
     }
@@ -76,6 +81,9 @@ public class Mapss extends AppCompatActivity implements OnMapReadyCallback, Goog
                         Location loc=task.getResult();
                         Log.d("loc", String.valueOf(loc));
                         gotoLocation(loc.getLatitude(),loc.getLongitude());
+                        latitude = String.valueOf(loc.getLatitude());
+                        longitude = String.valueOf(loc.getLongitude());
+
 
                     }
                 }
@@ -86,8 +94,12 @@ public class Mapss extends AppCompatActivity implements OnMapReadyCallback, Goog
 
         LatLng ll=new LatLng(latitude,longitude);
         CameraUpdate cam= CameraUpdateFactory.newLatLngZoom(ll,15);
+
         map.moveCamera(cam);
         map.setMapType(GoogleMap.MAP_TYPE_NORMAL);
+        map.addMarker(new MarkerOptions()
+                .position(ll)
+        );
 
     }
 
@@ -123,6 +135,16 @@ public class Mapss extends AppCompatActivity implements OnMapReadyCallback, Goog
     }
 
     @Override
+    public void onBackPressed() {
+        Intent Gotoprofile = new Intent(getApplicationContext(), sitterProfile.class);
+        Gotoprofile.putExtra("long", longitude);
+        Gotoprofile.putExtra("lat", latitude);
+        startActivity(Gotoprofile);
+        Log.d("LOCATION", longitude );
+        Log.d("LOCATION", latitude);
+    }
+
+    @Override
     public void onConnected(@Nullable Bundle bundle) {
 
     }
@@ -137,3 +159,4 @@ public class Mapss extends AppCompatActivity implements OnMapReadyCallback, Goog
 
     }
 }
+
