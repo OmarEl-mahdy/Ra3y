@@ -27,12 +27,8 @@ com/example/ra3y/registerSitter.java
  com.example.ra3y.registerSitter$2
  com.example.ra3y.registerSitter$2$1
  com.example.ra3y.registerSitter$API_handler
-com/example/ra3y/request.java
- com.example.ra3y.request
- com.example.ra3y.request$1
- com.example.ra3y.request$2
- com.example.ra3y.request$3
- com.example.ra3y.request$4
+com/example/ra3y/BuildConfig.java
+ com.example.ra3y.BuildConfig
 com/example/ra3y/databinding/ActivitySitterProfileBinding.java
  com.example.ra3y.databinding.ActivitySitterProfileBinding
 com/example/ra3y/databinding/ActivityRegisterBinding.java
@@ -82,8 +78,6 @@ com/example/ra3y/petsitterorowner.java
  com.example.ra3y.petsitterorowner
  com.example.ra3y.petsitterorowner$1
  com.example.ra3y.petsitterorowner$2
-com/example/ra3y/BuildConfig.java
- com.example.ra3y.BuildConfig
 com/example/ra3y/MainActivity.java
  com.example.ra3y.MainActivity
  com.example.ra3y.MainActivity$1
@@ -109,3 +103,9 @@ com/example/ra3y/sitterRequest.java
  com.example.ra3y.sitterRequest$2
  com.example.ra3y.sitterRequest$3
  com.example.ra3y.sitterRequest$4
+com/example/ra3y/request.java
+ com.example.ra3y.request
+ com.example.ra3y.request$1
+ com.example.ra3y.request$2
+ com.example.ra3y.request$3
+ com.example.ra3y.request$4
