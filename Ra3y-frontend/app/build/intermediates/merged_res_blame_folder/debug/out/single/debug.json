@@ -348,6 +348,10 @@
         "source": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
+        "merged": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/merged_res/debug/layout_activity_shops_services.xml.flat",
+        "source": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/res/layout/activity_shops_services.xml"
+    },
+    {
         "merged": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/merged_res/debug/drawable-ldpi_ic_baseline_notifications_24.png.flat",
         "source": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/generated/res/pngs/debug/drawable-ldpi/ic_baseline_notifications_24.png"
     },
@@ -410,6 +414,10 @@
     {
         "merged": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_adaptive_back.png.flat",
         "source": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/res/mipmap-hdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/merged_res/debug/drawable_pet2.jpeg.flat",
+        "source": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/res/drawable/pet2.jpeg"
     },
     {
         "merged": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/merged_res/debug/drawable_ic_money_adaptive_fore.png.flat",

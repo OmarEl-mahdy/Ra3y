@@ -77,7 +77,7 @@ public class request extends AppCompatActivity implements AdapterView.OnItemSele
                         startActivity(intent1);
                         break;
                     case R.id.serv:
-                        Toast.makeText(getApplicationContext(), "Services page coming soon!",Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(getApplicationContext(),shopsServices.class));
                     default:
                         break;
                 }

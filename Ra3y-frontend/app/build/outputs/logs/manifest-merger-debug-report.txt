@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-76:12
-INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-76:12
-INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-76:12
-INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-76:12
+ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-79:12
 MERGED from [androidx.databinding:viewbinding:7.0.4] /home/mohamedashraf/.gradle/caches/transforms-3/f10faeb32219776ce9423c17d4f938c4/transformed/jetified-viewbinding-7.0.4/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-ui:2.3.5] /home/mohamedashraf/.gradle/caches/transforms-3/e146d79a02da236d44613d8261a873d0/transformed/navigation-ui-2.3.5/AndroidManifest.xml:17:1-24:12
 MERGED from [com.firebaseui:firebase-ui-auth:6.4.0] /home/mohamedashraf/.gradle/caches/transforms-3/20cc520c5a312067f3420514f552fe0d/transformed/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:2:1-109:12
@@ -87,22 +87,22 @@ MERGED from [com.google.android.datatransport:transport-api:2.2.1] /home/mohamed
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/mohamedashraf/.gradle/caches/transforms-3/b22fc9a73cccfaf8b4129045c998d860/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /home/mohamedashraf/.gradle/caches/transforms-3/3a5a5d9934e2c57dd8d5c8a079d2e2b4/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/mohamedashraf/.gradle/caches/transforms-3/d66993e727816c8ff7896b7937150dab/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-76:12
-INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-76:12
-INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-76:12
+INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-79:12
 	package
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:4:5-31
 		INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml
 		INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-76:12
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-79:12
 		INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-76:12
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-79:12
 		INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:11-69
@@ -149,7 +149,7 @@ ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/R
 	android:name
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:10:19-60
 application
-ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:12:5-74:19
+ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:12:5-77:19
 MERGED from [com.firebaseui:firebase-ui-auth:6.4.0] /home/mohamedashraf/.gradle/caches/transforms-3/20cc520c5a312067f3420514f552fe0d/transformed/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:15:5-107:19
 MERGED from [com.firebaseui:firebase-ui-auth:6.4.0] /home/mohamedashraf/.gradle/caches/transforms-3/20cc520c5a312067f3420514f552fe0d/transformed/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:15:5-107:19
 MERGED from [com.google.android.material:material:1.4.0] /home/mohamedashraf/.gradle/caches/transforms-3/589b32396052d18877318a856258023a/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
@@ -224,110 +224,116 @@ MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /home/moh
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:18:9-42
 	android:usesCleartextTraffic
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:19:9-44
-activity#com.example.ra3y.ownerprofile
+activity#com.example.ra3y.shopsServices
 ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:21:9-23:40
 	android:exported
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:23:13-37
 	android:name
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:22:13-41
-activity#com.example.ra3y.registerSitter
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:22:13-42
+activity#com.example.ra3y.ownerprofile
 ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:24:9-26:40
 	android:exported
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:26:13-37
 	android:name
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:25:13-43
-activity#com.example.ra3y.aboutus
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:25:13-41
+activity#com.example.ra3y.registerSitter
 ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:27:9-29:40
 	android:exported
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:28:13-36
-activity#com.example.ra3y.FloatingActionButton
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:28:13-43
+activity#com.example.ra3y.aboutus
 ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:30:9-32:40
 	android:exported
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:32:13-37
 	android:name
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:31:13-49
-activity#com.example.ra3y.sitterRequest
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:31:13-36
+activity#com.example.ra3y.FloatingActionButton
 ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:33:9-35:40
 	android:exported
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:35:13-37
 	android:name
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:34:13-42
-activity#com.example.ra3y.sitterProfile
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:34:13-49
+activity#com.example.ra3y.sitterRequest
 ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:36:9-38:40
 	android:exported
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:38:13-37
 	android:name
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:37:13-42
-activity#com.example.ra3y.register
-ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:39:9-43:61
-	android:label
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:42:13-60
+activity#com.example.ra3y.sitterProfile
+ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:39:9-41:40
 	android:exported
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:40:13-42
+activity#com.example.ra3y.register
+ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:42:9-46:61
+	android:label
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:45:13-60
+	android:exported
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:44:13-37
 	android:theme
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:43:13-58
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:46:13-58
 	android:name
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:40:13-37
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:43:13-37
 activity#com.example.ra3y.MainActivity
-ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:44:9-52:20
+ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:47:9-55:20
 	android:exported
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:46:13-36
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:49:13-36
 	android:name
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:45:13-41
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:48:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:47:13-51:29
+ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:50:13-54:29
 action#android.intent.action.MAIN
-ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:48:17-69
+ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:51:17-69
 	android:name
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:48:25-66
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:51:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:50:17-77
+ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:53:17-77
 	android:name
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:50:27-74
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:53:27-74
 activity#com.example.ra3y.login
-ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:53:9-55:39
-	android:exported
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:55:13-36
-	android:name
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:54:13-34
-activity#com.example.ra3y.forget
 ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:56:9-58:39
 	android:exported
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:58:13-36
 	android:name
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:57:13-35
-activity#com.example.ra3y.petsitterorowner
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:57:13-34
+activity#com.example.ra3y.forget
 ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:59:9-61:39
 	android:exported
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:61:13-36
 	android:name
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:60:13-45
-activity#com.example.ra3y.services
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:60:13-35
+activity#com.example.ra3y.petsitterorowner
 ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:62:9-64:39
 	android:exported
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:64:13-36
 	android:name
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:63:13-37
-activity#com.example.ra3y.request
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:63:13-45
+activity#com.example.ra3y.services
 ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:65:9-67:39
 	android:exported
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:67:13-36
 	android:name
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:66:13-36
-activity#com.example.ra3y.vaccine
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:66:13-37
+activity#com.example.ra3y.request
 ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:68:9-70:39
 	android:exported
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:70:13-36
 	android:name
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:69:13-36
-activity#com.example.ra3y.sittersList
-ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:71:9-73:40
+activity#com.example.ra3y.vaccine
+ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:71:9-73:39
 	android:exported
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:73:13-37
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:73:13-36
 	android:name
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:72:13-40
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:72:13-36
+activity#com.example.ra3y.sittersList
+ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:74:9-76:40
+	android:exported
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:76:13-37
+	android:name
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:75:13-40
 uses-sdk
 INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml

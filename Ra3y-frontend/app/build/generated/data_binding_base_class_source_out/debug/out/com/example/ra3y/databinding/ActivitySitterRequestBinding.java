@@ -12,6 +12,7 @@ import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.ra3y.R;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -49,6 +50,9 @@ public final class ActivitySitterRequestBinding implements ViewBinding {
   public final Button button6;
 
   @NonNull
+  public final BottomNavigationView navbarreq;
+
+  @NonNull
   public final TextView textView1;
 
   @NonNull
@@ -64,8 +68,8 @@ public final class ActivitySitterRequestBinding implements ViewBinding {
       @NonNull FloatingActionButton FAB1, @NonNull FloatingActionButton FAB2,
       @NonNull FloatingActionButton FAB3, @NonNull Button button1, @NonNull Button button2,
       @NonNull Button button3, @NonNull Button button4, @NonNull Button button5,
-      @NonNull Button button6, @NonNull TextView textView1, @NonNull TextView textView2,
-      @NonNull TextView textView3, @NonNull TextView textView9) {
+      @NonNull Button button6, @NonNull BottomNavigationView navbarreq, @NonNull TextView textView1,
+      @NonNull TextView textView2, @NonNull TextView textView3, @NonNull TextView textView9) {
     this.rootView = rootView;
     this.FAB1 = FAB1;
     this.FAB2 = FAB2;
@@ -76,6 +80,7 @@ public final class ActivitySitterRequestBinding implements ViewBinding {
     this.button4 = button4;
     this.button5 = button5;
     this.button6 = button6;
+    this.navbarreq = navbarreq;
     this.textView1 = textView1;
     this.textView2 = textView2;
     this.textView3 = textView3;
@@ -163,6 +168,12 @@ public final class ActivitySitterRequestBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.navbarreq;
+      BottomNavigationView navbarreq = ViewBindings.findChildViewById(rootView, id);
+      if (navbarreq == null) {
+        break missingId;
+      }
+
       id = R.id.textView1;
       TextView textView1 = ViewBindings.findChildViewById(rootView, id);
       if (textView1 == null) {
@@ -188,7 +199,8 @@ public final class ActivitySitterRequestBinding implements ViewBinding {
       }
 
       return new ActivitySitterRequestBinding((LinearLayout) rootView, FAB1, FAB2, FAB3, button1,
-          button2, button3, button4, button5, button6, textView1, textView2, textView3, textView9);
+          button2, button3, button4, button5, button6, navbarreq, textView1, textView2, textView3,
+          textView9);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

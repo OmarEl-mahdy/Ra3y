@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.ArrayAdapter;
@@ -14,6 +15,8 @@ import android.widget.Toast;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 
+import org.json.JSONObject;
+
 import java.util.List;
 import java.util.ArrayList;
 import java.util.List;
@@ -21,14 +24,17 @@ import java.util.List;
 public class vaccine extends AppCompatActivity {
     //String [] vaccines;
 
-
+    JSONObject jsonObject;
+    String data;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.vaccine);
-
-        BottomNavigationView bnv = (BottomNavigationView) findViewById(R.id.navbar);
+        Bundle bundle = getIntent().getExtras();
+        data = bundle.getString("Owner Data");
+        Log.d("Data", data.toString());
+        BottomNavigationView bnv = (BottomNavigationView) findViewById(R.id.navbarvac);
 
         bnv.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener(){
             @Override
@@ -38,12 +44,10 @@ public class vaccine extends AppCompatActivity {
                         Intent intent =new Intent(vaccine.this, ownerprofile.class);
                         startActivity(intent);
                         break;
-                    case R.id.vacc:
-                        Intent intent1 =new Intent(vaccine.this, vaccine.class);
-                        startActivity(intent1);
-                        break;
                     case R.id.serv:
-                        Toast.makeText(getApplicationContext(), "Services page coming soon!",Toast.LENGTH_SHORT).show();
+                        Intent intent2 =new Intent(getApplicationContext(), shopsServices.class);
+                        intent2.putExtra("Owner Data",data);
+                        startActivity(intent2);
                     default:
                         break;
                 }

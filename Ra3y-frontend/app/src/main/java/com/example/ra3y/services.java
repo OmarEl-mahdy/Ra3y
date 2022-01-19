@@ -64,8 +64,7 @@ public class services extends AppCompatActivity {
         });
 
 
-        BottomNavigationView bnv = (BottomNavigationView) findViewById(R.id.navbar);
-
+        BottomNavigationView bnv = (BottomNavigationView) findViewById(R.id.navbar2);
         bnv.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener(){
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -81,7 +80,11 @@ public class services extends AppCompatActivity {
                         startActivity(intent1);
                         break;
                     case R.id.serv:
-                        Toast.makeText(getApplicationContext(), "Services page coming soon!",Toast.LENGTH_SHORT).show();
+                        Intent intent2 =new Intent(services.this, shopsServices.class);
+                        intent2.putExtra("Owner Data",data);
+                        startActivity(intent2);
+                        break;
+
                     default:
                         break;
                 }

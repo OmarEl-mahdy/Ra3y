@@ -1,39 +1,51 @@
-com/example/ra3y/MyLocationListener.java
- com.example.ra3y.MyLocationListener
 com/example/ra3y/BuildConfig.java
  com.example.ra3y.BuildConfig
+com/example/ra3y/MyLocationListener.java
+ com.example.ra3y.MyLocationListener
 com/example/ra3y/databinding/ActivityRegisterSitterBinding.java
  com.example.ra3y.databinding.ActivityRegisterSitterBinding
 com/example/ra3y/databinding/ActivityMainBinding.java
  com.example.ra3y.databinding.ActivityMainBinding
-com/example/ra3y/sitterProfile.java
- com.example.ra3y.sitterProfile
- com.example.ra3y.sitterProfile$1
+com/example/ra3y/databinding/ActivityRegisterBinding.java
+ com.example.ra3y.databinding.ActivityRegisterBinding
+com/example/ra3y/shopsServices.java
+ com.example.ra3y.shopsServices
+ com.example.ra3y.shopsServices$1
 com/example/ra3y/forget.java
  com.example.ra3y.forget
  com.example.ra3y.forget$1
  com.example.ra3y.forget$1$1
-com/example/ra3y/databinding/ActivityFloatingActionButtonBinding.java
- com.example.ra3y.databinding.ActivityFloatingActionButtonBinding
+com/example/ra3y/request.java
+ com.example.ra3y.request
+ com.example.ra3y.request$1
+ com.example.ra3y.request$2
+ com.example.ra3y.request$3
+ com.example.ra3y.request$4
 com/example/ra3y/databinding/ActivityLoginBinding.java
  com.example.ra3y.databinding.ActivityLoginBinding
+com/example/ra3y/databinding/ActivityShopsServicesBinding.java
+ com.example.ra3y.databinding.ActivityShopsServicesBinding
 com/example/ra3y/registerSitter.java
  com.example.ra3y.registerSitter
  com.example.ra3y.registerSitter$1
  com.example.ra3y.registerSitter$2
  com.example.ra3y.registerSitter$2$1
  com.example.ra3y.registerSitter$API_handler
-com/example/ra3y/databinding/ActivityRegisterBinding.java
- com.example.ra3y.databinding.ActivityRegisterBinding
+com/example/ra3y/MainActivity.java
+ com.example.ra3y.MainActivity
+ com.example.ra3y.MainActivity$1
+ com.example.ra3y.MainActivity$API_handler
 com/example/ra3y/databinding/ActivitySitterProfileBinding.java
  com.example.ra3y.databinding.ActivitySitterProfileBinding
 com/example/ra3y/aboutus.java
  com.example.ra3y.aboutus
-com/example/ra3y/sitterRequest.java
- com.example.ra3y.sitterRequest
- com.example.ra3y.sitterRequest$1
- com.example.ra3y.sitterRequest$2
- com.example.ra3y.sitterRequest$3
+com/example/ra3y/login.java
+ com.example.ra3y.login
+ com.example.ra3y.login$1
+ com.example.ra3y.login$1$1
+ com.example.ra3y.login$2
+ com.example.ra3y.login$3
+ com.example.ra3y.login$API_handler
 com/example/ra3y/CustomSittersList.java
  com.example.ra3y.CustomSittersList
 com/example/ra3y/databinding/ActivityOwnerprofileBinding.java
@@ -60,39 +72,33 @@ com/example/ra3y/register.java
  com.example.ra3y.register$API_handler
 com/example/ra3y/databinding/SittersRowItemBinding.java
  com.example.ra3y.databinding.SittersRowItemBinding
-com/example/ra3y/request.java
- com.example.ra3y.request
- com.example.ra3y.request$1
- com.example.ra3y.request$2
- com.example.ra3y.request$3
- com.example.ra3y.request$4
-com/example/ra3y/databinding/ServicesBinding.java
- com.example.ra3y.databinding.ServicesBinding
-com/example/ra3y/services.java
- com.example.ra3y.services
- com.example.ra3y.services$1
- com.example.ra3y.services$2
+com/example/ra3y/databinding/RequestBinding.java
+ com.example.ra3y.databinding.RequestBinding
+com/example/ra3y/vaccine.java
+ com.example.ra3y.vaccine
+ com.example.ra3y.vaccine$1
+com/example/ra3y/databinding/VaccineBinding.java
+ com.example.ra3y.databinding.VaccineBinding
 com/example/ra3y/databinding/ActivitySittersListBinding.java
  com.example.ra3y.databinding.ActivitySittersListBinding
 com/example/ra3y/petsitterorowner.java
  com.example.ra3y.petsitterorowner
  com.example.ra3y.petsitterorowner$1
  com.example.ra3y.petsitterorowner$2
-com/example/ra3y/MainActivity.java
- com.example.ra3y.MainActivity
- com.example.ra3y.MainActivity$1
- com.example.ra3y.MainActivity$API_handler
-com/example/ra3y/vaccine.java
- com.example.ra3y.vaccine
- com.example.ra3y.vaccine$1
-com/example/ra3y/login.java
- com.example.ra3y.login
- com.example.ra3y.login$1
- com.example.ra3y.login$1$1
- com.example.ra3y.login$2
- com.example.ra3y.login$3
- com.example.ra3y.login$API_handler
-com/example/ra3y/databinding/VaccineBinding.java
- com.example.ra3y.databinding.VaccineBinding
-com/example/ra3y/databinding/RequestBinding.java
- com.example.ra3y.databinding.RequestBinding
+com/example/ra3y/databinding/ServicesBinding.java
+ com.example.ra3y.databinding.ServicesBinding
+com/example/ra3y/databinding/ActivityFloatingActionButtonBinding.java
+ com.example.ra3y.databinding.ActivityFloatingActionButtonBinding
+com/example/ra3y/services.java
+ com.example.ra3y.services
+ com.example.ra3y.services$1
+ com.example.ra3y.services$2
+com/example/ra3y/sitterProfile.java
+ com.example.ra3y.sitterProfile
+ com.example.ra3y.sitterProfile$1
+com/example/ra3y/sitterRequest.java
+ com.example.ra3y.sitterRequest
+ com.example.ra3y.sitterRequest$1
+ com.example.ra3y.sitterRequest$2
+ com.example.ra3y.sitterRequest$3
+ com.example.ra3y.sitterRequest$4

@@ -19,6 +19,9 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="m">
         <activity
+            android:name=".shopsServices"
+            android:exported="false" />
+        <activity
             android:name=".ownerprofile"
             android:exported="false" />
         <activity

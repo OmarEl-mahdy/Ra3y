@@ -66,6 +66,7 @@ public class sitterProfile extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()){
+
                     case R.id.notification:
                         Intent intent1 = new Intent(sitterProfile.this, sitterRequest.class);
                         startActivity(intent1);

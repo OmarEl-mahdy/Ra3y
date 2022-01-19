@@ -1,5 +1,6 @@
 package com.example.ra3y;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -10,6 +11,7 @@ import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 
 import org.json.JSONException;
@@ -44,6 +46,29 @@ public class ownerprofile extends AppCompatActivity {
             Log.d("Error", e.toString());
             e.printStackTrace();
         }
+
+//
+//        BottomNavigationView bnv = (BottomNavigationView) findViewById(R.id.navbarop);
+//
+//        bnv.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener(){
+//            @Override
+//            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+//                switch (item.getItemId()){
+//                    case R.id.vacc:
+//                        Intent intent1 =new Intent(getApplicationContext(), vaccine.class);
+//                        intent1.putExtra("Owner Data",data);
+//                        startActivity(intent1);
+//                        break;
+//                    case R.id.serv:
+//                        Intent intent2 =new Intent(getApplicationContext(), shopsServices.class);
+//                        intent2.putExtra("Owner Data",data);
+//                        startActivity(intent2);
+//                    default:
+//                        break;
+//                }
+//                return false;
+//            }
+//        });
     }
 
     @Override
@@ -61,7 +86,7 @@ public class ownerprofile extends AppCompatActivity {
             case R.id.aboutus:
                 startActivity(new Intent(getApplicationContext(),aboutus.class));
             case R.id.backButton:
-                Toast.makeText(this, "Back Button Pressed",Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(getApplicationContext(),services.class));
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

@@ -2047,6 +2047,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable pet2
 drawable petowner
 drawable petsitter
 drawable phone
@@ -2443,6 +2444,9 @@ id name_layout
 id nav_controller_view_tag
 id nav_host_fragment_container
 id navbar
+id navbar2
+id navbarreq
+id navbarvac
 id navigation_bar_item_icon_view
 id navigation_bar_item_labels_group
 id navigation_bar_item_large_label_view
@@ -2566,6 +2570,7 @@ id split_action_bar
 id spread
 id spread_inside
 id spring
+id sprofile
 id square
 id src_atop
 id src_in
@@ -2765,6 +2770,7 @@ layout activity_main
 layout activity_ownerprofile
 layout activity_register
 layout activity_register_sitter
+layout activity_shops_services
 layout activity_sitter_profile
 layout activity_sitter_request
 layout activity_sitters_list

@@ -30,7 +30,7 @@ public final class ServicesBinding implements ViewBinding {
   public final LinearLayout linearLayout;
 
   @NonNull
-  public final BottomNavigationView navbar;
+  public final BottomNavigationView navbar2;
 
   @NonNull
   public final Button request;
@@ -39,12 +39,12 @@ public final class ServicesBinding implements ViewBinding {
   public final TextView textView6;
 
   private ServicesBinding(@NonNull ConstraintLayout rootView, @NonNull FrameLayout frameLayout,
-      @NonNull LinearLayout linearLayout, @NonNull BottomNavigationView navbar,
+      @NonNull LinearLayout linearLayout, @NonNull BottomNavigationView navbar2,
       @NonNull Button request, @NonNull TextView textView6) {
     this.rootView = rootView;
     this.frameLayout = frameLayout;
     this.linearLayout = linearLayout;
-    this.navbar = navbar;
+    this.navbar2 = navbar2;
     this.request = request;
     this.textView6 = textView6;
   }
@@ -88,9 +88,9 @@ public final class ServicesBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.navbar;
-      BottomNavigationView navbar = ViewBindings.findChildViewById(rootView, id);
-      if (navbar == null) {
+      id = R.id.navbar2;
+      BottomNavigationView navbar2 = ViewBindings.findChildViewById(rootView, id);
+      if (navbar2 == null) {
         break missingId;
       }
 
@@ -106,7 +106,7 @@ public final class ServicesBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ServicesBinding((ConstraintLayout) rootView, frameLayout, linearLayout, navbar,
+      return new ServicesBinding((ConstraintLayout) rootView, frameLayout, linearLayout, navbar2,
           request, textView6);
     }
     String missingId = rootView.getResources().getResourceName(id);

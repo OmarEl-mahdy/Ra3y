@@ -1,8 +1,10 @@
 package com.example.ra3y;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -11,6 +13,7 @@ import android.view.View;
 import android.widget.Toast;
 
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.auth.FirebaseAuth;
@@ -53,7 +56,20 @@ public class sitterRequest extends AppCompatActivity {
         });
 
 
+        BottomNavigationView bnv = (BottomNavigationView) findViewById(R.id.navbarreq);
+        bnv.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener(){
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId()){
+                    case R.id.sprofile:
+                        onBackPressed();
+                    default:
+                        break;
+                }
 
+                return false;
+            }
+        });
 
     }
     @Override
