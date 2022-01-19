@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.ra3y"
-        minSdk 16
+        minSdk 21
         targetSdk 32
         versionCode 1
         versionName "1.0"
@@ -51,4 +51,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-messaging'
     implementation 'com.firebaseui:firebase-ui-auth:6.4.0'
     implementation 'de.hdodenhof:circleimageview:3.0.0'
+    implementation 'com.google.android.gms:play-services-maps:18.0.2'
+    implementation 'com.google.android.gms:play-services-location:18.0.1'
+    implementation 'com.karumi:dexter:6.2.2'
+    implementation "com.google.android.gms:play-services-location:19.0.1"
 }

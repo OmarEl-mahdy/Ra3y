@@ -109,10 +109,12 @@ public class request extends AppCompatActivity implements AdapterView.OnItemSele
         btn_launch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse("geo:47.4925,19.0513"));
-                Intent chooser = Intent.createChooser(intent, "Launch Maps");
-                startActivity(chooser);
+                Intent nextpage=new Intent(request.this,Mapss.class);
+                startActivity(nextpage);
+                finish();
+//                intent.setData(Uri.parse("geo:47.4925,19.0513"));
+//                Intent chooser = Intent.createChooser(intent, "Launch Maps");
+//                startActivity(chooser);
             }
         });
         spinner_city = (Spinner) findViewById(R.id.cities_spinner);

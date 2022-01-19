@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-id/values-id.xml",
+            "outputFile": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-id\\values-id.xml",
             "map": [
                 {
-                    "source": "/home/mohamedashraf/.gradle/caches/transforms-3/df5a676d75b6f6398f01ee05994f7210/transformed/jetified-android-about-page-2.0.0/res/values-id/values-id.xml",
+                    "source": "C:\\Users\\OmarMahdy\\.gradle\\caches\\transforms-3\\df5a676d75b6f6398f01ee05994f7210\\transformed\\jetified-android-about-page-2.0.0\\res\\values-id\\values-id.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

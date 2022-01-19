@@ -72,10 +72,13 @@ public class sitterProfile extends AppCompatActivity {
                         startActivity(intent1);
                         break;
                     case R.id.location:
-                        Intent intent = new Intent(Intent.ACTION_VIEW);
-                        intent.setData(Uri.parse("geo:47.4925,19.0513"));
-                        Intent chooser =Intent.createChooser(intent, "Launch Maps");
-                        startActivity(chooser);
+//                        Intent intent = new Intent(Intent.ACTION_VIEW);
+//                        intent.setData(Uri.parse("geo:47.4925,19.0513"));
+//                        Intent chooser =Intent.createChooser(intent, "Launch Maps");
+//                        startActivity(chooser);
+                        Intent nextpage=new Intent(sitterProfile.this,Mapss.class);
+                        startActivity(nextpage);
+                        finish();
                         break;
                     default:
                         break;

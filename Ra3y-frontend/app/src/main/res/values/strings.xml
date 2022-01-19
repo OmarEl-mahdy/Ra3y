@@ -59,4 +59,6 @@
         <item> Free</item>
         <item> 120L.E/hr</item>
     </string-array>
+    Places.initialize(getApplicationContext(),AIzaSyCUpI9Vfo-moJWeMfWH5rKD8VG1Z54AU8g);
+
 </resources>
