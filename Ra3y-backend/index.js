@@ -103,12 +103,13 @@ router.post("/registerSitter", function (req, res) {
     // storing the has of the password
     let hashpass = SHA256(pass);
 
-    let yearsOfExperience = body.yearsOfExperience;
 
     let phonenumber = body.phonenumber;
+    let yearsOfExperience = body.yearsOfExperience;
+    let priceperhour = body.priceperhour;
 
-    let sqlQuery = "INSERT INTO `sitter` (`UID`, `fname`,`lname`,`email`,`pass`, `phonenumber`, `yearsOfExperience`) VALUES('" + uid + "','" + fname + "', \
-'" + lname + "','" + email + "', '" + hashpass + "', '" + phonenumber + "' , '"+yearsOfExperience+"' );"
+    let sqlQuery = "INSERT INTO `sitter` (`UID`, `fname`,`lname`,`email`,`pass`, `phonenumber`,`yearsOfExperience`,`priceperhour`) VALUES('" + uid + "','" + fname + "', \
+'" + lname + "','" + email + "', '" + hashpass + "', '" + phonenumber + "', '"+yearsOfExperience+"', '"+priceperhour+"' );"
 
     db.query(sqlQuery, function (err, result) {
         if (err) {
@@ -273,6 +274,7 @@ router.post("/getSitterInfo",function(req,res){
             res.send(err)
         }
         else{
+  
             res.json(result);
         }
 

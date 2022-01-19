@@ -19,6 +19,9 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="m">
         <activity
+            android:name=".registerSitter"
+            android:exported="false" />
+        <activity
             android:name=".aboutus"
             android:exported="false" />
         <activity

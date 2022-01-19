@@ -4,7 +4,6 @@ package com.example.ra3y.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -13,6 +12,7 @@ import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.ra3y.R;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import de.hdodenhof.circleimageview.CircleImageView;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -29,10 +29,13 @@ public final class ActivitySitterProfileBinding implements ViewBinding {
   public final ImageView imageView;
 
   @NonNull
-  public final Button launch;
+  public final BottomNavigationView navbar;
 
   @NonNull
-  public final Button notification;
+  public final TextView price;
+
+  @NonNull
+  public final TextView pricefield;
 
   @NonNull
   public final TextView textView;
@@ -63,15 +66,16 @@ public final class ActivitySitterProfileBinding implements ViewBinding {
 
   private ActivitySitterProfileBinding(@NonNull LinearLayout rootView,
       @NonNull CircleImageView circleImageView, @NonNull ImageView imageView,
-      @NonNull Button launch, @NonNull Button notification, @NonNull TextView textView,
-      @NonNull TextView textView1, @NonNull TextView textView2, @NonNull TextView textView3,
-      @NonNull TextView textView4, @NonNull TextView textView5, @NonNull TextView textView6,
-      @NonNull TextView textView7, @NonNull TextView textView8) {
+      @NonNull BottomNavigationView navbar, @NonNull TextView price, @NonNull TextView pricefield,
+      @NonNull TextView textView, @NonNull TextView textView1, @NonNull TextView textView2,
+      @NonNull TextView textView3, @NonNull TextView textView4, @NonNull TextView textView5,
+      @NonNull TextView textView6, @NonNull TextView textView7, @NonNull TextView textView8) {
     this.rootView = rootView;
     this.circleImageView = circleImageView;
     this.imageView = imageView;
-    this.launch = launch;
-    this.notification = notification;
+    this.navbar = navbar;
+    this.price = price;
+    this.pricefield = pricefield;
     this.textView = textView;
     this.textView1 = textView1;
     this.textView2 = textView2;
@@ -122,15 +126,21 @@ public final class ActivitySitterProfileBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.launch;
-      Button launch = ViewBindings.findChildViewById(rootView, id);
-      if (launch == null) {
+      id = R.id.navbar;
+      BottomNavigationView navbar = ViewBindings.findChildViewById(rootView, id);
+      if (navbar == null) {
         break missingId;
       }
 
-      id = R.id.notification;
-      Button notification = ViewBindings.findChildViewById(rootView, id);
-      if (notification == null) {
+      id = R.id.price;
+      TextView price = ViewBindings.findChildViewById(rootView, id);
+      if (price == null) {
+        break missingId;
+      }
+
+      id = R.id.pricefield;
+      TextView pricefield = ViewBindings.findChildViewById(rootView, id);
+      if (pricefield == null) {
         break missingId;
       }
 
@@ -189,8 +199,8 @@ public final class ActivitySitterProfileBinding implements ViewBinding {
       }
 
       return new ActivitySitterProfileBinding((LinearLayout) rootView, circleImageView, imageView,
-          launch, notification, textView, textView1, textView2, textView3, textView4, textView5,
-          textView6, textView7, textView8);
+          navbar, price, pricefield, textView, textView1, textView2, textView3, textView4,
+          textView5, textView6, textView7, textView8);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

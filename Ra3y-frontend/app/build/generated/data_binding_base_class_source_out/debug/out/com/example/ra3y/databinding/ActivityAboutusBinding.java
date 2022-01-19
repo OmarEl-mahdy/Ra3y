@@ -4,58 +4,20 @@ package com.example.ra3y.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
-import androidx.viewbinding.ViewBindings;
 import com.example.ra3y.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
-import java.lang.String;
 
 public final class ActivityAboutusBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
 
-  @NonNull
-  public final TextView dev1;
-
-  @NonNull
-  public final TextView dev2;
-
-  @NonNull
-  public final TextView dev3;
-
-  @NonNull
-  public final TextView dev4;
-
-  @NonNull
-  public final TextView email1;
-
-  @NonNull
-  public final TextView email2;
-
-  @NonNull
-  public final TextView email3;
-
-  @NonNull
-  public final TextView email4;
-
-  private ActivityAboutusBinding(@NonNull ConstraintLayout rootView, @NonNull TextView dev1,
-      @NonNull TextView dev2, @NonNull TextView dev3, @NonNull TextView dev4,
-      @NonNull TextView email1, @NonNull TextView email2, @NonNull TextView email3,
-      @NonNull TextView email4) {
+  private ActivityAboutusBinding(@NonNull ConstraintLayout rootView) {
     this.rootView = rootView;
-    this.dev1 = dev1;
-    this.dev2 = dev2;
-    this.dev3 = dev3;
-    this.dev4 = dev4;
-    this.email1 = email1;
-    this.email2 = email2;
-    this.email3 = email3;
-    this.email4 = email4;
   }
 
   @Override
@@ -81,62 +43,10 @@ public final class ActivityAboutusBinding implements ViewBinding {
 
   @NonNull
   public static ActivityAboutusBinding bind(@NonNull View rootView) {
-    // The body of this method is generated in a way you would not otherwise write.
-    // This is done to optimize the compiled bytecode for size and performance.
-    int id;
-    missingId: {
-      id = R.id.dev1;
-      TextView dev1 = ViewBindings.findChildViewById(rootView, id);
-      if (dev1 == null) {
-        break missingId;
-      }
-
-      id = R.id.dev2;
-      TextView dev2 = ViewBindings.findChildViewById(rootView, id);
-      if (dev2 == null) {
-        break missingId;
-      }
-
-      id = R.id.dev3;
-      TextView dev3 = ViewBindings.findChildViewById(rootView, id);
-      if (dev3 == null) {
-        break missingId;
-      }
-
-      id = R.id.dev4;
-      TextView dev4 = ViewBindings.findChildViewById(rootView, id);
-      if (dev4 == null) {
-        break missingId;
-      }
-
-      id = R.id.email1;
-      TextView email1 = ViewBindings.findChildViewById(rootView, id);
-      if (email1 == null) {
-        break missingId;
-      }
-
-      id = R.id.email2;
-      TextView email2 = ViewBindings.findChildViewById(rootView, id);
-      if (email2 == null) {
-        break missingId;
-      }
-
-      id = R.id.email3;
-      TextView email3 = ViewBindings.findChildViewById(rootView, id);
-      if (email3 == null) {
-        break missingId;
-      }
-
-      id = R.id.email4;
-      TextView email4 = ViewBindings.findChildViewById(rootView, id);
-      if (email4 == null) {
-        break missingId;
-      }
-
-      return new ActivityAboutusBinding((ConstraintLayout) rootView, dev1, dev2, dev3, dev4, email1,
-          email2, email3, email4);
+    if (rootView == null) {
+      throw new NullPointerException("rootView");
     }
-    String missingId = rootView.getResources().getResourceName(id);
-    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
+
+    return new ActivityAboutusBinding((ConstraintLayout) rootView);
   }
 }

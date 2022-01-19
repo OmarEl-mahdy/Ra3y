@@ -5,45 +5,53 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.ra3y.R;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ServicesBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final ConstraintLayout rootView;
+
+  @NonNull
+  public final FrameLayout frameLayout;
+
+  @NonNull
+  public final LinearLayout linearLayout;
+
+  @NonNull
+  public final BottomNavigationView navbar;
 
   @NonNull
   public final Button request;
 
   @NonNull
-  public final Button services;
-
-  @NonNull
   public final TextView textView6;
 
-  @NonNull
-  public final Button vaccination;
-
-  private ServicesBinding(@NonNull LinearLayout rootView, @NonNull Button request,
-      @NonNull Button services, @NonNull TextView textView6, @NonNull Button vaccination) {
+  private ServicesBinding(@NonNull ConstraintLayout rootView, @NonNull FrameLayout frameLayout,
+      @NonNull LinearLayout linearLayout, @NonNull BottomNavigationView navbar,
+      @NonNull Button request, @NonNull TextView textView6) {
     this.rootView = rootView;
+    this.frameLayout = frameLayout;
+    this.linearLayout = linearLayout;
+    this.navbar = navbar;
     this.request = request;
-    this.services = services;
     this.textView6 = textView6;
-    this.vaccination = vaccination;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -68,15 +76,27 @@ public final class ServicesBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.request;
-      Button request = ViewBindings.findChildViewById(rootView, id);
-      if (request == null) {
+      id = R.id.frameLayout;
+      FrameLayout frameLayout = ViewBindings.findChildViewById(rootView, id);
+      if (frameLayout == null) {
         break missingId;
       }
 
-      id = R.id.services;
-      Button services = ViewBindings.findChildViewById(rootView, id);
-      if (services == null) {
+      id = R.id.linearLayout;
+      LinearLayout linearLayout = ViewBindings.findChildViewById(rootView, id);
+      if (linearLayout == null) {
+        break missingId;
+      }
+
+      id = R.id.navbar;
+      BottomNavigationView navbar = ViewBindings.findChildViewById(rootView, id);
+      if (navbar == null) {
+        break missingId;
+      }
+
+      id = R.id.request;
+      Button request = ViewBindings.findChildViewById(rootView, id);
+      if (request == null) {
         break missingId;
       }
 
@@ -86,14 +106,8 @@ public final class ServicesBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.vaccination;
-      Button vaccination = ViewBindings.findChildViewById(rootView, id);
-      if (vaccination == null) {
-        break missingId;
-      }
-
-      return new ServicesBinding((LinearLayout) rootView, request, services, textView6,
-          vaccination);
+      return new ServicesBinding((ConstraintLayout) rootView, frameLayout, linearLayout, navbar,
+          request, textView6);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

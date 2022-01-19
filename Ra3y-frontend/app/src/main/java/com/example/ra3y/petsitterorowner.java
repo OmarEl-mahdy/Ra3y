@@ -30,15 +30,14 @@ public class petsitterorowner extends AppCompatActivity {
         powner.setTextColor(Color.rgb(59, 89, 153));
         petsitter.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent nextpage=new Intent(petsitterorowner.this,login.class);
-
+                Intent nextpage=new Intent(petsitterorowner.this,registerSitter.class);
                 nextpage.putExtra("User Type", "petsitter");
                 startActivity(nextpage);
                 finish();            }
         });
         petowner.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent nextpage=new Intent(petsitterorowner.this,login.class);
+                Intent nextpage=new Intent(petsitterorowner.this,register.class);
                 nextpage.putExtra("User Type", "petowner");
                 startActivity(nextpage);
                 finish();            }

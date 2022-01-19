@@ -10,6 +10,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 import java.util.List;
 import java.util.ArrayList;
 import java.util.List;
@@ -53,6 +55,8 @@ public class vaccine extends AppCompatActivity {
     }
 
     private void logout() {
+        FirebaseAuth.getInstance().signOut();
+        startActivity(new Intent(this,login.class));
         Toast.makeText(this, "You have logged out",Toast.LENGTH_SHORT).show();
     }
 

@@ -20,6 +20,8 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 import java.util.Calendar;
 
 public class request extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
@@ -276,6 +278,8 @@ public class request extends AppCompatActivity implements AdapterView.OnItemSele
     }
 
     private void logout() {
+        FirebaseAuth.getInstance().signOut();
+        startActivity(new Intent(this,login.class));
         Toast.makeText(this, "You have logged out",Toast.LENGTH_SHORT).show();
     }
 

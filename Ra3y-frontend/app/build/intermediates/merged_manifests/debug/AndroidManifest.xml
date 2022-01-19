@@ -29,6 +29,9 @@
         android:theme="@style/Theme.Ra3y"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.example.ra3y.registerSitter"
+            android:exported="false" />
+        <activity
             android:name="com.example.ra3y.aboutus"
             android:exported="false" />
         <activity

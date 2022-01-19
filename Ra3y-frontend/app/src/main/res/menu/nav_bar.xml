@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/notification"
+    android:title="Notifications"
+    android:icon="@drawable/ic_baseline_notifications_24"
+    ></item>
+<item
+    android:id="@+id/location"
+    android:title="Launch Maps"
+    android:icon="@drawable/location"
+    ></item>
+
+</menu>

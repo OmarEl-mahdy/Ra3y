@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class sitterRequest extends AppCompatActivity {
 
@@ -79,6 +80,9 @@ public class sitterRequest extends AppCompatActivity {
     }
 
     private void logout() {
+        FirebaseAuth.getInstance().signOut();
+        startActivity(new Intent(this,login.class));
         Toast.makeText(this, "You have logged out",Toast.LENGTH_SHORT).show();
     }
+
 }

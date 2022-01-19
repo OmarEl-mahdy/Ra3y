@@ -11,11 +11,14 @@
         />
     <item
         android:id="@+id/logout"
-        android:title="logout"
-        />
+        android:icon="@drawable/ic_baseline_login_24"
+        android:menuCategory="system"
+        android:title="Logout" />
     <item
         android:id="@+id/aboutus"
+        android:icon="@drawable/ic_baseline_info_24"
         android:title="About Us"
+
         />
 
 
