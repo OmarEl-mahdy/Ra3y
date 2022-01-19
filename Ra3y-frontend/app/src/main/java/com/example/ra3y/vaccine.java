@@ -1,5 +1,6 @@
 package com.example.ra3y;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -10,6 +11,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.List;
@@ -26,6 +28,29 @@ public class vaccine extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.vaccine);
 
+        BottomNavigationView bnv = (BottomNavigationView) findViewById(R.id.navbar);
+
+        bnv.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener(){
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId()){
+                    case R.id.profile:
+                        Intent intent =new Intent(vaccine.this, ownerprofile.class);
+                        startActivity(intent);
+                        break;
+                    case R.id.vacc:
+                        Intent intent1 =new Intent(vaccine.this, vaccine.class);
+                        startActivity(intent1);
+                        break;
+                    case R.id.serv:
+                        Toast.makeText(getApplicationContext(), "Services page coming soon!",Toast.LENGTH_SHORT).show();
+                    default:
+                        break;
+                }
+
+                return false;
+            }
+        });
         // vaccines=getResources().getStringArray(R.array.vaccine_list);
 
     }

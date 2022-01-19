@@ -14,6 +14,7 @@ import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.ra3y.R;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -41,6 +42,9 @@ public final class RequestBinding implements ViewBinding {
   public final Button launch;
 
   @NonNull
+  public final BottomNavigationView navbar;
+
+  @NonNull
   public final TextView requestPrompt;
 
   @NonNull
@@ -60,9 +64,9 @@ public final class RequestBinding implements ViewBinding {
 
   private RequestBinding(@NonNull LinearLayout rootView, @NonNull Button btnFrom,
       @NonNull Button btnTo, @NonNull Button button, @NonNull Spinner citiesSpinner,
-      @NonNull EditText info, @NonNull Button launch, @NonNull TextView requestPrompt,
-      @NonNull TextView tvDuration, @NonNull TextView tvFrom, @NonNull TextView tvLocation,
-      @NonNull TextView tvTo, @NonNull Spinner zonesSpinner) {
+      @NonNull EditText info, @NonNull Button launch, @NonNull BottomNavigationView navbar,
+      @NonNull TextView requestPrompt, @NonNull TextView tvDuration, @NonNull TextView tvFrom,
+      @NonNull TextView tvLocation, @NonNull TextView tvTo, @NonNull Spinner zonesSpinner) {
     this.rootView = rootView;
     this.btnFrom = btnFrom;
     this.btnTo = btnTo;
@@ -70,6 +74,7 @@ public final class RequestBinding implements ViewBinding {
     this.citiesSpinner = citiesSpinner;
     this.info = info;
     this.launch = launch;
+    this.navbar = navbar;
     this.requestPrompt = requestPrompt;
     this.tvDuration = tvDuration;
     this.tvFrom = tvFrom;
@@ -141,6 +146,12 @@ public final class RequestBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.navbar;
+      BottomNavigationView navbar = ViewBindings.findChildViewById(rootView, id);
+      if (navbar == null) {
+        break missingId;
+      }
+
       id = R.id.request_prompt;
       TextView requestPrompt = ViewBindings.findChildViewById(rootView, id);
       if (requestPrompt == null) {
@@ -178,7 +189,7 @@ public final class RequestBinding implements ViewBinding {
       }
 
       return new RequestBinding((LinearLayout) rootView, btnFrom, btnTo, button, citiesSpinner,
-          info, launch, requestPrompt, tvDuration, tvFrom, tvLocation, tvTo, zonesSpinner);
+          info, launch, navbar, requestPrompt, tvDuration, tvFrom, tvLocation, tvTo, zonesSpinner);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

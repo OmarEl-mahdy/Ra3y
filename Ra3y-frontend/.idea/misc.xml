@@ -32,6 +32,7 @@
         <entry key="app/src/main/res/layout/activity_floating_action_button.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_ownerprofile.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_register_sitter.xml" value="0.1625" />
         <entry key="app/src/main/res/layout/activity_sitter_profile.xml" value="0.25" />
@@ -43,6 +44,7 @@
         <entry key="app/src/main/res/layout/request.xml" value="0.1" />
         <entry key="app/src/main/res/layout/services.xml" value="0.25" />
         <entry key="app/src/main/res/layout/vaccine.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/drawer.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/menu/main_menu.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/menu/nav_bar.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/menu/nav_bar_services.xml" value="0.1625" />

@@ -23,6 +23,7 @@ import org.json.JSONObject;
 
 public class services extends AppCompatActivity {
     JSONObject jsonObject;
+    String data;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,9 +33,12 @@ public class services extends AppCompatActivity {
 
 
         Bundle bundle = getIntent().getExtras();
-        String data;
-        data = bundle.getString("Owner Data");
-        Log.d("Data", data.toString());
+
+        try {
+            data = bundle.getString("Owner Data");
+            Log.d("Data", data.toString());
+        }catch(java.lang.RuntimeException e){}
+
         try {
             jsonObject = new JSONObject(data);
             Log.d("name", jsonObject.getString("fname"));
@@ -66,8 +70,14 @@ public class services extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()){
+                    case R.id.profile:
+                        Intent intent =new Intent(services.this, ownerprofile.class);
+                        intent.putExtra("Owner Data",data);
+                        startActivity(intent);
+                        break;
                     case R.id.vacc:
                         Intent intent1 =new Intent(services.this, vaccine.class);
+                        intent1.putExtra("Owner Data",data);
                         startActivity(intent1);
                         break;
                     case R.id.serv:

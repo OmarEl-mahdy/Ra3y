@@ -1,5 +1,6 @@
 package com.example.ra3y;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.DatePickerDialog;
@@ -20,6 +21,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.Calendar;
@@ -59,6 +61,31 @@ public class request extends AppCompatActivity implements AdapterView.OnItemSele
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.request);
+
+        BottomNavigationView bnv = (BottomNavigationView) findViewById(R.id.navbar);
+
+        bnv.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener(){
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId()){
+                    case R.id.profile:
+                        Intent intent =new Intent(request.this, ownerprofile.class);
+                        startActivity(intent);
+                        break;
+                    case R.id.vacc:
+                        Intent intent1 =new Intent(request.this, vaccine.class);
+                        startActivity(intent1);
+                        break;
+                    case R.id.serv:
+                        Toast.makeText(getApplicationContext(), "Services page coming soon!",Toast.LENGTH_SHORT).show();
+                    default:
+                        break;
+                }
+
+                return false;
+            }
+        });
+
 
         //location = (EditText) findViewById(R.id.location);
         //duration= (EditText) findViewById(R.id.tv_duration);

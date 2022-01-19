@@ -37,6 +37,8 @@ anim nav_default_enter_anim
 anim nav_default_exit_anim
 anim nav_default_pop_enter_anim
 anim nav_default_pop_exit_anim
+anim slide_in
+anim slide_out
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -1996,6 +1998,7 @@ drawable ic_baseline_business_center_24
 drawable ic_baseline_info_24
 drawable ic_baseline_login_24
 drawable ic_baseline_notifications_24
+drawable ic_baseline_person_pin_24
 drawable ic_baseline_pets_24
 drawable ic_baseline_shopping_cart_24
 drawable ic_clock_black_24dp
@@ -2489,6 +2492,7 @@ id powner
 id price
 id pricefield
 id priceperhour
+id profile
 id progressBar
 id progressBar2
 id progress_circular
@@ -2758,6 +2762,7 @@ layout activity_floating_action_button
 layout activity_forgetpass
 layout activity_login
 layout activity_main
+layout activity_ownerprofile
 layout activity_register
 layout activity_register_sitter
 layout activity_sitter_profile
@@ -2889,6 +2894,7 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 layout vaccine
+menu drawer
 menu example_menu
 menu example_menu2
 menu main_menu

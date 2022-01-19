@@ -12,6 +12,7 @@ import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.ra3y.R;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -39,6 +40,9 @@ public final class VaccineBinding implements ViewBinding {
   public final LinearLayout linearLayout4;
 
   @NonNull
+  public final BottomNavigationView navbar;
+
+  @NonNull
   public final TextView textView;
 
   @NonNull
@@ -47,7 +51,8 @@ public final class VaccineBinding implements ViewBinding {
   private VaccineBinding(@NonNull LinearLayout rootView, @NonNull CheckBox cbVaccine1,
       @NonNull CheckBox cbVaccine2, @NonNull CheckBox cbVaccine3, @NonNull CheckBox cbVaccine4,
       @NonNull LinearLayout linearLayout2, @NonNull LinearLayout linearLayout4,
-      @NonNull TextView textView, @NonNull TextView textView3) {
+      @NonNull BottomNavigationView navbar, @NonNull TextView textView,
+      @NonNull TextView textView3) {
     this.rootView = rootView;
     this.cbVaccine1 = cbVaccine1;
     this.cbVaccine2 = cbVaccine2;
@@ -55,6 +60,7 @@ public final class VaccineBinding implements ViewBinding {
     this.cbVaccine4 = cbVaccine4;
     this.linearLayout2 = linearLayout2;
     this.linearLayout4 = linearLayout4;
+    this.navbar = navbar;
     this.textView = textView;
     this.textView3 = textView3;
   }
@@ -122,6 +128,12 @@ public final class VaccineBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.navbar;
+      BottomNavigationView navbar = ViewBindings.findChildViewById(rootView, id);
+      if (navbar == null) {
+        break missingId;
+      }
+
       id = R.id.textView;
       TextView textView = ViewBindings.findChildViewById(rootView, id);
       if (textView == null) {
@@ -135,7 +147,7 @@ public final class VaccineBinding implements ViewBinding {
       }
 
       return new VaccineBinding((LinearLayout) rootView, cbVaccine1, cbVaccine2, cbVaccine3,
-          cbVaccine4, linearLayout2, linearLayout4, textView, textView3);
+          cbVaccine4, linearLayout2, linearLayout4, navbar, textView, textView3);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
