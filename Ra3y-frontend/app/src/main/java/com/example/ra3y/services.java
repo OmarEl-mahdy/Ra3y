@@ -24,6 +24,7 @@ import org.json.JSONObject;
 public class services extends AppCompatActivity {
     JSONObject jsonObject;
     String data;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,7 +33,7 @@ public class services extends AppCompatActivity {
         Button request_button = (Button)findViewById(R.id.request);
 
 
-<<<<<<< Updated upstream
+//
 //        Bundle bundle = getIntent().getExtras();
 //
 //        try {
@@ -52,10 +53,10 @@ public class services extends AppCompatActivity {
 //            e.printStackTrace();
 //        }
 //
-=======
+//
 
 
->>>>>>> Stashed changes
+//
 
         request_button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -78,26 +79,18 @@ public class services extends AppCompatActivity {
                 switch (item.getItemId()){
                     case R.id.profile:
                         Intent intent =new Intent(services.this, ownerprofile.class);
-<<<<<<< Updated upstream
 //                        intent.putExtra("Owner Data",data);
-=======
->>>>>>> Stashed changes
                         startActivity(intent);
                         break;
                     case R.id.vacc:
                         Intent intent1 =new Intent(services.this, vaccine.class);
-<<<<<<< Updated upstream
 //                        intent1.putExtra("Owner Data",data);
-=======
->>>>>>> Stashed changes
+
                         startActivity(intent1);
                         break;
                     case R.id.serv:
                         Intent intent2 =new Intent(services.this, shopsServices.class);
-<<<<<<< Updated upstream
 //                        intent2.putExtra("Owner Data",data);
-=======
->>>>>>> Stashed changes
                         startActivity(intent2);
                         break;
                     case R.id.addpets:

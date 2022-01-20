@@ -91,7 +91,9 @@ public class registerSitter extends AppCompatActivity {
             public void onClick(View v) {
                 Intent nextpage=new Intent(registerSitter.this,login.class);
                 startActivity(nextpage);
-                finish();            }
+                finish();
+
+            }
         });
 
         EditText FirstName = (EditText) findViewById(R.id.FirstName);
@@ -181,17 +183,16 @@ public class registerSitter extends AppCompatActivity {
             pg.setVisibility(View.GONE);
             Intent backToLogin = new Intent(getApplicationContext(),login.class);
             backToLogin.putExtra("User Type",data);
+            FirebaseAuth.getInstance().signOut();
             startActivity(backToLogin);
             finish();
         }
         //###############################
-
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
         }
         //#####################################
-
         @Override
         protected String doInBackground(String... params) {
                 Log.d("Inside Background", params[0]);

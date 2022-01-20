@@ -46,7 +46,7 @@ public class sitterProfile extends AppCompatActivity {
     final private String EmulatorIP = "10.0.2.2";
     final private String myIP = "192.168.1.10";
 
-    final private String DeviceIP = EmulatorIP;
+    final private String DeviceIP = myIP;
     final private  String portNo = "3000";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -101,6 +101,7 @@ public class sitterProfile extends AppCompatActivity {
 //                        Intent chooser =Intent.createChooser(intent, "Launch Maps");
 //                        startActivity(chooser);
                         Intent nextpage=new Intent(sitterProfile.this,Mapss.class);
+                        nextpage.putExtra("activity", "sitterProfile");
                         startActivity(nextpage);
                         finish();
                         break;

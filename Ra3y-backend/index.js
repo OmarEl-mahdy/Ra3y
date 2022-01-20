@@ -203,11 +203,49 @@ router.post("/makeRequest", function (req, res) {
 
     let body = req.body;
 
-    let sitteruid = req.sitteruid;
-    let owneruid = req.owneruid;
-    let info = req.info;
+    let sitteruid = req.body.sitteruid;
+    let owneruid = req.body.owneruid;
+    let info = req.body.info;
 
-    let sqlQuery = "INSERT INTO `ownersitterrequest`(`sitteruid`,`owneruid`,`info`) VALUES('" + sitteruid + "', '" + owneruid + "','" + info + ");"
+    let sqlQuery = "INSERT INTO `ownersitterrequest`(`sitteruid`,`owneruid`,`info`) VALUES('" + sitteruid + "', '" + owneruid + "','" + info + "');"
+    db.query(sqlQuery, function (err, result) {
+
+        if (err) {
+            res.send(err);
+            throw err;
+        } else {
+            console.log("Result", JSON.stringify(result));
+            try {
+                let data = {
+                    "Status": "Success",
+                    result
+                };
+                res.json(data);
+            } catch (exception) {
+                res.status(500).json(JSON.stringify(exception));
+            }
+        }
+    });
+
+
+
+
+
+});
+
+
+
+
+router.post("/getmakeRequest", function (req, res) {
+
+
+    //""" This API is responsible for creating record for request between owner and sitter """
+
+    let body = req.body;
+
+    let sitteruid = req.body.sitteruid;
+ 		  
+    let sqlQuery = "SELECT * FROM `ownersitterrequest` WHERE sitteruid = '"+sitteruid+"';"
     db.query(sqlQuery, function (err, result) {
 
         if (err) {
@@ -371,6 +409,34 @@ router.post("/getaddress", function (req, res) {
         }
     });
 });
+
+/* **** */
+// API 13
+// get nearest location
+/* **** */
+router.post("/getNearestSitters", function (req, res) {
+   
+
+   let longitude = req.body.longitude;
+   let latitude = req.body.latitude;
+   let sql = "SELECT sitter.uid, ( 6371 * acos( cos( radians( '" + latitude + "') ) * cos( radians( sitter.latitudes ) ) * cos( radians( sitter.longitudes ) - radians( '" + longitude + "') ) + sin( radians('" +latitude+"') ) * sin( radians( sitter.latitudes ) ) ) ) AS distance FROM sitter HAVING distance < 30 ORDER BY distance LIMIT 0 , 20;"
+
+    db.query(sql,function (err, result) {
+        console.log("Result: " + JSON.stringify(result));
+        if (err) {
+            return res.send(err);
+        } else {
+          
+        
+            // Your code here 
+            // You can use res.json(result); to send all data as a response 
+            return res.json(result);
+        }
+    });
+});
+
+
+
 
 
 

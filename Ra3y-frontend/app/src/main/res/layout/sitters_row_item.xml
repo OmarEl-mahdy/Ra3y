@@ -1,35 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GridLayout
+    <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent"
-    >
+    android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/SitterName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:text="Name:"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/SitterEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:text="Email:"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/Sitteryearsofexperience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:text="Years of Experience:"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/SitterPricePerHour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:text="Price Per Hour:"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="70dp"
-        android:textSize="10dp"
-        android:textColor="@color/black"
-        android:id="@+id/SitterName"
-        android:gravity="left"
-        android:paddingRight="10dp"
-        android:textStyle="bold"
-        android:background="@color/white"
-        />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="70dp"
-        android:textSize="10dp"
-        android:textColor="@color/black"
-        android:id="@+id/SitterLocation"
-        android:textStyle="bold"
-        android:gravity="center"
-        android:paddingLeft="10dp"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="70dp"
-        android:textSize="10dp"
-        android:textColor="@color/black"
-        android:id="@+id/SitterPricePerHour"
-        android:textStyle="bold"
-        android:gravity="right"
-        android:paddingLeft="10dp"/>
-</GridLayout>
+        android:layout_height="wrap_content">
+    </TextView>
+
+
+</LinearLayout>
+
+

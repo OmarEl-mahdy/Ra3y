@@ -8,7 +8,9 @@ import android.app.Dialog;
 import android.content.Intent;
 import android.graphics.Color;
 import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.AdapterView;
@@ -24,13 +26,29 @@ import android.widget.Toast;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.BufferedReader;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.Calendar;
 
 public class request extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
     private static final int FROM = 0;
     private static final int TO = 1;
-
+    private JSONArray returnedDataSitter = new JSONArray();
+    final private String EmulatorIP = "10.0.2.2";
+    final private String myIP = "192.168.1.10";
+    final private String DeviceIP = myIP;
+    final private  String portNo = "3000";
     String Location,
             Duration,
             text;
@@ -56,7 +74,10 @@ public class request extends AppCompatActivity implements AdapterView.OnItemSele
     ArrayAdapter<CharSequence> city_spinner_adapter;
     ArrayAdapter<CharSequence> zone_spinner_adapter;
     String[] zones;
-
+    Bundle bundle;
+    String data;
+    String longitude, latitude;
+API_handler api_handler;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -86,6 +107,17 @@ public class request extends AppCompatActivity implements AdapterView.OnItemSele
             }
         });
 
+        try{
+
+            bundle = getIntent().getExtras();
+            longitude = bundle.getString("longitude");
+            latitude = bundle.getString("latitude");
+            Log.d("long",longitude);
+            Log.d("lat",latitude);
+
+        }catch (RuntimeException e){
+
+        }
 
         //location = (EditText) findViewById(R.id.location);
         //duration= (EditText) findViewById(R.id.tv_duration);
@@ -110,7 +142,9 @@ public class request extends AppCompatActivity implements AdapterView.OnItemSele
             @Override
             public void onClick(View v) {
                 Intent nextpage=new Intent(request.this,Mapss.class);
+                nextpage.putExtra("activity", "request");
                 startActivity(nextpage);
+
                 finish();
 //                intent.setData(Uri.parse("geo:47.4925,19.0513"));
 //                Intent chooser = Intent.createChooser(intent, "Launch Maps");
@@ -118,7 +152,6 @@ public class request extends AppCompatActivity implements AdapterView.OnItemSele
             }
         });
         spinner_city = (Spinner) findViewById(R.id.cities_spinner);
-
         city_spinner_adapter = ArrayAdapter.createFromResource(this,
                 R.array.cities_array,
                 android.R.layout.simple_spinner_item);
@@ -165,7 +198,9 @@ public class request extends AppCompatActivity implements AdapterView.OnItemSele
                 //  showToast(Location);
                 //showToast(Duration);
                 //showToast(text);
-                startActivity(new Intent(getApplicationContext(), sittersList.class));
+                api_handler = new API_handler();
+                api_handler.execute();
+
             }
         });
     }
@@ -185,6 +220,96 @@ public class request extends AppCompatActivity implements AdapterView.OnItemSele
         }
 
     }
+
+    //##########################################################
+    private class API_handler extends AsyncTask<String,String,String> {
+
+        Boolean isSitter = true;
+        Boolean isOwner = true;
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+
+        }
+
+        @Override
+        protected void onPostExecute(String s) {
+            super.onPostExecute(s);
+            Intent nextpage = new Intent(getApplicationContext(), sittersList.class);
+            nextpage.putExtra("Sitters", returnedDataSitter.toString());
+            nextpage.putExtra("Info", info.getText().toString().trim());
+            startActivity(nextpage);
+            finish();
+
+
+
+        }
+        //#########################
+        @Override
+        protected String doInBackground(String... strings) {
+            getSitterInfo();
+            return null;
+        }
+        //###################################
+        private void getSitterInfo(){
+            //  """ This method is responsible for retrieving data for Sitter Info """
+            HttpURLConnection connection = null;
+            BufferedReader reader = null;
+            Boolean NonEmptySMS = false;
+
+            //   while(!NonEmptySMS) {
+            try {
+                Log.d("HERE","inside get ALL");
+                URL url = new URL("http://"+DeviceIP+":"+portNo+"/getallsitterusers");
+                connection = (HttpURLConnection) url.openConnection();
+                connection.setRequestMethod("GET");
+                connection.connect();
+                InputStream stream = connection.getInputStream();
+                reader = new BufferedReader(new InputStreamReader(stream));
+
+                StringBuffer buffer = new StringBuffer();
+                String line = "";
+
+                while ((line = reader.readLine()) != null) {
+                    buffer.append(line + "\n");
+                    Log.d("Full JSON file", line);
+                }
+                JSONObject JReader = new JSONObject(buffer.toString());
+                JSONArray JArray = JReader.getJSONArray("result");
+                returnedDataSitter = JArray;
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                Log.d("HERE", "doInBackground: Inside Exception ");
+                e.printStackTrace();
+            }
+            catch (JSONException e) {
+                Log.d("JSONException",e.toString());
+
+
+            }
+            finally {
+                if (connection != null) {
+                    connection.disconnect();
+                }
+                try {
+                    if (reader != null) {
+                        reader.close();
+                    }
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+
+        }
+
+        //############################
+
+    }
+
+
+    //############################################################
 
     @Override
     protected Dialog onCreateDialog(int id) {

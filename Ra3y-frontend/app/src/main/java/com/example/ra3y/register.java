@@ -72,7 +72,7 @@ public class register extends AppCompatActivity {
     final private String myIP = "192.168.1.10";
 
     final private String EmulatorIP = "10.0.2.2";
-    final private String DeviceIP = EmulatorIP;
+    final private String DeviceIP = myIP;
 
     final private  String portNo = "3000";
     EditText FirstName;
@@ -101,7 +101,10 @@ public class register extends AppCompatActivity {
             public void onClick(View v) {
                 Intent nextpage=new Intent(register.this,login.class);
                 startActivity(nextpage);
-                finish();            }
+                finish();
+
+
+            }
         });
 
         EditText FirstName = (EditText) findViewById(R.id.FirstName);
@@ -193,7 +196,10 @@ public class register extends AppCompatActivity {
             pg.setVisibility(View.GONE);
             Intent backToLogin = new Intent(getApplicationContext(),login.class);
             backToLogin.putExtra("User Type",data);
+            FirebaseAuth.getInstance().signOut();
+
             startActivity(backToLogin);
+
             finish();
         }
         //###############################

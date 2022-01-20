@@ -22,6 +22,9 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="m">
         <activity
+            android:name=".requesters_list"
+            android:exported="false" />
+        <activity
             android:name=".loading"
             android:exported="false" />
         <activity
@@ -98,7 +101,6 @@
         <activity
             android:name=".Mapss"
             android:exported="false" />
-
         <activity
             android:name=".acceptor"
             android:exported="false" />

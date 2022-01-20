@@ -41,6 +41,9 @@
         android:theme="@style/Theme.Ra3y"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.example.ra3y.requesters_list"
+            android:exported="false" />
+        <activity
             android:name="com.example.ra3y.loading"
             android:exported="false" />
         <activity

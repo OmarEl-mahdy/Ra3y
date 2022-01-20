@@ -58,7 +58,8 @@ public class Mapss extends AppCompatActivity implements OnMapReadyCallback, Goog
     boolean perminted;
     GoogleMap map;
     FloatingActionButton fab;
-    Button proceed;
+    Button proceed, cont;
+    String activityType;
     private FusedLocationProviderClient mlocation;
     String longitude, latitude, addr;
     private final CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
@@ -69,6 +70,9 @@ public class Mapss extends AppCompatActivity implements OnMapReadyCallback, Goog
         checkpermission();
         fab=findViewById(R.id.fab);
         init();
+
+        Bundle bundle = getIntent().getExtras();
+        activityType =  bundle.getString("activity");
         mlocation=new FusedLocationProviderClient(this);
         proceed = findViewById(R.id.proceed);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -77,16 +81,31 @@ public class Mapss extends AppCompatActivity implements OnMapReadyCallback, Goog
                 getloc();
             }
         });
-        proceed.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent loading = new Intent(getApplicationContext(), com.example.ra3y.loading.class);
-                loading.putExtra("address", addr);
-                loading.putExtra("longitude", longitude);
-                loading.putExtra("latitude", latitude);
-                startActivity(loading);
-            }
-        });
+
+        if (activityType.equals("request")){
+            proceed.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent loading = new Intent(getApplicationContext(), com.example.ra3y.request.class);
+                    loading.putExtra("address", addr);
+                    loading.putExtra("longitude", longitude);
+                    loading.putExtra("latitude", latitude);
+                    startActivity(loading);
+                }
+            });
+        }else if (activityType.equals("sitterProfile")){
+            proceed.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent loading = new Intent(getApplicationContext(), com.example.ra3y.loading.class);
+                    loading.putExtra("address", addr);
+                    loading.putExtra("longitude", longitude);
+                    loading.putExtra("latitude", latitude);
+                    startActivity(loading);
+                }
+            });
+
+        }
     }
     //#############################
     private class API_handler extends AsyncTask<String,String,String>{

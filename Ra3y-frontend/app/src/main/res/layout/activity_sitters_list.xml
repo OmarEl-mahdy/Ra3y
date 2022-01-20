@@ -1,30 +1,63 @@
-<RelativeLayout
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".sittersList"
-    android:id="@+id/sList"
-    android:paddingBottom="16dp"
-    android:paddingLeft="6dp"
-    android:paddingRight="6dp"
-    android:background="@color/white">
+    android:orientation="vertical"
+    >
     <TextView
-        android:id="@+id/sittersListTitle"
-        android:layout_width="match_parent"
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
+
+        android:text="Requests:"
         android:textColor="@color/black"
-        android:text="Available Pet Sitters"
-        android:textSize="25dp"
-        android:textStyle="bold"/>
-
-    <ListView
-        android:id="@android:id/list"
-        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/rName"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/sittersListTitle"
-        android:choiceMode="singleChoice"
-        android:divider="@color/black" />
 
-</RelativeLayout>
+        android:text="Name:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/remail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Email:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/rinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Info:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/rphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Phone Number:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+
+</LinearLayout>

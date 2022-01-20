@@ -4,7 +4,7 @@ package com.example.ra3y.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.GridLayout;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -17,10 +17,10 @@ import java.lang.String;
 
 public final class SittersRowItemBinding implements ViewBinding {
   @NonNull
-  private final GridLayout rootView;
+  private final LinearLayout rootView;
 
   @NonNull
-  public final TextView SitterLocation;
+  public final TextView SitterEmail;
 
   @NonNull
   public final TextView SitterName;
@@ -28,17 +28,22 @@ public final class SittersRowItemBinding implements ViewBinding {
   @NonNull
   public final TextView SitterPricePerHour;
 
-  private SittersRowItemBinding(@NonNull GridLayout rootView, @NonNull TextView SitterLocation,
-      @NonNull TextView SitterName, @NonNull TextView SitterPricePerHour) {
+  @NonNull
+  public final TextView Sitteryearsofexperience;
+
+  private SittersRowItemBinding(@NonNull LinearLayout rootView, @NonNull TextView SitterEmail,
+      @NonNull TextView SitterName, @NonNull TextView SitterPricePerHour,
+      @NonNull TextView Sitteryearsofexperience) {
     this.rootView = rootView;
-    this.SitterLocation = SitterLocation;
+    this.SitterEmail = SitterEmail;
     this.SitterName = SitterName;
     this.SitterPricePerHour = SitterPricePerHour;
+    this.Sitteryearsofexperience = Sitteryearsofexperience;
   }
 
   @Override
   @NonNull
-  public GridLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -63,9 +68,9 @@ public final class SittersRowItemBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.SitterLocation;
-      TextView SitterLocation = ViewBindings.findChildViewById(rootView, id);
-      if (SitterLocation == null) {
+      id = R.id.SitterEmail;
+      TextView SitterEmail = ViewBindings.findChildViewById(rootView, id);
+      if (SitterEmail == null) {
         break missingId;
       }
 
@@ -81,8 +86,14 @@ public final class SittersRowItemBinding implements ViewBinding {
         break missingId;
       }
 
-      return new SittersRowItemBinding((GridLayout) rootView, SitterLocation, SitterName,
-          SitterPricePerHour);
+      id = R.id.Sitteryearsofexperience;
+      TextView Sitteryearsofexperience = ViewBindings.findChildViewById(rootView, id);
+      if (Sitteryearsofexperience == null) {
+        break missingId;
+      }
+
+      return new SittersRowItemBinding((LinearLayout) rootView, SitterEmail, SitterName,
+          SitterPricePerHour, Sitteryearsofexperience);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
