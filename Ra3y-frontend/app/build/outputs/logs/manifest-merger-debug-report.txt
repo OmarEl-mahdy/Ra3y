@@ -1,112 +1,9 @@
 -- Merging decision tree log ---
 manifest
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:2:1-110:12
-INJECTED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:2:1-110:12
-INJECTED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:2:1-110:12
-INJECTED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:2:1-110:12
-MERGED from [androidx.databinding:viewbinding:7.0.4] C:\Users\OmarMahdy\.gradle\caches\transforms-3\f10faeb32219776ce9423c17d4f938c4\transformed\jetified-viewbinding-7.0.4\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\OmarMahdy\.gradle\caches\transforms-3\e146d79a02da236d44613d8261a873d0\transformed\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
-MERGED from [com.firebaseui:firebase-ui-auth:6.4.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\20cc520c5a312067f3420514f552fe0d\transformed\jetified-firebase-ui-auth-6.4.0\AndroidManifest.xml:2:1-109:12
-MERGED from [com.karumi:dexter:6.2.2] C:\Users\OmarMahdy\.gradle\caches\transforms-3\a92acb7e80e49279fa83b1593485c1d7\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:17:1-32:12
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\589b32396052d18877318a856258023a\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\OmarMahdy\.gradle\caches\transforms-3\28e3a813f938e7c91d7b2d09f3ddc212\transformed\constraintlayout-2.1.2\AndroidManifest.xml:2:1-11:12
-MERGED from [io.github.medyo:android-about-page:2.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\df5a676d75b6f6398f01ee05994f7210\transformed\jetified-android-about-page-2.0.0\AndroidManifest.xml:2:1-11:12
-MERGED from [me.zhanghai.android.materialprogressbar:library:1.6.1] C:\Users\OmarMahdy\.gradle\caches\transforms-3\fe0bb87ff899d3deb2291c27eda2a6bc\transformed\jetified-library-1.6.1\AndroidManifest.xml:6:1-15:12
-MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\OmarMahdy\.gradle\caches\transforms-3\daec56630d897aa40e0fc6356687505b\transformed\appcompat-1.4.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\OmarMahdy\.gradle\caches\transforms-3\82be603b245fcc175f280f81de18153a\transformed\navigation-fragment-2.3.5\AndroidManifest.xml:17:1-24:12
-MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.10] C:\Users\OmarMahdy\.gradle\caches\transforms-3\88f88d60a83944aa9453483e84f71e9e\transformed\jetified-android-gif-drawable-1.2.10\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.volley:volley:1.1.1] C:\Users\OmarMahdy\.gradle\caches\transforms-3\e109e92afc185bec24398c74278d1f21\transformed\jetified-volley-1.1.1\AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.firebase:firebase-auth:20.0.2] C:\Users\OmarMahdy\.gradle\caches\transforms-3\c36abe6006966f37a8c3d766bfb8c89a\transformed\jetified-firebase-auth-20.0.2\AndroidManifest.xml:17:1-83:12
-MERGED from [com.google.firebase:firebase-messaging:21.0.1] C:\Users\OmarMahdy\.gradle\caches\transforms-3\7a42d2169cb915919354b0722aeaa5fa\transformed\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:17:1-45:12
-MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\87ddea27f1d99b4028f467a9f26e0cb7\transformed\jetified-circleimageview-3.0.0\AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\OmarMahdy\.gradle\caches\transforms-3\c3a3ed2d1a2be36b309082f21adb4339\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:17:1-44:12
-MERGED from [com.google.android.gms:play-services-location:19.0.1] C:\Users\OmarMahdy\.gradle\caches\transforms-3\2ac1ec445fb9bea5572638e0f58b5df4\transformed\jetified-play-services-location-19.0.1\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-datatransport:17.0.10] C:\Users\OmarMahdy\.gradle\caches\transforms-3\b903796ac2c629d99f7d8a01e132d946\transformed\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:15:1-34:12
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\OmarMahdy\.gradle\caches\transforms-3\92d514d2901f2a96fc5535e77f20a074\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:15:1-38:12
-MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\2f5aa744aee82b3ceb907104cef7fbc4\transformed\jetified-firebase-encoders-json-17.1.0\AndroidManifest.xml:15:1-23:12
-MERGED from [com.google.firebase:firebase-iid:21.0.1] C:\Users\OmarMahdy\.gradle\caches\transforms-3\861af93cbb7edafed97b33cf6562c1fa\transformed\jetified-firebase-iid-21.0.1\AndroidManifest.xml:17:1-47:12
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\b72c6e768fe83261b0d142d7cce91310\transformed\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.firebase:firebase-installations:16.3.5] C:\Users\OmarMahdy\.gradle\caches\transforms-3\b044feb6daa077fe356c0f92d0572153\transformed\jetified-firebase-installations-16.3.5\AndroidManifest.xml:2:1-24:12
-MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\4d248757365d8a02cf2748f792245f0a\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:15:1-49:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\d49deba57dc5acfb9d73d2e364b26d8a\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\2d33d1c9de40b62bddea953837e1882c\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:17:1-39:12
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\441b075ce53edb3abd11e16392aeb5bd\transformed\lifecycle-extensions-2.1.0\AndroidManifest.xml:17:1-25:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\7abc93721ba4101603e7287563af27ac\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\1b7a4559f7dd35084564955f3da7575d\transformed\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\95994d7dd271764a28bb2d29428b9481\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\4f9b6abff5e1051c57e3f05018323824\transformed\jetified-play-services-auth-base-17.0.0\AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\ad99cdeb130218a07c262f77b1354f8a\transformed\jetified-firebase-iid-interop-17.0.0\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\OmarMahdy\.gradle\caches\transforms-3\d98319f7b7726cf12a32e24850696daa\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\eb9658c36d40978c50c99e1a2927f8b9\transformed\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\87779526bbb34c2496fe5bcbc6af30e1\transformed\jetified-play-services-cloud-messaging-16.0.0\AndroidManifest.xml:2:1-13:12
-MERGED from [com.google.firebase:firebase-installations-interop:16.0.1] C:\Users\OmarMahdy\.gradle\caches\transforms-3\25ff98347dfa7bfbbb7b6cca14e76441\transformed\jetified-firebase-installations-interop-16.0.1\AndroidManifest.xml:15:1-23:12
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\OmarMahdy\.gradle\caches\transforms-3\825dff27a92740588b117adf4865ecfe\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\878e1b5210eef14922d2c666dbfa6d02\transformed\jetified-play-services-stats-17.0.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\c27fd8044e9995f69cb1cbf217afbe17\transformed\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\d90cdb58c1d76d5627b1a46b3fa36cf9\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:16:1-26:12
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\OmarMahdy\.gradle\caches\transforms-3\0d8194353c3032b4bd7ae28a49a4eb24\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\OmarMahdy\.gradle\caches\transforms-3\290938c7927989948d0ddb00a0bc32b8\transformed\navigation-runtime-2.3.5\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.2.4] C:\Users\OmarMahdy\.gradle\caches\transforms-3\0e8483c91698e9e8a8efded3339fbc51\transformed\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\OmarMahdy\.gradle\caches\transforms-3\e5a7133a9ac34e6c6cf4392a8302551a\transformed\jetified-appcompat-resources-1.4.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\08ffc0541dbc55324bcfef7f899f3c7a\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\b2af1edf84156eeeb2fa5bf18dab98cc\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:17:1-37:12
-MERGED from [androidx.browser:browser:1.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\86058889edce206a8998aeadd66a1fc8\transformed\browser-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\46769bcb40eb14d1e7a101a54f319724\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\7a97005fc3cc2c2b60d03948918a67ab\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\6158c884484f3133ea657e6c3051ecfa\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\76dd29f08e5b8f6a185d76b75fe75d87\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\88d760f78eb972e444fccdc054e33dfa\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\OmarMahdy\.gradle\caches\transforms-3\d829e70d3a35e309f4449c77e07d44eb\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.transition:transition:1.3.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\2b76b1c69abe16dc4c8d1fb4145b6966\transformed\transition-1.3.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\bbb1d793fe32e8ea0e42e8562eb189b0\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\34da16567ae8ba35a1a3e44af5c76063\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\db0d750adc733c3ecd23caa25bd0a513\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\d602d2398d9ec56c8bd52068d60fda14\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\fd232f76444881f5128d09f0be164816\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\037e09ec7dd9a0c86d28f37883f9421e\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\OmarMahdy\.gradle\caches\transforms-3\e0dea349137cc2c438db2ac7e5362022\transformed\navigation-common-2.3.5\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.media:media:1.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\b96f3b45b228c148d0169392fcfc0cfa\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\e0b815dc044b1bfb07ed985aa4a3d9af\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\b16243e5ff2ca0c82c13db3a89df6451\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.7.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\8fff248dbe0397cca10a959cecdafd82\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\0ecbe32299dd6c484f051159e30f6f06\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\OmarMahdy\.gradle\caches\transforms-3\b021c077069cf172813e68e076c65e82\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\83fe705c0f98a9db977493fae4553fee\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\OmarMahdy\.gradle\caches\transforms-3\1af63486f2114969ac1bd730eb0dd975\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\1b6f12a86a42a0b317dc735600301a43\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\a0033f00b6499fd57f6eacac8720b1e5\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\3e8246fade7af9c31e65b763c0cf224a\transformed\jetified-firebase-components-16.1.0\AndroidManifest.xml:15:1-23:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\OmarMahdy\.gradle\caches\transforms-3\e463cd3c6b61f055c59cb5cf56cf08c6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\beb33912b30d23b4d0ccfbce77f07f56\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\f0c9d12543ee0876b617e65cdae8aba2\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\8ee86156a852c397ba8305ce4aa6c52f\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\0a5a64eb9317ac727f124434471f8caa\transformed\lifecycle-livedata-2.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\OmarMahdy\.gradle\caches\transforms-3\736f11ef0ea39b2cf4730646875e5bcb\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\53401ec08c05d302f40f3264ffdc032b\transformed\jetified-lifecycle-service-2.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\a6ef6cd454294b69da381a78af757ffb\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\03441668a670d09fcdde881bed09eec6\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\71c8ff44e1ba645a496aae932ef9a637\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\OmarMahdy\.gradle\caches\transforms-3\f50e19f0b758aa34c0f9c5dea87621bc\transformed\jetified-transport-runtime-2.2.5\AndroidManifest.xml:15:1-41:12
-MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\OmarMahdy\.gradle\caches\transforms-3\9ab98797f4c3e957557f472d416345e2\transformed\jetified-transport-api-2.2.1\AndroidManifest.xml:15:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\b22fc9a73cccfaf8b4129045c998d860\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\3a5a5d9934e2c57dd8d5c8a079d2e2b4\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\d66993e727816c8ff7896b7937150dab\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:2:1-110:12
-INJECTED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:2:1-110:12
-INJECTED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:2:1-110:12
-=======
-ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-95:12
-INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-95:12
-INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-95:12
-INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-95:12
-=======
-ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-101:12
-INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-101:12
-INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-101:12
-INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-101:12
->>>>>>> Stashed changes
+ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-111:12
+INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-111:12
+INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-111:12
+INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-111:12
 MERGED from [androidx.databinding:viewbinding:7.0.4] /home/mohamedashraf/.gradle/caches/transforms-3/f10faeb32219776ce9423c17d4f938c4/transformed/jetified-viewbinding-7.0.4/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-ui:2.3.5] /home/mohamedashraf/.gradle/caches/transforms-3/e146d79a02da236d44613d8261a873d0/transformed/navigation-ui-2.3.5/AndroidManifest.xml:17:1-24:12
 MERGED from [com.firebaseui:firebase-ui-auth:6.4.0] /home/mohamedashraf/.gradle/caches/transforms-3/20cc520c5a312067f3420514f552fe0d/transformed/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:2:1-109:12
@@ -194,42 +91,23 @@ MERGED from [com.google.android.datatransport:transport-api:2.2.1] /home/mohamed
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/mohamedashraf/.gradle/caches/transforms-3/b22fc9a73cccfaf8b4129045c998d860/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /home/mohamedashraf/.gradle/caches/transforms-3/3a5a5d9934e2c57dd8d5c8a079d2e2b4/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/mohamedashraf/.gradle/caches/transforms-3/d66993e727816c8ff7896b7937150dab/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-<<<<<<< Updated upstream
-INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-95:12
-INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-95:12
-INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-95:12
->>>>>>> c5cb3a96efaabfd40008aa7c236b98a45b89b689
-=======
-INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-101:12
-INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-101:12
-INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-101:12
->>>>>>> Stashed changes
+INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-111:12
+INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-111:12
+INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-111:12
 	package
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:4:5-31
 		INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml
 		INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml
 	android:versionName
-<<<<<<< HEAD
-		INJECTED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:2:1-110:12
-		INJECTED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml
-=======
 		INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-101:12
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-111:12
 		INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml
->>>>>>> c5cb3a96efaabfd40008aa7c236b98a45b89b689
 	xmlns:tools
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-<<<<<<< HEAD
-		INJECTED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:2:1-110:12
-		INJECTED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml
-=======
 		INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-101:12
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:1-111:12
 		INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml
->>>>>>> c5cb3a96efaabfd40008aa7c236b98a45b89b689
 	xmlns:android
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
@@ -275,27 +153,11 @@ ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/R
 	android:name
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:8:22-64
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:9:5-79
-=======
-ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:9:5-78
->>>>>>> c5cb3a96efaabfd40008aa7c236b98a45b89b689
-	android:name
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:9:22-76
-uses-permission#android.permission.ACCESS_COARSE_LOCATION
-<<<<<<< HEAD
-ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:10:5-81
-=======
-ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:10:5-80
->>>>>>> c5cb3a96efaabfd40008aa7c236b98a45b89b689
-=======
 ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:9:5-79
 	android:name
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:9:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:10:5-81
->>>>>>> Stashed changes
 	android:name
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:10:22-78
 uses-feature#android.hardware.telephony
@@ -303,78 +165,7 @@ ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/R
 	android:name
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:13:19-60
 application
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:15:5-108:19
-MERGED from [com.firebaseui:firebase-ui-auth:6.4.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\20cc520c5a312067f3420514f552fe0d\transformed\jetified-firebase-ui-auth-6.4.0\AndroidManifest.xml:15:5-107:19
-MERGED from [com.firebaseui:firebase-ui-auth:6.4.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\20cc520c5a312067f3420514f552fe0d\transformed\jetified-firebase-ui-auth-6.4.0\AndroidManifest.xml:15:5-107:19
-MERGED from [com.karumi:dexter:6.2.2] C:\Users\OmarMahdy\.gradle\caches\transforms-3\a92acb7e80e49279fa83b1593485c1d7\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:26:5-30:19
-MERGED from [com.karumi:dexter:6.2.2] C:\Users\OmarMahdy\.gradle\caches\transforms-3\a92acb7e80e49279fa83b1593485c1d7\transformed\jetified-dexter-6.2.2\AndroidManifest.xml:26:5-30:19
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\589b32396052d18877318a856258023a\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.4.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\589b32396052d18877318a856258023a\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\OmarMahdy\.gradle\caches\transforms-3\28e3a813f938e7c91d7b2d09f3ddc212\transformed\constraintlayout-2.1.2\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\OmarMahdy\.gradle\caches\transforms-3\28e3a813f938e7c91d7b2d09f3ddc212\transformed\constraintlayout-2.1.2\AndroidManifest.xml:9:5-20
-MERGED from [com.android.volley:volley:1.1.1] C:\Users\OmarMahdy\.gradle\caches\transforms-3\e109e92afc185bec24398c74278d1f21\transformed\jetified-volley-1.1.1\AndroidManifest.xml:9:5-20
-MERGED from [com.android.volley:volley:1.1.1] C:\Users\OmarMahdy\.gradle\caches\transforms-3\e109e92afc185bec24398c74278d1f21\transformed\jetified-volley-1.1.1\AndroidManifest.xml:9:5-20
-MERGED from [com.google.firebase:firebase-auth:20.0.2] C:\Users\OmarMahdy\.gradle\caches\transforms-3\c36abe6006966f37a8c3d766bfb8c89a\transformed\jetified-firebase-auth-20.0.2\AndroidManifest.xml:26:5-81:19
-MERGED from [com.google.firebase:firebase-auth:20.0.2] C:\Users\OmarMahdy\.gradle\caches\transforms-3\c36abe6006966f37a8c3d766bfb8c89a\transformed\jetified-firebase-auth-20.0.2\AndroidManifest.xml:26:5-81:19
-MERGED from [com.google.firebase:firebase-messaging:21.0.1] C:\Users\OmarMahdy\.gradle\caches\transforms-3\7a42d2169cb915919354b0722aeaa5fa\transformed\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:22:5-43:19
-MERGED from [com.google.firebase:firebase-messaging:21.0.1] C:\Users\OmarMahdy\.gradle\caches\transforms-3\7a42d2169cb915919354b0722aeaa5fa\transformed\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:22:5-43:19
-MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\87ddea27f1d99b4028f467a9f26e0cb7\transformed\jetified-circleimageview-3.0.0\AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\87ddea27f1d99b4028f467a9f26e0cb7\transformed\jetified-circleimageview-3.0.0\AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\OmarMahdy\.gradle\caches\transforms-3\c3a3ed2d1a2be36b309082f21adb4339\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:36:5-42:19
-MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\OmarMahdy\.gradle\caches\transforms-3\c3a3ed2d1a2be36b309082f21adb4339\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:36:5-42:19
-MERGED from [com.google.android.gms:play-services-location:19.0.1] C:\Users\OmarMahdy\.gradle\caches\transforms-3\2ac1ec445fb9bea5572638e0f58b5df4\transformed\jetified-play-services-location-19.0.1\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:19.0.1] C:\Users\OmarMahdy\.gradle\caches\transforms-3\2ac1ec445fb9bea5572638e0f58b5df4\transformed\jetified-play-services-location-19.0.1\AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-datatransport:17.0.10] C:\Users\OmarMahdy\.gradle\caches\transforms-3\b903796ac2c629d99f7d8a01e132d946\transformed\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:24:5-32:19
-MERGED from [com.google.firebase:firebase-datatransport:17.0.10] C:\Users\OmarMahdy\.gradle\caches\transforms-3\b903796ac2c629d99f7d8a01e132d946\transformed\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:24:5-32:19
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\OmarMahdy\.gradle\caches\transforms-3\92d514d2901f2a96fc5535e77f20a074\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:28:5-36:19
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\OmarMahdy\.gradle\caches\transforms-3\92d514d2901f2a96fc5535e77f20a074\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:28:5-36:19
-MERGED from [com.google.firebase:firebase-iid:21.0.1] C:\Users\OmarMahdy\.gradle\caches\transforms-3\861af93cbb7edafed97b33cf6562c1fa\transformed\jetified-firebase-iid-21.0.1\AndroidManifest.xml:28:5-45:19
-MERGED from [com.google.firebase:firebase-iid:21.0.1] C:\Users\OmarMahdy\.gradle\caches\transforms-3\861af93cbb7edafed97b33cf6562c1fa\transformed\jetified-firebase-iid-21.0.1\AndroidManifest.xml:28:5-45:19
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\b72c6e768fe83261b0d142d7cce91310\transformed\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\b72c6e768fe83261b0d142d7cce91310\transformed\jetified-firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-installations:16.3.5] C:\Users\OmarMahdy\.gradle\caches\transforms-3\b044feb6daa077fe356c0f92d0572153\transformed\jetified-firebase-installations-16.3.5\AndroidManifest.xml:14:5-22:19
-MERGED from [com.google.firebase:firebase-installations:16.3.5] C:\Users\OmarMahdy\.gradle\caches\transforms-3\b044feb6daa077fe356c0f92d0572153\transformed\jetified-firebase-installations-16.3.5\AndroidManifest.xml:14:5-22:19
-MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\4d248757365d8a02cf2748f792245f0a\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:25:5-47:19
-MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\4d248757365d8a02cf2748f792245f0a\transformed\jetified-firebase-common-19.5.0\AndroidManifest.xml:25:5-47:19
-MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\2d33d1c9de40b62bddea953837e1882c\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:22:5-37:19
-MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\2d33d1c9de40b62bddea953837e1882c\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:22:5-37:19
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\441b075ce53edb3abd11e16392aeb5bd\transformed\lifecycle-extensions-2.1.0\AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\441b075ce53edb3abd11e16392aeb5bd\transformed\lifecycle-extensions-2.1.0\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\95994d7dd271764a28bb2d29428b9481\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\95994d7dd271764a28bb2d29428b9481\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\ad99cdeb130218a07c262f77b1354f8a\transformed\jetified-firebase-iid-interop-17.0.0\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\ad99cdeb130218a07c262f77b1354f8a\transformed\jetified-firebase-iid-interop-17.0.0\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\OmarMahdy\.gradle\caches\transforms-3\d98319f7b7726cf12a32e24850696daa\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\OmarMahdy\.gradle\caches\transforms-3\d98319f7b7726cf12a32e24850696daa\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\eb9658c36d40978c50c99e1a2927f8b9\transformed\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\eb9658c36d40978c50c99e1a2927f8b9\transformed\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\OmarMahdy\.gradle\caches\transforms-3\825dff27a92740588b117adf4865ecfe\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\OmarMahdy\.gradle\caches\transforms-3\825dff27a92740588b117adf4865ecfe\transformed\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\878e1b5210eef14922d2c666dbfa6d02\transformed\jetified-play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\878e1b5210eef14922d2c666dbfa6d02\transformed\jetified-play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\c27fd8044e9995f69cb1cbf217afbe17\transformed\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\c27fd8044e9995f69cb1cbf217afbe17\transformed\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\d90cdb58c1d76d5627b1a46b3fa36cf9\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\d90cdb58c1d76d5627b1a46b3fa36cf9\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\b2af1edf84156eeeb2fa5bf18dab98cc\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\b2af1edf84156eeeb2fa5bf18dab98cc\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.core:core:1.7.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\8fff248dbe0397cca10a959cecdafd82\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.7.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\8fff248dbe0397cca10a959cecdafd82\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\OmarMahdy\.gradle\caches\transforms-3\e463cd3c6b61f055c59cb5cf56cf08c6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\OmarMahdy\.gradle\caches\transforms-3\e463cd3c6b61f055c59cb5cf56cf08c6\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\beb33912b30d23b4d0ccfbce77f07f56\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\beb33912b30d23b4d0ccfbce77f07f56\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\f0c9d12543ee0876b617e65cdae8aba2\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\OmarMahdy\.gradle\caches\transforms-3\f0c9d12543ee0876b617e65cdae8aba2\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
-MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\OmarMahdy\.gradle\caches\transforms-3\f50e19f0b758aa34c0f9c5dea87621bc\transformed\jetified-transport-runtime-2.2.5\AndroidManifest.xml:25:5-39:19
-MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\OmarMahdy\.gradle\caches\transforms-3\f50e19f0b758aa34c0f9c5dea87621bc\transformed\jetified-transport-runtime-2.2.5\AndroidManifest.xml:25:5-39:19
-=======
-ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:15:5-93:19
-=======
-ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:15:5-99:19
->>>>>>> Stashed changes
+ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:15:5-109:19
 MERGED from [com.firebaseui:firebase-ui-auth:6.4.0] /home/mohamedashraf/.gradle/caches/transforms-3/20cc520c5a312067f3420514f552fe0d/transformed/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:15:5-107:19
 MERGED from [com.firebaseui:firebase-ui-auth:6.4.0] /home/mohamedashraf/.gradle/caches/transforms-3/20cc520c5a312067f3420514f552fe0d/transformed/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:15:5-107:19
 MERGED from [com.karumi:dexter:6.2.2] /home/mohamedashraf/.gradle/caches/transforms-3/a92acb7e80e49279fa83b1593485c1d7/transformed/jetified-dexter-6.2.2/AndroidManifest.xml:26:5-30:19
@@ -439,44 +230,10 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] /home/mohamedashraf/.gradle
 MERGED from [androidx.startup:startup-runtime:1.0.0] /home/mohamedashraf/.gradle/caches/transforms-3/f0c9d12543ee0876b617e65cdae8aba2/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /home/mohamedashraf/.gradle/caches/transforms-3/f50e19f0b758aa34c0f9c5dea87621bc/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:25:5-39:19
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /home/mohamedashraf/.gradle/caches/transforms-3/f50e19f0b758aa34c0f9c5dea87621bc/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:25:5-39:19
->>>>>>> c5cb3a96efaabfd40008aa7c236b98a45b89b689
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] /home/mohamedashraf/.gradle/caches/transforms-3/8fff248dbe0397cca10a959cecdafd82/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:20:9-35
-	android:label
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:18:9-41
-	android:roundIcon
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:19:9-54
-	tools:targetApi
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:23:9-28
-	android:icon
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:17:9-43
-	android:allowBackup
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:16:9-35
-	android:theme
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:21:9-42
-	android:usesCleartextTraffic
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:22:9-44
-activity#com.example.ra3y.shopsServices
-ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:24:9-26:40
-	android:exported
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:26:13-37
-	android:name
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:25:13-42
-activity#com.example.ra3y.ownerprofile
-ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:27:9-29:40
-	android:exported
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:29:13-37
-	android:name
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:28:13-41
-=======
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:21:9-35
-=======
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:20:9-35
->>>>>>> Stashed changes
 	android:label
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:18:9-41
 	android:roundIcon
@@ -508,12 +265,7 @@ ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/R
 	android:exported
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:32:13-37
 	android:name
-<<<<<<< Updated upstream
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:29:13-41
->>>>>>> c5cb3a96efaabfd40008aa7c236b98a45b89b689
-=======
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:31:13-41
->>>>>>> Stashed changes
 meta-data#com.google.android.gms.version
 ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:34:9-36:69
 MERGED from [com.firebaseui:firebase-ui-auth:6.4.0] /home/mohamedashraf/.gradle/caches/transforms-3/20cc520c5a312067f3420514f552fe0d/transformed/jetified-firebase-ui-auth-6.4.0/AndroidManifest.xml:16:9-18:69
@@ -525,154 +277,7 @@ MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/mohamed
 	android:name
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:35:13-58
 uses-library#org.apache.http.legacy
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:35:9-37:40
-MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\OmarMahdy\.gradle\caches\transforms-3\c3a3ed2d1a2be36b309082f21adb4339\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
-MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\OmarMahdy\.gradle\caches\transforms-3\c3a3ed2d1a2be36b309082f21adb4339\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
-	android:required
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:37:13-37
-	android:name
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:36:13-50
-activity#com.example.ra3y.registerSitter
-ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:39:9-41:40
-	android:exported
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:41:13-37
-	android:name
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:40:13-43
-activity#com.example.ra3y.aboutus
-ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:42:9-44:40
-	android:exported
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:44:13-37
-	android:name
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:43:13-36
-activity#com.example.ra3y.FloatingActionButton
-ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:45:9-47:40
-	android:exported
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:47:13-37
-	android:name
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:46:13-49
-activity#com.example.ra3y.sitterRequest
-ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:48:9-50:40
-	android:exported
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:50:13-37
-	android:name
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:49:13-42
-activity#com.example.ra3y.sitterProfile
-ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:51:9-53:40
-	android:exported
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:53:13-37
-	android:name
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:52:13-42
-activity#com.example.ra3y.petregister
-ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:54:9-56:40
-	android:exported
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:56:13-37
-	android:name
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:55:13-40
-activity#com.example.ra3y.yourpets
-ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:57:9-59:40
-	android:exported
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:59:13-37
-	android:name
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:58:13-37
-activity#com.example.ra3y.register
-ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:60:9-64:61
-	android:label
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:63:13-60
-	android:exported
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:62:13-37
-	android:theme
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:64:13-58
-	android:name
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:61:13-37
-activity#com.example.ra3y.MainActivity
-ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:65:9-73:20
-	android:exported
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:67:13-36
-	android:name
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:66:13-41
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:68:13-72:29
-action#android.intent.action.MAIN
-ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:69:17-69
-	android:name
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:69:25-66
-category#android.intent.category.LAUNCHER
-ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:71:17-77
-	android:name
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:71:27-74
-activity#com.example.ra3y.login
-ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:74:9-76:39
-	android:exported
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:76:13-36
-	android:name
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:75:13-34
-activity#com.example.ra3y.forget
-ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:77:9-79:39
-	android:exported
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:79:13-36
-	android:name
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:78:13-35
-activity#com.example.ra3y.petsitterorowner
-ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:80:9-82:39
-	android:exported
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:82:13-36
-	android:name
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:81:13-45
-activity#com.example.ra3y.services
-ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:83:9-85:40
-	android:exported
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:85:13-37
-	android:name
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:84:13-37
-activity#com.example.ra3y.request
-ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:86:9-88:40
-	android:exported
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:88:13-37
-	android:name
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:87:13-36
-activity#com.example.ra3y.vaccine
-ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:89:9-91:39
-	android:exported
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:91:13-36
-	android:name
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:90:13-36
-activity#com.example.ra3y.sittersList
-ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:92:9-94:40
-	android:exported
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:94:13-37
-	android:name
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:93:13-40
-activity#com.example.ra3y.Mapss
-ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:95:9-97:40
-	android:exported
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:97:13-37
-	android:name
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:96:13-34
-activity#com.example.ra3y.acceptor
-ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:98:9-100:40
-	android:exported
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:100:13-37
-	android:name
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:99:13-37
-activity#com.example.ra3y.loading
-ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:101:9-103:40
-	android:exported
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:103:13-37
-	android:name
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:102:13-36
-meta-data#com.google.android.geo.API_KEY
-ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:105:9-107:71
-	android:value
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:107:13-68
-	android:name
-		ADDED from O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend\app\src\main\AndroidManifest.xml:106:13-58
-=======
-ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:34:9-36:40
-=======
 ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:38:9-40:40
->>>>>>> Stashed changes
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] /home/mohamedashraf/.gradle/caches/transforms-3/c3a3ed2d1a2be36b309082f21adb4339/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] /home/mohamedashraf/.gradle/caches/transforms-3/c3a3ed2d1a2be36b309082f21adb4339/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
 	android:required
@@ -709,91 +314,104 @@ ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/R
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:56:13-37
 	android:name
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:55:13-42
-activity#com.example.ra3y.register
-ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:57:9-61:61
-	android:label
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:60:13-60
+activity#com.example.ra3y.petregister
+ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:57:9-59:40
 	android:exported
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:59:13-37
+	android:name
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:58:13-40
+activity#com.example.ra3y.yourpets
+ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:60:9-62:40
+	android:exported
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:62:13-37
+	android:name
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:61:13-37
+activity#com.example.ra3y.register
+ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:63:9-67:61
+	android:label
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:66:13-60
+	android:exported
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:65:13-37
 	android:theme
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:61:13-58
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:67:13-58
 	android:name
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:58:13-37
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:64:13-37
 activity#com.example.ra3y.MainActivity
-ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:62:9-70:20
+ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:68:9-76:20
 	android:exported
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:64:13-36
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:70:13-36
 	android:name
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:63:13-41
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:69:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:65:13-69:29
+ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:71:13-75:29
 action#android.intent.action.MAIN
-ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:66:17-69
+ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:72:17-69
 	android:name
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:66:25-66
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:72:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:68:17-77
+ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:74:17-77
 	android:name
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:68:27-74
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:74:27-74
 activity#com.example.ra3y.login
-ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:71:9-73:39
-	android:exported
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:73:13-36
-	android:name
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:72:13-34
-activity#com.example.ra3y.forget
-ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:74:9-76:39
-	android:exported
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:76:13-36
-	android:name
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:75:13-35
-activity#com.example.ra3y.petsitterorowner
 ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:77:9-79:39
 	android:exported
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:79:13-36
 	android:name
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:78:13-45
-activity#com.example.ra3y.services
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:78:13-34
+activity#com.example.ra3y.forget
 ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:80:9-82:39
 	android:exported
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:82:13-36
 	android:name
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:81:13-37
-activity#com.example.ra3y.request
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:81:13-35
+activity#com.example.ra3y.petsitterorowner
 ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:83:9-85:39
 	android:exported
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:85:13-36
 	android:name
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:84:13-36
-activity#com.example.ra3y.vaccine
-ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:86:9-88:39
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:84:13-45
+activity#com.example.ra3y.services
+ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:86:9-88:40
 	android:exported
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:88:13-36
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:88:13-37
 	android:name
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:87:13-36
-activity#com.example.ra3y.sittersList
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:87:13-37
+activity#com.example.ra3y.request
 ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:89:9-91:40
 	android:exported
 		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:91:13-37
 	android:name
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:90:13-40
-activity#com.example.ra3y.Mapss
-ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:92:9-94:40
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:90:13-36
+activity#com.example.ra3y.vaccine
+ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:92:9-94:39
 	android:exported
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:94:13-37
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:94:13-36
 	android:name
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:93:13-34
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:93:13-36
+activity#com.example.ra3y.sittersList
+ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:95:9-97:40
+	android:exported
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:97:13-37
+	android:name
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:96:13-40
+activity#com.example.ra3y.Mapss
+ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:98:9-100:40
+	android:exported
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:100:13-37
+	android:name
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:99:13-34
+activity#com.example.ra3y.acceptor
+ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:102:9-104:40
+	android:exported
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:104:13-37
+	android:name
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:103:13-37
 meta-data#com.google.android.geo.API_KEY
-ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:96:9-98:71
+ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:106:9-108:71
 	android:value
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:98:13-68
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:108:13-68
 	android:name
-<<<<<<< Updated upstream
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:91:13-58
->>>>>>> c5cb3a96efaabfd40008aa7c236b98a45b89b689
-=======
-		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:97:13-58
->>>>>>> Stashed changes
+		ADDED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml:107:13-58
 uses-sdk
 INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/AndroidManifest.xml

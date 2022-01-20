@@ -68,5 +68,5 @@ FLUSH PRIVILEGES;
         FOREIGN KEY(owneruid) REFERENCES owner(UID)
         ON  UPDATE CASCADE ON DELETE CASCADE,
         PRIMARY KEY (sitteruid,owneruid, timestamp)
-    
+);    
 

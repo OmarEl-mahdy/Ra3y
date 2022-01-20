@@ -120,9 +120,6 @@
         <activity
             android:name="com.example.ra3y.acceptor"
             android:exported="false" />
-        <activity
-            android:name="com.example.ra3y.loading"
-            android:exported="false" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"

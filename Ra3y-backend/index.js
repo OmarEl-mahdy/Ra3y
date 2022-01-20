@@ -109,7 +109,7 @@ router.post("/registerSitter", function (req, res) {
     let priceperhour = body.priceperhour;
 
     let sqlQuery = "INSERT INTO `sitter` (`UID`, `fname`,`lname`,`email`,`pass`, `phonenumber`,`yearsOfExperience`,`priceperhour`) VALUES('" + uid + "','" + fname + "', \
-'" + lname + "','" + email + "', '" + hashpass + "', '" + phonenumber + "', '" + yearsOfExperience + "', '" + priceperhour + "' );"
+'" + lname + "','" + email + "', '" + hashpass + "', '" + phonenumber + "', '"+yearsOfExperience+"', '"+priceperhour+"' );"
 
     db.query(sqlQuery, function (err, result) {
         if (err) {
@@ -239,18 +239,18 @@ router.post("/makeRequest", function (req, res) {
 // get info of the owner 
 /* ******** */
 
-router.post("/getOwnerInfo", function (req, res) {
+router.post("/getOwnerInfo",function(req,res){
 
     // """ A """
 
     let uid = req.body.uid;
 
     let sqlQuery = "SELECT * FROM owner WHERE UID = ?;"
-    db.query(sqlQuery, [uid], function (err, result) {
-        if (err) {
+    db.query(sqlQuery,[uid], function(err,result){
+        if(err){
             res.send(err)
         }
-        else {
+        else{
             res.json(result);
         }
 
@@ -262,19 +262,19 @@ router.post("/getOwnerInfo", function (req, res) {
 // get info of the sitter 
 /* ******** */
 
-router.post("/getSitterInfo", function (req, res) {
+router.post("/getSitterInfo",function(req,res){
 
     // """ A """
 
     let uid = req.body.uid;
 
     let sqlQuery = "SELECT * FROM sitter WHERE UID = ?;"
-    db.query(sqlQuery, [uid], function (err, result) {
-        if (err) {
+    db.query(sqlQuery,[uid], function(err,result){
+        if(err){
             res.send(err)
         }
-        else {
-
+        else{
+  
             res.json(result);
         }
 
@@ -285,18 +285,7 @@ router.post("/getSitterInfo", function (req, res) {
 /* **** */
 // API 9
 // post location of sitter
-<<<<<<< Updated upstream
 /* **** */
-router.post("/addSitterLocation", function (req, res) {
-
-    let uid = req.body.uid;
-    let latitudes = req.body.latitudes;
-    let longitudes = req.body.longitudes;
-    var sqlQuery = "UPDATE sitter SET latitudes = ?, longitudes = ?  WHERE UID =?;";
-
-    db.query(sqlQuery, [latitudes, longitudes, uid], function (err, result) {
-=======
-/* ******** */
 router.post("/addSitterLocation", function (req, res) {
     
     let uid = req.body.uid;
@@ -305,27 +294,19 @@ router.post("/addSitterLocation", function (req, res) {
     var sqlQuery = "UPDATE sitter SET latitudes = ?, longitudes = ?  WHERE UID =?;";
 
     db.query(sqlQuery,[latitudes,longitudes,uid],function (err, result) {
->>>>>>> Stashed changes
         console.log("Result: " + JSON.stringify(result));
         if (err) {
             return res.send(err);
         } else {
             return res.json(result);
         }
+    }); 
     });
-});
 /* **** */
 // API 10
 // get location of sitters
 /* **** */
 router.get("/getLocation", function (req, res) {
-<<<<<<< Updated upstream
-
-    let uid = req.body.uid;
-    let sql = "SELECT latitudes,longitudes FROM sitter WHERE UID = ?;";
-
-    db.query(sql, [uid], function (err, result) {
-=======
    
    let uid = req.body.uid;
     let sql = "SELECT latitudes,longitudes FROM sitter WHERE UID = ?;";
@@ -344,10 +325,10 @@ router.get("/getLocation", function (req, res) {
     });
 });
 
-/* ******** */
+/* **** */
 // API 11
 // add address info of sitters
-/* ******** */
+/* **** */
 router.post("/addaddress", function (req, res) {
    
    let uid = req.body.uid;
@@ -355,38 +336,12 @@ router.post("/addaddress", function (req, res) {
     let sql = "UPDATE sitter SET address = ? WHERE UID = ?";
 
     db.query(sql,[addr,uid],function (err, result) {
->>>>>>> Stashed changes
         console.log("Result: " + JSON.stringify(result));
         if (err) {
             return res.send(err);
         } else {
-
-
-            // Your code here 
-            // You can use res.json(result); to send all data as a response 
-            return res.json(result);
-        }
-    });
-});
-
-/* **** */
-// API 11
-// add address info of sitters
-/* **** */
-router.post("/addaddress", function (req, res) {
-
-<<<<<<< Updated upstream
-    let uid = req.body.uid;
-    let addr = req.body.addr
-    let sql = "UPDATE sitter SET address = ? WHERE UID = ?";
-
-    db.query(sql, [addr, uid], function (err, result) {
-        console.log("Result: " + JSON.stringify(result));
-        if (err) {
-            return res.send(err);
-        } else {
-
-
+          
+        
             // Your code here 
             // You can use res.json(result); to send all data as a response 
             return res.json(result);
@@ -399,33 +354,17 @@ router.post("/addaddress", function (req, res) {
 // API 12
 // get address info of sitters
 /* **** */
-router.post("/getaddress", function (req, res) {
-
-    let uid = req.body.uid;
-    let sql = "SELECT address FROM sitter WHERE UID = ?;";
-    db.query(sql, [uid], function (err, result) {
-=======
-/* ******** */
-// API 12
-// get address info of sitters
-/* ******** */
 router.post("/getaddress", function (req, res) {
    
    let uid = req.body.uid;
    let sql = "SELECT address FROM sitter WHERE UID = ?;";
     db.query(sql,[uid],function (err, result) {
->>>>>>> Stashed changes
         console.log("Result: " + JSON.stringify(result));
         if (err) {
             return res.send(err);
         } else {
-<<<<<<< Updated upstream
-
-
-=======
           
         
->>>>>>> Stashed changes
             // Your code here 
             // You can use res.json(result); to send all data as a response 
             return res.json(result);
