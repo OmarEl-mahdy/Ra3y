@@ -61,11 +61,15 @@ public class Mapss extends AppCompatActivity implements OnMapReadyCallback, Goog
     FloatingActionButton fab;
     Button proceed;
     private FusedLocationProviderClient mlocation;
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     String longitude, latitude, addr;
 =======
     String longitude, latitude;
 >>>>>>> c5cb3a96efaabfd40008aa7c236b98a45b89b689
+=======
+    String longitude, latitude, addr;
+>>>>>>> Stashed changes
     private final CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -79,9 +83,7 @@ public class Mapss extends AppCompatActivity implements OnMapReadyCallback, Goog
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 getloc();
-
             }
         });
         proceed.setOnClickListener(new View.OnClickListener() {
@@ -94,6 +96,28 @@ public class Mapss extends AppCompatActivity implements OnMapReadyCallback, Goog
                 startActivity(loading);
             }
         });
+        proceed.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent loading = new Intent(getApplicationContext(), com.example.ra3y.loading.class);
+                loading.putExtra("address", addr);
+                loading.putExtra("longitude", longitude);
+                loading.putExtra("latitude", latitude);
+                startActivity(loading);
+            }
+        });
+    }
+    //#############################
+    private class API_handler extends AsyncTask<String,String,String>{
+        @Override
+        protected String doInBackground(String... strings) {
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(String s) {
+            super.onPostExecute(s);
+        }
     }
     //#############################
     private class API_handler extends AsyncTask<String,String,String>{
@@ -141,7 +165,10 @@ public class Mapss extends AppCompatActivity implements OnMapReadyCallback, Goog
 
         map.moveCamera(cam);
         map.setMapType(GoogleMap.MAP_TYPE_NORMAL);
+<<<<<<< Updated upstream
 <<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
         MarkerOptions markerOptions  = new MarkerOptions().position(ll);
         map.addMarker(markerOptions);
         addr= getAddress(this, latitude,longitude);
@@ -149,11 +176,14 @@ public class Mapss extends AppCompatActivity implements OnMapReadyCallback, Goog
         //
 //        markerOptions.getTitle();
 //        Log.d("Title", markerOptions.getTitle());
+<<<<<<< Updated upstream
 =======
         map.addMarker(new MarkerOptions()
                 .position(ll)
         );
 >>>>>>> c5cb3a96efaabfd40008aa7c236b98a45b89b689
+=======
+>>>>>>> Stashed changes
 
     }
     public String getAddress(Context context, double lat, double lng) {
@@ -206,6 +236,7 @@ public class Mapss extends AppCompatActivity implements OnMapReadyCallback, Goog
     @Override
     public void onBackPressed() {
         Intent Gotoprofile = new Intent(getApplicationContext(), sitterProfile.class);
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 //        Gotoprofile.putExtra("long", longitude);
 //        Gotoprofile.putExtra("lat", latitude);
@@ -220,6 +251,14 @@ public class Mapss extends AppCompatActivity implements OnMapReadyCallback, Goog
         Log.d("LOCATION", longitude );
         Log.d("LOCATION", latitude);
 >>>>>>> c5cb3a96efaabfd40008aa7c236b98a45b89b689
+=======
+//        Gotoprofile.putExtra("long", longitude);
+//        Gotoprofile.putExtra("lat", latitude);
+//        Gotoprofile.putExtra("addr", addr);
+        startActivity(Gotoprofile);
+//        Log.d("LOCATION", longitude );
+//        Log.d("LOCATION", latitude);
+>>>>>>> Stashed changes
     }
 
     @Override

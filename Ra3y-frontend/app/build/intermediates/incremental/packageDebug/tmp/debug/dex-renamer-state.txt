@@ -1,8 +1,12 @@
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 #Thu Jan 20 03:49:31 GMT+02:00 2022
 =======
 #Wed Jan 19 20:23:32 EET 2022
 >>>>>>> c5cb3a96efaabfd40008aa7c236b98a45b89b689
+=======
+#Thu Jan 20 03:44:05 EET 2022
+>>>>>>> Stashed changes
 path.3=2/classes.dex
 path.2=11/classes.dex
 path.1=0/classes.dex

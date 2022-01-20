@@ -48,7 +48,11 @@ public class loading extends AppCompatActivity {
         Log.d("long",longitude);
 
         Log.d("addr",addr);
+<<<<<<< Updated upstream
         pg = (ProgressBar)findViewById(R.id.progressBar3);
+=======
+         pg = (ProgressBar)findViewById(R.id.progressBar3);
+>>>>>>> Stashed changes
         pg.setVisibility(View.VISIBLE);
         api_handler = new API_handler();
         api_handler.execute(FirebaseAuth.getInstance().getCurrentUser().getUid());

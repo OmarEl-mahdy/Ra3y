@@ -40,13 +40,18 @@ public class sitterProfile extends AppCompatActivity {
     TextView email;
     TextView phonenumber;
     TextView price;
-<<<<<<< HEAD
+// Updated upstream
+// HEAD
     String LONG ="NULL",LAT="NULL",address="NULL";
     TextView yoe,add;
-=======
-    String LONG,LAT;
+//
+
     TextView yoe;
->>>>>>> c5cb3a96efaabfd40008aa7c236b98a45b89b689
+// c5cb3a96efaabfd40008aa7c236b98a45b89b689
+//
+    String LONG ="NULL",LAT="NULL",address="NULL";
+    TextView yoe,add;
+// Stashed changes
     String data;
     final private String EmulatorIP = "10.0.2.2";
     final private String myIP = "192.168.1.10";
@@ -65,20 +70,28 @@ public class sitterProfile extends AppCompatActivity {
         phonenumber = (TextView) findViewById(R.id.textView2);
         price = (TextView) findViewById(R.id.price);
         yoe = (TextView) findViewById(R.id.textView6);
-<<<<<<< HEAD
+// Updated upstream
+// HEAD
         add = (TextView)findViewById(R.id.textView7);
 
-=======
+//
         API_handler api_handler = new API_handler();
         api_handler.execute(FirebaseAuth.getInstance().getCurrentUser().getUid());
->>>>>>> c5cb3a96efaabfd40008aa7c236b98a45b89b689
+// c5cb3a96efaabfd40008aa7c236b98a45b89b689
+//
+        add = (TextView)findViewById(R.id.textView7);
+
+// Stashed changes
         try {
 
         }catch (NullPointerException e){
             //TODO
         }
 
-<<<<<<< HEAD
+// Updated upstream
+// HEAD
+//
+// Stashed changes
 //        try{
 //            LONG = bundle.getString("long");
 //            LAT = bundle.getString("lat");
@@ -93,7 +106,8 @@ public class sitterProfile extends AppCompatActivity {
 //        }
         API_handler api_handler = new API_handler();
         api_handler.execute(FirebaseAuth.getInstance().getCurrentUser().getUid());
-=======
+// Updated upstream
+//
         try{
             LONG = bundle.getString("long");
             LAT = bundle.getString("lat");
@@ -104,7 +118,9 @@ public class sitterProfile extends AppCompatActivity {
         }catch (NullPointerException e){
             // TODO
         }
->>>>>>> c5cb3a96efaabfd40008aa7c236b98a45b89b689
+// c5cb3a96efaabfd40008aa7c236b98a45b89b689
+//
+// Stashed changes
 
         BottomNavigationView bnv = (BottomNavigationView) findViewById(R.id.navbar);
 
@@ -160,10 +176,14 @@ public class sitterProfile extends AppCompatActivity {
                 phonenumber.setText(returnedDataSitter.getString("phonenumber"));
                 yoe.setText(returnedDataSitter.getString("yearsOfExperience"));
                 String priceperH = returnedDataSitter.getString("priceperhour");
-<<<<<<< HEAD
+// Updated upstream
+// HEAD
                 add.setText(returnedDataSitter.getString("address"));
-=======
->>>>>>> c5cb3a96efaabfd40008aa7c236b98a45b89b689
+//
+// c5cb3a96efaabfd40008aa7c236b98a45b89b689
+//
+                add.setText(returnedDataSitter.getString("address"));
+// Stashed changes
                 if (priceperH.equals("0")) {
                     price.setText("FREE");
                 } else {
@@ -245,10 +265,14 @@ public class sitterProfile extends AppCompatActivity {
             }
 
         }
-<<<<<<< HEAD
+// Updated upstream
+// HEAD
         //################################
-=======
->>>>>>> c5cb3a96efaabfd40008aa7c236b98a45b89b689
+//
+// c5cb3a96efaabfd40008aa7c236b98a45b89b689
+//
+        //################################
+// Stashed changes
 
     }
 

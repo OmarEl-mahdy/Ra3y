@@ -34,6 +34,7 @@
 >>>>>>> c5cb3a96efaabfd40008aa7c236b98a45b89b689
     },
     {
+<<<<<<< Updated upstream
         "merged": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_adaptive_back.png.flat",
         "source": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/res/mipmap-xxhdpi/ic_launcher_adaptive_back.png"
     },
@@ -42,9 +43,15 @@
         "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_shopping_cart_24.xml.flat",
         "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\drawable\\ic_baseline_shopping_cart_24.xml"
 =======
+=======
+>>>>>>> Stashed changes
         "merged": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/merged_res/debug/drawable_phone.xml.flat",
         "source": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/res/drawable/phone.xml"
 >>>>>>> c5cb3a96efaabfd40008aa7c236b98a45b89b689
+    },
+    {
+        "merged": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/res/mipmap-xxhdpi/ic_launcher_adaptive_back.png"
     },
     {
         "merged": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/merged_res/debug/layout_activity_register.xml.flat",
@@ -85,6 +92,10 @@
     {
         "merged": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/merged_res/debug/menu_drawer.xml.flat",
         "source": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/res/menu/drawer.xml"
+    },
+    {
+        "merged": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/merged_res/debug/layout_activity_loading.xml.flat",
+        "source": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/res/layout/activity_loading.xml"
     },
     {
         "merged": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/merged_res/debug/drawable_location.xml.flat",

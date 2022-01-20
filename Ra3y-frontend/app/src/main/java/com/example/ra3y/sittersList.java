@@ -17,16 +17,13 @@ public class sittersList extends ListActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         String[] Names = getResources().getStringArray(R.array.sittersNames);
         String[] locations = getResources().getStringArray(R.array.sittersLocations);
         String[] pricePerHour = getResources().getStringArray(R.array.pricePerHour);
         setContentView(R.layout.activity_sitters_list);
-
         // getting the genre list view
         ListView sittersList = (ListView) findViewById(android.R.id.list);
         sittersList.setClickable(false);
-
         //  add data to rows
         CustomSittersList gl = new CustomSittersList(this, Names, pricePerHour, locations);
         sittersList.setAdapter(gl);

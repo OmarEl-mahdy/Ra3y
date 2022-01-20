@@ -22,6 +22,9 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="m">
         <activity
+            android:name=".loading"
+            android:exported="false" />
+        <activity
             android:name=".shopsServices"
             android:exported="false" />
         <activity
@@ -95,12 +98,15 @@
         <activity
             android:name=".Mapss"
             android:exported="false" />
+<<<<<<< Updated upstream
         <activity
             android:name=".acceptor"
             android:exported="false" />
         <activity
             android:name=".loading"
             android:exported="false" />
+=======
+>>>>>>> Stashed changes
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"

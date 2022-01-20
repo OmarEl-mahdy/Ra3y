@@ -60,8 +60,10 @@
         <entry key="app/src/main/res/font/montserrat_bold.xml" value="0.2234375" />
         <entry key="app/src/main/res/layout/activity_aboutus.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_floating_action_button.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_loading.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_maps.xml" value="0.18" />
         <entry key="app/src/main/res/layout/activity_ownerprofile.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_register_sitter.xml" value="0.1625" />

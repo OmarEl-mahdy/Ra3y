@@ -56,7 +56,6 @@ private static int Splash_time=4000;
                 else {
                     Intent nextpage=new Intent(MainActivity.this,login.class);
                     startActivity(nextpage);
-
                     finish();
                 }
             }

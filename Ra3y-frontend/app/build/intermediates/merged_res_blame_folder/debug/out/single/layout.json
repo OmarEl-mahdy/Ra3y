@@ -98,6 +98,7 @@
         "source": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/res/layout/services.xml"
     },
     {
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_aboutus.xml",
         "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\activity_aboutus.xml"
@@ -154,6 +155,12 @@
         "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_shops_services.xml",
         "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\activity_shops_services.xml"
 =======
+=======
+        "merged": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_loading.xml",
+        "source": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/res/layout/activity_loading.xml"
+    },
+    {
+>>>>>>> Stashed changes
         "merged": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_register_sitter.xml",
         "source": "/media/mohamedashraf/HDD/Uni/Uni/Winter 22/Mobile Apps/Project/Ra3y/Ra3y-frontend/app/src/main/res/layout/activity_register_sitter.xml"
 >>>>>>> c5cb3a96efaabfd40008aa7c236b98a45b89b689

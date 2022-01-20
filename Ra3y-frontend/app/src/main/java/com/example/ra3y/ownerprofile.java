@@ -34,11 +34,16 @@ public class ownerprofile extends AppCompatActivity {
     TextView name;
     TextView email;
     TextView phonenumber;
+<<<<<<< Updated upstream
 
 
     final private String EmulatorIP = "10.0.2.2";
     final private String myIP = "192.168.1.10";
 
+=======
+    final private String EmulatorIP = "10.0.2.2";
+    final private String myIP = "192.168.1.10";
+>>>>>>> Stashed changes
     final private String DeviceIP = EmulatorIP;
     final private  String portNo = "3000";
     @Override
@@ -53,11 +58,21 @@ public class ownerprofile extends AppCompatActivity {
         API_Handler api_handler = new API_Handler();
         api_handler.execute(FirebaseAuth.getInstance().getCurrentUser().getUid());
 
+<<<<<<< Updated upstream
 //        try {
 //            data = bundle.getString("Owner Data");
 //        }catch (NullPointerException e){
 //            //TODO
 //        }
+=======
+        Bundle bundle = getIntent().getExtras();
+        name = (TextView) findViewById(R.id.textView8);
+        email = (TextView) findViewById(R.id.textView4);
+        phonenumber = (TextView) findViewById(R.id.textView2);
+        API_Handler api_handler = new API_Handler();
+        api_handler.execute(FirebaseAuth.getInstance().getCurrentUser().getUid());
+
+>>>>>>> Stashed changes
     }
     private class API_Handler extends AsyncTask<String,String,String>{
         private JSONObject returnedDataOwner = new JSONObject();
@@ -65,6 +80,8 @@ public class ownerprofile extends AppCompatActivity {
         protected String doInBackground(String... strings) {
             getOwnerInfo(strings[0]);
             return null;
+<<<<<<< Updated upstream
+=======
         }
         //###############################
         @Override
@@ -80,8 +97,27 @@ public class ownerprofile extends AppCompatActivity {
                 Log.d("Error", e.toString());
                 e.printStackTrace();
             }
+>>>>>>> Stashed changes
+        }
+        //###############################
+        @Override
+        protected void onPostExecute(String s) {
+            super.onPostExecute(s);
+            try {
+                name.setText(returnedDataOwner.getString("fname"));
+                email.setText(returnedDataOwner.getString("email"));
+                phonenumber.setText(returnedDataOwner.getString("phonenumber"));
+
+<<<<<<< Updated upstream
+            }catch (JSONException e){
+                //TODO
+                Log.d("Error", e.toString());
+                e.printStackTrace();
+            }
         }
 
+=======
+>>>>>>> Stashed changes
         //###############################
         private void getOwnerInfo(String uid){
             //  """ This method is responsible for retrieving data for Owner Info """
@@ -117,7 +153,10 @@ public class ownerprofile extends AppCompatActivity {
                     buffer.append(line);
                     Log.d("Full JSON file", line);
                 }
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
                 JSONArray JArray = new JSONArray(buffer.toString());
                 returnedDataOwner = JArray.getJSONObject(0);
                 Log.d("Status", returnedDataOwner.toString());
@@ -170,7 +209,7 @@ public class ownerprofile extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
         }
     }
-
+    //##################################
     private void logout() {
         FirebaseAuth.getInstance().signOut();
         startActivity(new Intent(this,login.class));
