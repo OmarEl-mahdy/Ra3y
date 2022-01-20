@@ -3,12 +3,35 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Final_Ra3y_ashraf/Ra3y/Ra3y-frontend/app/src/main/res/layout/accpeter.xml" value="0.21927083333333333" />
+        <entry key="..\:/Final_Ra3y_ashraf/Ra3y/Ra3y-frontend/app/src/main/res/layout/activity_aboutus.xml" value="0.21927083333333333" />
+        <entry key="..\:/Final_Ra3y_ashraf/Ra3y/Ra3y-frontend/app/src/main/res/layout/activity_addpet.xml" value="0.21927083333333333" />
+        <entry key="..\:/Final_Ra3y_ashraf/Ra3y/Ra3y-frontend/app/src/main/res/layout/activity_floating_action_button.xml" value="0.21927083333333333" />
+        <entry key="..\:/Final_Ra3y_ashraf/Ra3y/Ra3y-frontend/app/src/main/res/layout/activity_forgetpass.xml" value="0.21927083333333333" />
+        <entry key="..\:/Final_Ra3y_ashraf/Ra3y/Ra3y-frontend/app/src/main/res/layout/activity_loading.xml" value="0.21927083333333333" />
+        <entry key="..\:/Final_Ra3y_ashraf/Ra3y/Ra3y-frontend/app/src/main/res/layout/activity_login.xml" value="0.21927083333333333" />
+        <entry key="..\:/Final_Ra3y_ashraf/Ra3y/Ra3y-frontend/app/src/main/res/layout/activity_main.xml" value="0.21927083333333333" />
         <entry key="..\:/Final_Ra3y_ashraf/Ra3y/Ra3y-frontend/app/src/main/res/layout/activity_maps.xml" value="0.2125" />
+        <entry key="..\:/Final_Ra3y_ashraf/Ra3y/Ra3y-frontend/app/src/main/res/layout/activity_ownerprofile.xml" value="0.21927083333333333" />
+        <entry key="..\:/Final_Ra3y_ashraf/Ra3y/Ra3y-frontend/app/src/main/res/layout/activity_register.xml" value="0.21927083333333333" />
+        <entry key="..\:/Final_Ra3y_ashraf/Ra3y/Ra3y-frontend/app/src/main/res/layout/activity_register_sitter.xml" value="0.21927083333333333" />
+        <entry key="..\:/Final_Ra3y_ashraf/Ra3y/Ra3y-frontend/app/src/main/res/layout/activity_shops_services.xml" value="0.21927083333333333" />
         <entry key="..\:/Final_Ra3y_ashraf/Ra3y/Ra3y-frontend/app/src/main/res/layout/activity_sitter_profile.xml" value="0.24166666666666667" />
         <entry key="..\:/Final_Ra3y_ashraf/Ra3y/Ra3y-frontend/app/src/main/res/layout/activity_sitter_request.xml" value="0.21927083333333333" />
         <entry key="..\:/Final_Ra3y_ashraf/Ra3y/Ra3y-frontend/app/src/main/res/layout/activity_sitters_list.xml" value="0.24166666666666667" />
+        <entry key="..\:/Final_Ra3y_ashraf/Ra3y/Ra3y-frontend/app/src/main/res/layout/addpet.xml" value="0.21927083333333333" />
         <entry key="..\:/Final_Ra3y_ashraf/Ra3y/Ra3y-frontend/app/src/main/res/layout/choosepetter.xml" value="0.24166666666666667" />
+        <entry key="..\:/Final_Ra3y_ashraf/Ra3y/Ra3y-frontend/app/src/main/res/layout/list.xml" value="0.21927083333333333" />
         <entry key="..\:/Final_Ra3y_ashraf/Ra3y/Ra3y-frontend/app/src/main/res/layout/request.xml" value="0.21927083333333333" />
+        <entry key="..\:/Final_Ra3y_ashraf/Ra3y/Ra3y-frontend/app/src/main/res/layout/services.xml" value="0.33" />
+        <entry key="..\:/Final_Ra3y_ashraf/Ra3y/Ra3y-frontend/app/src/main/res/layout/sitters_row_item.xml" value="0.21927083333333333" />
+        <entry key="..\:/Final_Ra3y_ashraf/Ra3y/Ra3y-frontend/app/src/main/res/layout/vaccine.xml" value="0.3875" />
+        <entry key="..\:/Final_Ra3y_ashraf/Ra3y/Ra3y-frontend/app/src/main/res/layout/yourpets.xml" value="0.21927083333333333" />
+        <entry key="..\:/Final_Ra3y_ashraf/Ra3y/Ra3y-frontend/app/src/main/res/menu/drawer.xml" value="0.21927083333333333" />
+        <entry key="..\:/Final_Ra3y_ashraf/Ra3y/Ra3y-frontend/app/src/main/res/menu/main_menu.xml" value="0.21927083333333333" />
+        <entry key="..\:/Final_Ra3y_ashraf/Ra3y/Ra3y-frontend/app/src/main/res/menu/nav_bar.xml" value="0.21927083333333333" />
+        <entry key="..\:/Final_Ra3y_ashraf/Ra3y/Ra3y-frontend/app/src/main/res/menu/nav_bar_services.xml" value="0.21927083333333333" />
+        <entry key="..\:/Final_Ra3y_ashraf/Ra3y/Ra3y-frontend/app/src/main/res/menu/starters_menu.xml" value="0.21927083333333333" />
         <entry key="..\:/ra3y_final_final/Ra3y/Ra3y-frontend/app/src/main/res/layout/activity_forgetpass.xml" value="0.24473684210526317" />
         <entry key="..\:/ra3y_final_final/Ra3y/Ra3y-frontend/app/src/main/res/layout/activity_login.xml" value="0.5" />
         <entry key="..\:/ra3y_final_final/Ra3y/Ra3y-frontend/app/src/main/res/layout/activity_main.xml" value="0.13848684210526316" />

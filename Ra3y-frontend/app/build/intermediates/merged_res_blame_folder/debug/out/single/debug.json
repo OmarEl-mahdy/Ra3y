@@ -1,5 +1,13 @@
 [
     {
+        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\layout_content_loading.xml.flat",
+        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\content_loading.xml"
+    },
+    {
+        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_hamster.jpeg.flat",
+        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\drawable-v24\\hamster.jpeg"
+    },
+    {
         "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_shops_services.xml.flat",
         "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\activity_shops_services.xml"
     },
@@ -12,16 +20,16 @@
         "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_adaptive_back.png"
     },
     {
-        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_shopping_cart_24.xml.flat",
-        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\drawable\\ic_baseline_shopping_cart_24.xml"
+        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\anim_slide_out.xml.flat",
+        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\anim\\slide_out.xml"
     },
     {
         "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_adaptive_fore.png.flat",
         "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_adaptive_fore.png"
     },
     {
-        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\anim_slide_out.xml.flat",
-        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\anim\\slide_out.xml"
+        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_shopping_cart_24.xml.flat",
+        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\drawable\\ic_baseline_shopping_cart_24.xml"
     },
     {
         "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\drawable_gradient.xml.flat",
@@ -68,6 +76,10 @@
         "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\vaccine.xml"
     },
     {
+        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\layout_addpet.xml.flat",
+        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\addpet.xml"
+    },
+    {
         "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\drawable_mail.xml.flat",
         "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\drawable\\mail.xml"
     },
@@ -108,8 +120,20 @@
         "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\drawable\\dogs.png"
     },
     {
+        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_loading.xml.flat",
+        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\activity_loading.xml"
+    },
+    {
         "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\menu_drawer.xml.flat",
         "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\menu\\drawer.xml"
+    },
+    {
+        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_addpet.jpg.flat",
+        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\drawable-v24\\addpet.jpg"
+    },
+    {
+        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_turtle.jpeg.flat",
+        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\drawable-v24\\turtle.jpeg"
     },
     {
         "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\drawable_petsitter.jpg.flat",
@@ -132,6 +156,10 @@
         "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\activity_sitter_profile.xml"
     },
     {
+        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\navigation_nav_graph.xml.flat",
+        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\navigation\\nav_graph.xml"
+    },
+    {
         "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\font_montserrat_bold.xml.flat",
         "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\font\\montserrat_bold.xml"
     },
@@ -142,6 +170,14 @@
     {
         "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_adaptive_fore.png.flat",
         "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\layout_yourpets.xml.flat",
+        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\yourpets.xml"
+    },
+    {
+        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\layout_accpeter.xml.flat",
+        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\accpeter.xml"
     },
     {
         "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\layout_services.xml.flat",
@@ -158,6 +194,10 @@
     {
         "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_boxer.jpeg.flat",
+        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\drawable-v24\\boxer.jpeg"
     },
     {
         "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\menu_nav_bar.xml.flat",
@@ -188,16 +228,16 @@
         "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\drawable\\phone.xml"
     },
     {
-        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_1.png.flat",
-        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\drawable\\img_1.png"
-    },
-    {
         "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_register_sitter.xml.flat",
         "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\activity_register_sitter.xml"
     },
     {
         "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\drawable_splsh.gif.flat",
         "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\drawable\\splsh.gif"
+    },
+    {
+        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_cat.jpeg.flat",
+        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\drawable-v24\\cat.jpeg"
     },
     {
         "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_account_circle_24.xml.flat",
@@ -210,6 +250,10 @@
     {
         "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_healing_24.xml.flat",
+        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\drawable\\ic_baseline_healing_24.xml"
     },
     {
         "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_adaptive_back.png.flat",
@@ -262,6 +306,14 @@
     {
         "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_forgetpass.xml.flat",
         "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\activity_forgetpass.xml"
+    },
+    {
+        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_addpet.xml.flat",
+        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\activity_addpet.xml"
+    },
+    {
+        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\layout_list.xml.flat",
+        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\list.xml"
     },
     {
         "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_login_24.xml.flat",

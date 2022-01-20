@@ -12,20 +12,20 @@
         "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\choosepetter.xml"
     },
     {
+        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_first.xml",
+        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_loading.xml",
+        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\activity_loading.xml"
+    },
+    {
         "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
         "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_floating_action_button.xml",
-        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\activity_floating_action_button.xml"
-    },
-    {
         "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sitter_profile.xml",
         "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\activity_sitter_profile.xml"
-    },
-    {
-        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\services.xml",
@@ -36,28 +36,12 @@
         "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\request.xml"
     },
     {
-        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_ownerprofile.xml",
-        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\activity_ownerprofile.xml"
-    },
-    {
-        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\sitters_row_item.xml",
-        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\sitters_row_item.xml"
-    },
-    {
-        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sitter_request.xml",
-        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\activity_sitter_request.xml"
-    },
-    {
         "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_forgetpass.xml",
         "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\activity_forgetpass.xml"
     },
     {
-        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_register_sitter.xml",
-        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\activity_register_sitter.xml"
-    },
-    {
-        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_shops_services.xml",
-        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\activity_shops_services.xml"
+        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_loading.xml",
+        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\content_loading.xml"
     },
     {
         "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_maps.xml",
@@ -70,5 +54,57 @@
     {
         "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_aboutus.xml",
         "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\activity_aboutus.xml"
+    },
+    {
+        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\list.xml",
+        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\list.xml"
+    },
+    {
+        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_addpet.xml",
+        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\activity_addpet.xml"
+    },
+    {
+        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_floating_action_button.xml",
+        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\activity_floating_action_button.xml"
+    },
+    {
+        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\accpeter.xml",
+        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\accpeter.xml"
+    },
+    {
+        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\yourpets.xml",
+        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\yourpets.xml"
+    },
+    {
+        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_ownerprofile.xml",
+        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\activity_ownerprofile.xml"
+    },
+    {
+        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\sitters_row_item.xml",
+        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\sitters_row_item.xml"
+    },
+    {
+        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\addpet.xml",
+        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\addpet.xml"
+    },
+    {
+        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_second.xml",
+        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sitter_request.xml",
+        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\activity_sitter_request.xml"
+    },
+    {
+        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_register_sitter.xml",
+        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\activity_register_sitter.xml"
+    },
+    {
+        "merged": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_shops_services.xml",
+        "source": "O:\\Final_Ra3y_ashraf\\Ra3y\\Ra3y-frontend\\app\\src\\main\\res\\layout\\activity_shops_services.xml"
     }
 ]

@@ -31,9 +31,9 @@ public class vaccine extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.vaccine);
-        Bundle bundle = getIntent().getExtras();
-        data = bundle.getString("Owner Data");
-        Log.d("Data", data.toString());
+//        Bundle bundle = getIntent().getExtras();
+//        data = bundle.getString("Owner Data");
+//        Log.d("Data", data.toString());
         BottomNavigationView bnv = (BottomNavigationView) findViewById(R.id.navbarvac);
 
         bnv.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener(){

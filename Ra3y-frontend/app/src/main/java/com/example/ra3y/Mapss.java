@@ -4,14 +4,19 @@ import static com.google.android.gms.location.LocationRequest.PRIORITY_HIGH_ACCU
 
 import android.Manifest;
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.content.Intent;
+import android.location.Address;
+import android.location.Geocoder;
 import android.location.Location;
 import android.location.LocationListener;
 import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -27,8 +32,10 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.tasks.CancellationTokenSource;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.firebase.auth.FirebaseAuth;
 import com.karumi.dexter.Dexter;
 import com.karumi.dexter.PermissionToken;
 import com.karumi.dexter.listener.PermissionDeniedResponse;
@@ -36,11 +43,24 @@ import com.karumi.dexter.listener.PermissionGrantedResponse;
 import com.karumi.dexter.listener.PermissionRequest;
 import com.karumi.dexter.listener.single.PermissionListener;
 
+import org.json.JSONObject;
+
+import java.io.BufferedReader;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.List;
+import java.util.Locale;
+
 public class Mapss extends AppCompatActivity implements OnMapReadyCallback, GoogleApiClient.ConnectionCallbacks,GoogleApiClient.OnConnectionFailedListener {
     boolean perminted;
     GoogleMap map;
     FloatingActionButton fab;
+    Button proceed;
     private FusedLocationProviderClient mlocation;
+    String longitude, latitude, addr;
     private final CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,12 +70,35 @@ public class Mapss extends AppCompatActivity implements OnMapReadyCallback, Goog
         fab=findViewById(R.id.fab);
         init();
         mlocation=new FusedLocationProviderClient(this);
+        proceed = findViewById(R.id.proceed);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 getloc();
             }
         });
+        proceed.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent loading = new Intent(getApplicationContext(), com.example.ra3y.loading.class);
+                loading.putExtra("address", addr);
+                loading.putExtra("longitude", longitude);
+                loading.putExtra("latitude", latitude);
+                startActivity(loading);
+            }
+        });
+    }
+    //#############################
+    private class API_handler extends AsyncTask<String,String,String>{
+        @Override
+        protected String doInBackground(String... strings) {
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(String s) {
+            super.onPostExecute(s);
+        }
     }
     private void init()
     {
@@ -74,8 +117,10 @@ public class Mapss extends AppCompatActivity implements OnMapReadyCallback, Goog
                 {
                     if(task.isSuccessful()){
                         Location loc=task.getResult();
-                        Log.d("loc", String.valueOf(loc));
                         gotoLocation(loc.getLatitude(),loc.getLongitude());
+                        latitude = String.valueOf(loc.getLatitude());
+                        longitude = String.valueOf(loc.getLongitude());
+
 
                     }
                 }
@@ -86,9 +131,32 @@ public class Mapss extends AppCompatActivity implements OnMapReadyCallback, Goog
 
         LatLng ll=new LatLng(latitude,longitude);
         CameraUpdate cam= CameraUpdateFactory.newLatLngZoom(ll,15);
+
         map.moveCamera(cam);
         map.setMapType(GoogleMap.MAP_TYPE_NORMAL);
+        MarkerOptions markerOptions  = new MarkerOptions().position(ll);
+        map.addMarker(markerOptions);
+        addr= getAddress(this, latitude,longitude);
+        Log.d("Title", addr);
+        //
+//        markerOptions.getTitle();
+//        Log.d("Title", markerOptions.getTitle());
 
+    }
+    public String getAddress(Context context, double lat, double lng) {
+        Geocoder geocoder = new Geocoder(context, Locale.getDefault());
+        try {
+            List<Address> addresses = geocoder.getFromLocation(lat, lng, 1);
+            Address obj = addresses.get(0);
+
+            String add = obj.getAddressLine(0);
+
+            return add;
+        } catch (IOException e) {
+            e.printStackTrace();
+            Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
+            return null;
+        }
     }
 
     private void checkpermission() {
@@ -120,6 +188,17 @@ public class Mapss extends AppCompatActivity implements OnMapReadyCallback, Goog
         //map.setMyLocationEnabled(true);
 
 
+    }
+
+    @Override
+    public void onBackPressed() {
+        Intent Gotoprofile = new Intent(getApplicationContext(), sitterProfile.class);
+//        Gotoprofile.putExtra("long", longitude);
+//        Gotoprofile.putExtra("lat", latitude);
+//        Gotoprofile.putExtra("addr", addr);
+        startActivity(Gotoprofile);
+//        Log.d("LOCATION", longitude );
+//        Log.d("LOCATION", latitude);
     }
 
     @Override

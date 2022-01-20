@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/profile"
-        android:title="Profile"
+        android:title=""
         android:icon="@drawable/ic_baseline_person_pin_24"
+        app:labelVisibilityMode="selected"
         ></item>
 
     <item
         android:id="@+id/vacc"
-        android:title="Vaccination"
-        android:icon="@drawable/ic_baseline_pets_24"
+        android:title="Vaccine"
+        android:icon="@drawable/ic_baseline_healing_24"
+        app:labelVisibilityMode="selected"
         ></item>
     <item
         android:id="@+id/serv"
-        android:title="Services"
+        android:title="Service"
         android:icon="@drawable/ic_baseline_shopping_cart_24"
+        app:labelVisibilityMode="selected"
+        ></item>
+    <item
+        android:id="@+id/addpets"
+        android:title="Pets"
+        android:icon="@drawable/ic_baseline_pets_24"
+        app:labelVisibilityMode="selected"
         ></item>
 
 </menu>

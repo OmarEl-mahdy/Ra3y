@@ -18,7 +18,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:$USER_HOME$/Android/Sdk/icons/material/materialicons/person_pin/baseline_person_pin_24.xml" />
+                                      <entry key="url" value="file:/$PROJECT_DIR$/../../../sdkLoca/icons/material/materialicons/healing/baseline_healing_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -28,7 +28,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_baseline_person_pin_24" />
+                            <entry key="outputName" value="ic_baseline_healing_24" />
+                            <entry key="sourceFile" value="O:\Final_Ra3y_ashraf\Ra3y\Ra3y-frontend" />
                           </map>
                         </option>
                       </PersistentState>

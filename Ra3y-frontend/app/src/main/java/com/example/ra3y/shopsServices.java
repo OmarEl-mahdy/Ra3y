@@ -29,9 +29,9 @@ public class shopsServices extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shops_services);
-        Bundle bundle = getIntent().getExtras();
-        data = bundle.getString("Owner Data");
-        Log.d("Data", data.toString());
+//        Bundle bundle = getIntent().getExtras();
+//        data = bundle.getString("Owner Data");
+//        Log.d("Data", data.toString());
         launch_btn=(Button) findViewById(R.id.launch);
         launch_btn.setOnClickListener(new View.OnClickListener() {
             @Override

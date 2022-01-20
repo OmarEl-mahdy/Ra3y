@@ -7,6 +7,14 @@
         <item>North Coast</item>
         <item>Red Sea</item>
     </string-array>
+    <string-array name="reques">
+
+        <item> "Mohamed is Requesting" </item>
+        <item> "Drama" </item>
+        <item> "Comedy" </item>
+        <item> "SCI-FI" </item>
+
+    </string-array>
     <string-array name="cairo_districts">
         <item>6th of October</item>
         <item>10th of Ramadan</item>

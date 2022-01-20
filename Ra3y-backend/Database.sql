@@ -1,4 +1,4 @@
-    FLUSH PRIVILEGES;
+FLUSH PRIVILEGES;
     ALTER USER "root"@"localhost" IDENTIFIED BY "password";
     Create database Ra3yDB;
     Use Ra3yDB;
@@ -10,14 +10,6 @@
        email VARCHAR(255),
        pass VARCHAR(255),
        phonenumber VARCHAR(255)
-    );
-
-
-
-    CREATE TABLE IF NOT EXISTS location(
-        ID  INT AUTO_INCREMENT PRIMARY KEY,
-        latitudes DECIMAL(8,6),
-        longitudes DECIMAL(9,6)
     );
 
 
@@ -42,11 +34,11 @@
        email VARCHAR(255),
        pass VARCHAR(255),
        phonenumber VARCHAR(255),
+         latitudes DECIMAL(8,6),
+        longitudes DECIMAL(9,6),
+        address VARCHAR(255) DEFAULT "Missing", 
        yearsOfExperience FLOAT,
-       priceperhour FLOAT,
-       LocationID INT,
-       FOREIGN KEY(LocationID) REFERENCES location(ID)
-       ON UPDATE CASCADE ON DELETE CASCADE
+       priceperhour FLOAT
     );
 
 
@@ -78,4 +70,3 @@
         PRIMARY KEY (sitteruid,owneruid, timestamp)
     
     );
-

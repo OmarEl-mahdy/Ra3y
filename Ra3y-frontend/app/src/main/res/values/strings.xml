@@ -38,6 +38,7 @@
     <!--    <string name="submit">Submit</string>-->
     <string name="confirm_password">Confirm Password</string>
     <string name="first_name">First Name</string>
+    <string name="pet_name">Pet Name</string>
     <string name="todo">TODO</string>
     <string-array name="sittersNames">
         <item>Mohamed Ashraf</item>
@@ -59,6 +60,28 @@
         <item> Free</item>
         <item> 120L.E/hr</item>
     </string-array>
+    <string-array name="pet_list">
+        <item> Dog: Gucci</item>
+        <item> Cat: Rosie </item>
+        <item> Hamster: Oscar </item>
+        <item> Turtle: Lio </item>
+
+    </string-array>
+    <array name="pic_list">
+        <item>@drawable/boxer</item>
+        <item>@drawable/cat</item>
+        <item>@drawable/hamster</item>
+        <item>@drawable/turtle</item>
+    </array>
+    <string name="title_activity_loading">loading</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     Places.initialize(getApplicationContext(),AIzaSyCUpI9Vfo-moJWeMfWH5rKD8VG1Z54AU8g);
 
 </resources>

@@ -10,6 +10,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 
@@ -26,6 +27,16 @@ public class sitterRequest extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sitter_request);
         com.google.android.material.floatingactionbutton.FloatingActionButton FAB1;
+        Button Accept1=(Button) findViewById(R.id.Accept1);
+        Accept1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(sitterRequest.this,acceptor.class);
+                startActivity(intent);
+            }
+
+        });
         FAB1 = (com.google.android.material.floatingactionbutton.FloatingActionButton) findViewById(R.id.FAB1);
         FAB1.setOnClickListener(new View.OnClickListener() {
             @Override

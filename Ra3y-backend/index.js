@@ -35,10 +35,10 @@ router.use(bodyParser.urlencoded({
 // All you need to do is add this line first:
 
 
-/* ********************** */
+/* ******** */
 // API 1
 // Insert owner into database
-/* ********************** */
+/* ******** */
 router.post("/registerOwner", function (req, res) {
 
     // """ This APIs inserts record of a user of type sitter into the database"""
@@ -85,10 +85,10 @@ router.post("/registerOwner", function (req, res) {
 // registerowner HERE
 
 
-/* ********************** */
+/* ******** */
 // API 2 
 // Insert sitter user to database
-/* ********************** */
+/* ******** */
 router.post("/registerSitter", function (req, res) {
 
     // """ This APIs inserts record of a user of type sitter into the database"""
@@ -109,7 +109,7 @@ router.post("/registerSitter", function (req, res) {
     let priceperhour = body.priceperhour;
 
     let sqlQuery = "INSERT INTO `sitter` (`UID`, `fname`,`lname`,`email`,`pass`, `phonenumber`,`yearsOfExperience`,`priceperhour`) VALUES('" + uid + "','" + fname + "', \
-'" + lname + "','" + email + "', '" + hashpass + "', '" + phonenumber + "', '"+yearsOfExperience+"', '"+priceperhour+"' );"
+'" + lname + "','" + email + "', '" + hashpass + "', '" + phonenumber + "', '" + yearsOfExperience + "', '" + priceperhour + "' );"
 
     db.query(sqlQuery, function (err, result) {
         if (err) {
@@ -131,10 +131,10 @@ router.post("/registerSitter", function (req, res) {
     });
 });
 
-/* ********************** */
+/* ******** */
 // API 3 
 // Get All Sitter Users
-/* ********************** */
+/* ******** */
 
 router.get("/getallsitterusers", function (req, res) {
 
@@ -162,10 +162,10 @@ router.get("/getallsitterusers", function (req, res) {
 
 });
 
-/* ********************** */
+/* ******** */
 // API 4
 // Get All owner Users
-/* ********************** */
+/* ******** */
 
 router.get("/getallownerusers", function (req, res) {
 
@@ -192,10 +192,10 @@ router.get("/getallownerusers", function (req, res) {
     })
 });
 
-/* ********************** */
+/* ******** */
 // API 5
 // set record for the request in the database 
-/* ********************** */
+/* ******** */
 router.post("/makeRequest", function (req, res) {
 
 
@@ -234,47 +234,47 @@ router.post("/makeRequest", function (req, res) {
 });
 
 
-/* ********************** */
+/* ******** */
 // API 7
 // get info of the owner 
-/* ********************** */
+/* ******** */
 
-router.post("/getOwnerInfo",function(req,res){
+router.post("/getOwnerInfo", function (req, res) {
 
     // """ A """
 
     let uid = req.body.uid;
 
     let sqlQuery = "SELECT * FROM owner WHERE UID = ?;"
-    db.query(sqlQuery,[uid], function(err,result){
-        if(err){
+    db.query(sqlQuery, [uid], function (err, result) {
+        if (err) {
             res.send(err)
         }
-        else{
+        else {
             res.json(result);
         }
 
     });
 
 });
-/* ********************** */
+/* ******** */
 // API 8
 // get info of the sitter 
-/* ********************** */
+/* ******** */
 
-router.post("/getSitterInfo",function(req,res){
+router.post("/getSitterInfo", function (req, res) {
 
     // """ A """
 
     let uid = req.body.uid;
 
     let sqlQuery = "SELECT * FROM sitter WHERE UID = ?;"
-    db.query(sqlQuery,[uid], function(err,result){
-        if(err){
+    db.query(sqlQuery, [uid], function (err, result) {
+        if (err) {
             res.send(err)
         }
-        else{
-  
+        else {
+
             res.json(result);
         }
 
@@ -282,39 +282,66 @@ router.post("/getSitterInfo",function(req,res){
 
 });
 
-/* ******** */
+/* **** */
 // API 9
 // post location of sitter
-/* ******** */
-router.post("/postLocation", function (req, res) {
-    
-    let latitudes=req.body.latitudes;
-    let longitudes=req.body.longitudes;
-    var sqlQuery = "INSERT INTO location (latitudes, longitudes)  VALUES('"+latitudes+"','"+longitudes+"' );";
+/* **** */
+router.post("/addSitterLocation", function (req, res) {
 
-    db.query(sqlQuery, function (err, result) {
+    let uid = req.body.uid;
+    let latitudes = req.body.latitudes;
+    let longitudes = req.body.longitudes;
+    var sqlQuery = "UPDATE sitter SET latitudes = ?, longitudes = ?  WHERE UID =?;";
+
+    db.query(sqlQuery, [latitudes, longitudes, uid], function (err, result) {
         console.log("Result: " + JSON.stringify(result));
         if (err) {
             return res.send(err);
         } else {
             return res.json(result);
         }
-    }); 
     });
-/* ******** */
+});
+/* **** */
 // API 10
 // get location of sitters
-/* ******** */
+/* **** */
 router.get("/getLocation", function (req, res) {
-    let sql = "SELECT * FROM location;";
 
-    db.query(sql, function (err, result) {
+    let uid = req.body.uid;
+    let sql = "SELECT latitudes,longitudes FROM sitter WHERE UID = ?;";
+
+    db.query(sql, [uid], function (err, result) {
         console.log("Result: " + JSON.stringify(result));
         if (err) {
             return res.send(err);
         } else {
-          
-        
+
+
+            // Your code here 
+            // You can use res.json(result); to send all data as a response 
+            return res.json(result);
+        }
+    });
+});
+
+/* **** */
+// API 11
+// add address info of sitters
+/* **** */
+router.post("/addaddress", function (req, res) {
+
+    let uid = req.body.uid;
+    let addr = req.body.addr
+    let sql = "UPDATE sitter SET address = ? WHERE UID = ?";
+
+    db.query(sql, [addr, uid], function (err, result) {
+        console.log("Result: " + JSON.stringify(result));
+        if (err) {
+            return res.send(err);
+        } else {
+
+
             // Your code here 
             // You can use res.json(result); to send all data as a response 
             return res.json(result);
@@ -323,6 +350,27 @@ router.get("/getLocation", function (req, res) {
 });
 
 
+/* **** */
+// API 12
+// get address info of sitters
+/* **** */
+router.post("/getaddress", function (req, res) {
+
+    let uid = req.body.uid;
+    let sql = "SELECT address FROM sitter WHERE UID = ?;";
+    db.query(sql, [uid], function (err, result) {
+        console.log("Result: " + JSON.stringify(result));
+        if (err) {
+            return res.send(err);
+        } else {
+
+
+            // Your code here 
+            // You can use res.json(result); to send all data as a response 
+            return res.json(result);
+        }
+    });
+});
 
 
 

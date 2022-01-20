@@ -54,7 +54,7 @@
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
-\
+
         <activity
             android:name="com.example.ra3y.registerSitter"
             android:exported="false" />
@@ -69,6 +69,12 @@
             android:exported="false" />
         <activity
             android:name="com.example.ra3y.sitterProfile"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ra3y.petregister"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ra3y.yourpets"
             android:exported="false" />
         <activity
             android:name="com.example.ra3y.register"
@@ -95,10 +101,10 @@
             android:exported="true" />
         <activity
             android:name="com.example.ra3y.services"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name="com.example.ra3y.request"
-            android:exported="true" />
+            android:exported="false" />
         <activity
             android:name="com.example.ra3y.vaccine"
             android:exported="true" />
@@ -107,6 +113,12 @@
             android:exported="false" />
         <activity
             android:name="com.example.ra3y.Mapss"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ra3y.acceptor"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ra3y.loading"
             android:exported="false" />
 
         <meta-data

@@ -4,6 +4,7 @@ package com.example.ra3y.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -22,10 +23,14 @@ public final class ActivityMapsBinding implements ViewBinding {
   @NonNull
   public final FloatingActionButton fab;
 
-  private ActivityMapsBinding(@NonNull ConstraintLayout rootView,
-      @NonNull FloatingActionButton fab) {
+  @NonNull
+  public final Button proceed;
+
+  private ActivityMapsBinding(@NonNull ConstraintLayout rootView, @NonNull FloatingActionButton fab,
+      @NonNull Button proceed) {
     this.rootView = rootView;
     this.fab = fab;
+    this.proceed = proceed;
   }
 
   @Override
@@ -61,7 +66,13 @@ public final class ActivityMapsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMapsBinding((ConstraintLayout) rootView, fab);
+      id = R.id.proceed;
+      Button proceed = ViewBindings.findChildViewById(rootView, id);
+      if (proceed == null) {
+        break missingId;
+      }
+
+      return new ActivityMapsBinding((ConstraintLayout) rootView, fab, proceed);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

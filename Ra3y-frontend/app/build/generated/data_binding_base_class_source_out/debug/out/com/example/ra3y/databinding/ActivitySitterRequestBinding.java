@@ -23,6 +23,24 @@ public final class ActivitySitterRequestBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
+  public final Button Accept1;
+
+  @NonNull
+  public final Button Accept2;
+
+  @NonNull
+  public final Button Accept3;
+
+  @NonNull
+  public final Button Decline1;
+
+  @NonNull
+  public final Button Decline2;
+
+  @NonNull
+  public final Button Decline3;
+
+  @NonNull
   public final FloatingActionButton FAB1;
 
   @NonNull
@@ -30,24 +48,6 @@ public final class ActivitySitterRequestBinding implements ViewBinding {
 
   @NonNull
   public final FloatingActionButton FAB3;
-
-  @NonNull
-  public final Button button1;
-
-  @NonNull
-  public final Button button2;
-
-  @NonNull
-  public final Button button3;
-
-  @NonNull
-  public final Button button4;
-
-  @NonNull
-  public final Button button5;
-
-  @NonNull
-  public final Button button6;
 
   @NonNull
   public final BottomNavigationView navbarreq;
@@ -64,22 +64,22 @@ public final class ActivitySitterRequestBinding implements ViewBinding {
   @NonNull
   public final TextView textView9;
 
-  private ActivitySitterRequestBinding(@NonNull LinearLayout rootView,
-      @NonNull FloatingActionButton FAB1, @NonNull FloatingActionButton FAB2,
-      @NonNull FloatingActionButton FAB3, @NonNull Button button1, @NonNull Button button2,
-      @NonNull Button button3, @NonNull Button button4, @NonNull Button button5,
-      @NonNull Button button6, @NonNull BottomNavigationView navbarreq, @NonNull TextView textView1,
+  private ActivitySitterRequestBinding(@NonNull LinearLayout rootView, @NonNull Button Accept1,
+      @NonNull Button Accept2, @NonNull Button Accept3, @NonNull Button Decline1,
+      @NonNull Button Decline2, @NonNull Button Decline3, @NonNull FloatingActionButton FAB1,
+      @NonNull FloatingActionButton FAB2, @NonNull FloatingActionButton FAB3,
+      @NonNull BottomNavigationView navbarreq, @NonNull TextView textView1,
       @NonNull TextView textView2, @NonNull TextView textView3, @NonNull TextView textView9) {
     this.rootView = rootView;
+    this.Accept1 = Accept1;
+    this.Accept2 = Accept2;
+    this.Accept3 = Accept3;
+    this.Decline1 = Decline1;
+    this.Decline2 = Decline2;
+    this.Decline3 = Decline3;
     this.FAB1 = FAB1;
     this.FAB2 = FAB2;
     this.FAB3 = FAB3;
-    this.button1 = button1;
-    this.button2 = button2;
-    this.button3 = button3;
-    this.button4 = button4;
-    this.button5 = button5;
-    this.button6 = button6;
     this.navbarreq = navbarreq;
     this.textView1 = textView1;
     this.textView2 = textView2;
@@ -114,6 +114,42 @@ public final class ActivitySitterRequestBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.Accept1;
+      Button Accept1 = ViewBindings.findChildViewById(rootView, id);
+      if (Accept1 == null) {
+        break missingId;
+      }
+
+      id = R.id.Accept2;
+      Button Accept2 = ViewBindings.findChildViewById(rootView, id);
+      if (Accept2 == null) {
+        break missingId;
+      }
+
+      id = R.id.Accept3;
+      Button Accept3 = ViewBindings.findChildViewById(rootView, id);
+      if (Accept3 == null) {
+        break missingId;
+      }
+
+      id = R.id.Decline1;
+      Button Decline1 = ViewBindings.findChildViewById(rootView, id);
+      if (Decline1 == null) {
+        break missingId;
+      }
+
+      id = R.id.Decline2;
+      Button Decline2 = ViewBindings.findChildViewById(rootView, id);
+      if (Decline2 == null) {
+        break missingId;
+      }
+
+      id = R.id.Decline3;
+      Button Decline3 = ViewBindings.findChildViewById(rootView, id);
+      if (Decline3 == null) {
+        break missingId;
+      }
+
       id = R.id.FAB1;
       FloatingActionButton FAB1 = ViewBindings.findChildViewById(rootView, id);
       if (FAB1 == null) {
@@ -129,42 +165,6 @@ public final class ActivitySitterRequestBinding implements ViewBinding {
       id = R.id.FAB3;
       FloatingActionButton FAB3 = ViewBindings.findChildViewById(rootView, id);
       if (FAB3 == null) {
-        break missingId;
-      }
-
-      id = R.id.button1;
-      Button button1 = ViewBindings.findChildViewById(rootView, id);
-      if (button1 == null) {
-        break missingId;
-      }
-
-      id = R.id.button2;
-      Button button2 = ViewBindings.findChildViewById(rootView, id);
-      if (button2 == null) {
-        break missingId;
-      }
-
-      id = R.id.button3;
-      Button button3 = ViewBindings.findChildViewById(rootView, id);
-      if (button3 == null) {
-        break missingId;
-      }
-
-      id = R.id.button4;
-      Button button4 = ViewBindings.findChildViewById(rootView, id);
-      if (button4 == null) {
-        break missingId;
-      }
-
-      id = R.id.button5;
-      Button button5 = ViewBindings.findChildViewById(rootView, id);
-      if (button5 == null) {
-        break missingId;
-      }
-
-      id = R.id.button6;
-      Button button6 = ViewBindings.findChildViewById(rootView, id);
-      if (button6 == null) {
         break missingId;
       }
 
@@ -198,9 +198,9 @@ public final class ActivitySitterRequestBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivitySitterRequestBinding((LinearLayout) rootView, FAB1, FAB2, FAB3, button1,
-          button2, button3, button4, button5, button6, navbarreq, textView1, textView2, textView3,
-          textView9);
+      return new ActivitySitterRequestBinding((LinearLayout) rootView, Accept1, Accept2, Accept3,
+          Decline1, Decline2, Decline3, FAB1, FAB2, FAB3, navbarreq, textView1, textView2,
+          textView3, textView9);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
