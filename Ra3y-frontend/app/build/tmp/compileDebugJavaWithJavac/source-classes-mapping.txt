@@ -1,9 +1,16 @@
 com/example/ra3y/databinding/ActivityRegisterSitterBinding.java
  com.example.ra3y.databinding.ActivityRegisterSitterBinding
+<<<<<<< HEAD
 com/example/ra3y/sitterProfile.java
  com.example.ra3y.sitterProfile
  com.example.ra3y.sitterProfile$1
  com.example.ra3y.sitterProfile$API_handler
+=======
+com/example/ra3y/databinding/ActivityMainBinding.java
+ com.example.ra3y.databinding.ActivityMainBinding
+com/example/ra3y/databinding/ServicesBinding.java
+ com.example.ra3y.databinding.ServicesBinding
+>>>>>>> c5cb3a96efaabfd40008aa7c236b98a45b89b689
 com/example/ra3y/shopsServices.java
  com.example.ra3y.shopsServices
  com.example.ra3y.shopsServices$1
@@ -13,6 +20,13 @@ com/example/ra3y/forget.java
  com.example.ra3y.forget
  com.example.ra3y.forget$1
  com.example.ra3y.forget$1$1
+<<<<<<< HEAD
+=======
+com/example/ra3y/services.java
+ com.example.ra3y.services
+ com.example.ra3y.services$1
+ com.example.ra3y.services$2
+>>>>>>> c5cb3a96efaabfd40008aa7c236b98a45b89b689
 com/example/ra3y/databinding/ActivityLoginBinding.java
  com.example.ra3y.databinding.ActivityLoginBinding
 com/example/ra3y/registerSitter.java
@@ -21,6 +35,7 @@ com/example/ra3y/registerSitter.java
  com.example.ra3y.registerSitter$2
  com.example.ra3y.registerSitter$2$1
  com.example.ra3y.registerSitter$API_handler
+<<<<<<< HEAD
 com/example/ra3y/MainActivity.java
  com.example.ra3y.MainActivity
  com.example.ra3y.MainActivity$1
@@ -35,6 +50,18 @@ com/example/ra3y/databinding/ListBinding.java
  com.example.ra3y.databinding.ListBinding
 com/example/ra3y/databinding/AccpeterBinding.java
  com.example.ra3y.databinding.AccpeterBinding
+=======
+com/example/ra3y/BuildConfig.java
+ com.example.ra3y.BuildConfig
+com/example/ra3y/databinding/ActivitySitterProfileBinding.java
+ com.example.ra3y.databinding.ActivitySitterProfileBinding
+com/example/ra3y/databinding/ActivityRegisterBinding.java
+ com.example.ra3y.databinding.ActivityRegisterBinding
+com/example/ra3y/aboutus.java
+ com.example.ra3y.aboutus
+com/example/ra3y/databinding/ActivityFloatingActionButtonBinding.java
+ com.example.ra3y.databinding.ActivityFloatingActionButtonBinding
+>>>>>>> c5cb3a96efaabfd40008aa7c236b98a45b89b689
 com/example/ra3y/CustomSittersList.java
  com.example.ra3y.CustomSittersList
 com/example/ra3y/FloatingActionButton.java
@@ -59,6 +86,7 @@ com/example/ra3y/model.java
  com.example.ra3y.model
 com/example/ra3y/databinding/VaccineBinding.java
  com.example.ra3y.databinding.VaccineBinding
+<<<<<<< HEAD
 com/example/ra3y/petregister.java
  com.example.ra3y.petregister
  com.example.ra3y.petregister$1
@@ -86,6 +114,26 @@ com/example/ra3y/databinding/ActivitySitterProfileBinding.java
  com.example.ra3y.databinding.ActivitySitterProfileBinding
 com/example/ra3y/aboutus.java
  com.example.ra3y.aboutus
+=======
+com/example/ra3y/databinding/ActivitySittersListBinding.java
+ com.example.ra3y.databinding.ActivitySittersListBinding
+com/example/ra3y/petsitterorowner.java
+ com.example.ra3y.petsitterorowner
+ com.example.ra3y.petsitterorowner$1
+ com.example.ra3y.petsitterorowner$2
+com/example/ra3y/MainActivity.java
+ com.example.ra3y.MainActivity
+ com.example.ra3y.MainActivity$1
+ com.example.ra3y.MainActivity$API_handler
+com/example/ra3y/Mapss.java
+ com.example.ra3y.Mapss
+ com.example.ra3y.Mapss$1
+ com.example.ra3y.Mapss$2
+com/example/ra3y/sitterProfile.java
+ com.example.ra3y.sitterProfile
+ com.example.ra3y.sitterProfile$1
+ com.example.ra3y.sitterProfile$API_handler
+>>>>>>> c5cb3a96efaabfd40008aa7c236b98a45b89b689
 com/example/ra3y/login.java
  com.example.ra3y.login
  com.example.ra3y.login$1
@@ -136,6 +184,7 @@ com/example/ra3y/sitterRequest.java
  com.example.ra3y.sitterRequest$2
  com.example.ra3y.sitterRequest$3
  com.example.ra3y.sitterRequest$4
+<<<<<<< HEAD
  com.example.ra3y.sitterRequest$5
 com/example/ra3y/BuildConfig.java
  com.example.ra3y.BuildConfig
@@ -146,3 +195,11 @@ com/example/ra3y/databinding/ActivityFloatingActionButtonBinding.java
  com.example.ra3y.databinding.ActivityFloatingActionButtonBinding
 com/example/ra3y/databinding/ActivityRegisterBinding.java
  com.example.ra3y.databinding.ActivityRegisterBinding
+=======
+com/example/ra3y/request.java
+ com.example.ra3y.request
+ com.example.ra3y.request$1
+ com.example.ra3y.request$2
+ com.example.ra3y.request$3
+ com.example.ra3y.request$4
+>>>>>>> c5cb3a96efaabfd40008aa7c236b98a45b89b689

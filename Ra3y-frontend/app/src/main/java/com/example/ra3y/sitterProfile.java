@@ -40,8 +40,13 @@ public class sitterProfile extends AppCompatActivity {
     TextView email;
     TextView phonenumber;
     TextView price;
+<<<<<<< HEAD
     String LONG ="NULL",LAT="NULL",address="NULL";
     TextView yoe,add;
+=======
+    String LONG,LAT;
+    TextView yoe;
+>>>>>>> c5cb3a96efaabfd40008aa7c236b98a45b89b689
     String data;
     final private String EmulatorIP = "10.0.2.2";
     final private String myIP = "192.168.1.10";
@@ -60,14 +65,20 @@ public class sitterProfile extends AppCompatActivity {
         phonenumber = (TextView) findViewById(R.id.textView2);
         price = (TextView) findViewById(R.id.price);
         yoe = (TextView) findViewById(R.id.textView6);
+<<<<<<< HEAD
         add = (TextView)findViewById(R.id.textView7);
 
+=======
+        API_handler api_handler = new API_handler();
+        api_handler.execute(FirebaseAuth.getInstance().getCurrentUser().getUid());
+>>>>>>> c5cb3a96efaabfd40008aa7c236b98a45b89b689
         try {
 
         }catch (NullPointerException e){
             //TODO
         }
 
+<<<<<<< HEAD
 //        try{
 //            LONG = bundle.getString("long");
 //            LAT = bundle.getString("lat");
@@ -82,6 +93,18 @@ public class sitterProfile extends AppCompatActivity {
 //        }
         API_handler api_handler = new API_handler();
         api_handler.execute(FirebaseAuth.getInstance().getCurrentUser().getUid());
+=======
+        try{
+            LONG = bundle.getString("long");
+            LAT = bundle.getString("lat");
+            Log.d("LONG", LONG.toString());
+            Log.d("LAT", LAT.toString());
+            Toast.makeText(getApplicationContext(), "Location Added Sucessfully", Toast.LENGTH_SHORT).show();
+
+        }catch (NullPointerException e){
+            // TODO
+        }
+>>>>>>> c5cb3a96efaabfd40008aa7c236b98a45b89b689
 
         BottomNavigationView bnv = (BottomNavigationView) findViewById(R.id.navbar);
 
@@ -137,7 +160,10 @@ public class sitterProfile extends AppCompatActivity {
                 phonenumber.setText(returnedDataSitter.getString("phonenumber"));
                 yoe.setText(returnedDataSitter.getString("yearsOfExperience"));
                 String priceperH = returnedDataSitter.getString("priceperhour");
+<<<<<<< HEAD
                 add.setText(returnedDataSitter.getString("address"));
+=======
+>>>>>>> c5cb3a96efaabfd40008aa7c236b98a45b89b689
                 if (priceperH.equals("0")) {
                     price.setText("FREE");
                 } else {
@@ -219,7 +245,10 @@ public class sitterProfile extends AppCompatActivity {
             }
 
         }
+<<<<<<< HEAD
         //################################
+=======
+>>>>>>> c5cb3a96efaabfd40008aa7c236b98a45b89b689
 
     }
 
