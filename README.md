@@ -24,7 +24,7 @@
 
     
 
-## List of application Features***
+## List of application Features
 
   - Request someone to take care of his/her pet  
   - set duration for the keeper
