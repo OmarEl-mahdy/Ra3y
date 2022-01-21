@@ -34,7 +34,7 @@ public class sittersList extends ListActivity {
     final private String EmulatorIP = "10.0.2.2";
     final private String myIP = "192.168.1.10";
 
-    final private String DeviceIP = myIP;
+    final private String DeviceIP = EmulatorIP;
     final private  String portNo = "3000";
     API_handler api_handler ;
     private JSONArray returnedDataSitter = new JSONArray();

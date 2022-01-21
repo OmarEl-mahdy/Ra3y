@@ -43,7 +43,7 @@ public class  sitterRequest extends AppCompatActivity {
     final private String EmulatorIP = "10.0.2.2";
     final private String myIP = "192.168.1.10";
 
-    final private String DeviceIP = myIP;
+    final private String DeviceIP = EmulatorIP;
     final private  String portNo = "3000";
     JSONObject returnedData;
     JSONObject returnedDataOwner;
@@ -54,7 +54,7 @@ public class  sitterRequest extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sitters_list);
+        setContentView(R.layout.activity_sitter_request);
 
         n = findViewById(R.id.rName);
         e = findViewById(R.id.remail);
